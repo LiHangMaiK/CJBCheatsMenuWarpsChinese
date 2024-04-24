@@ -453,6 +453,13 @@
           "Tile": "38, 27",
           "SectionId": "main"
         },
+        "Rafseazz.RSVCP_Lenny's Office": {
+          "Id": "Rafseazz.RSVCP_Lenny's Office",
+          "DisplayName": "{{i18n: warp.Lenny'sOffice}}",
+          "Location": "Custom_Ridgeside_RidgesideVillage",
+          "Tile": "114, 39",
+          "SectionId": "Rafseazz.RSVCP_Ridgeside Village"
+        },
         "Rafseazz.RSVCP_Log Cabin Hotel": {
           "Id": "Rafseazz.RSVCP_Log Cabin Hotel",
           "DisplayName": "{{i18n: warp.LogCabinHotel}}",
@@ -460,18 +467,32 @@
           "Tile": "114, 24",
           "SectionId": "Rafseazz.RSVCP_Ridgeside Village"
         },
-        "Rafseazz.RSVCP_Blooming Hill Farm": {
-          "Id": "Rafseazz.RSVCP_Blooming Hill Farm",
-          "displayName": "{{i18n: warp.BloomingHillFarm}}",
-          "Location": "Custom_Ridgeside_RidgesideVillage",
-          "Tile": "22,23",
-          "SectionId": "Rafseazz.RSVCP_Ridgeside Village"
-        },
         "Rafseazz.RSVCP_Pika's Restaurant": {
           "Id": "Rafseazz.RSVCP_Pika's Restaurant",
           "DisplayName": "{{i18n: warp.Pika'sRestaurant}}",
           "Location": "Custom_Ridgeside_RidgesideVillage",
           "Tile": "97, 42",
+          "SectionId": "Rafseazz.RSVCP_Ridgeside Village"
+        },
+        "Rafseazz.RSVCP_Heaps": {
+          "Id": "Rafseazz.RSVCP_Heaps",
+          "DisplayName": "{{i18n: warp.Heaps}}",
+          "Location": "Custom_Ridgeside_RidgesideVillage",
+          "Tile": "76, 19",
+          "SectionId": "Rafseazz.RSVCP_Ridgeside Village"
+        },
+        "Rafseazz.RSVCP_Odd Jobs": {
+          "Id": "Rafseazz.RSVCP_Odd Jobs",
+          "DisplayName": "{{i18n: warp.OddJobs}}",
+          "Location": "Custom_Ridgeside_RidgesideVillage",
+          "Tile": "133, 23",
+          "SectionId": "Rafseazz.RSVCP_Ridgeside Village"
+        },
+        "Rafseazz.RSVCP_Blooming Hill Farm": {
+          "Id": "Rafseazz.RSVCP_Blooming Hill Farm",
+          "displayName": "{{i18n: warp.BloomingHillFarm}}",
+          "Location": "Custom_Ridgeside_RidgesideVillage",
+          "Tile": "22,23",
           "SectionId": "Rafseazz.RSVCP_Ridgeside Village"
         },
         "Rafseazz.RSVCP_Nightingale Orchard": {
@@ -500,27 +521,6 @@
           "DisplayName": "{{i18n: warp.RidgesideClinic}}",
           "Location": "Custom_Ridgeside_RidgesideVillage",
           "Tile": "135, 37",
-          "SectionId": "Rafseazz.RSVCP_Ridgeside Village"
-        },
-        "Rafseazz.RSVCP_Heaps": {
-          "Id": "Rafseazz.RSVCP_Heaps",
-          "DisplayName": "{{i18n: warp.Heaps}}",
-          "Location": "Custom_Ridgeside_RidgesideVillage",
-          "Tile": "76, 19",
-          "SectionId": "Rafseazz.RSVCP_Ridgeside Village"
-        },
-        "Rafseazz.RSVCP_Odd Jobs": {
-          "Id": "Rafseazz.RSVCP_Odd Jobs",
-          "DisplayName": "{{i18n: warp.OddJobs}}",
-          "Location": "Custom_Ridgeside_RidgesideVillage",
-          "Tile": "133, 23",
-          "SectionId": "Rafseazz.RSVCP_Ridgeside Village"
-        },
-        "Rafseazz.RSVCP_Lenny's Office": {
-          "Id": "Rafseazz.RSVCP_Lenny's Office",
-          "DisplayName": "{{i18n: warp.Lenny'sOffice}}",
-          "Location": "Custom_Ridgeside_RidgesideVillage",
-          "Tile": "114, 39",
           "SectionId": "Rafseazz.RSVCP_Ridgeside Village"
         },
         "Rafseazz.RSVCP_Ridge": {
