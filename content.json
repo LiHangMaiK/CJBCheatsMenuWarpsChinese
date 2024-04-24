@@ -193,8 +193,8 @@
         "FlashShifter.StardewValleyExpandedCP_Garden": {
           "Id": "FlashShifter.StardewValleyExpandedCP_Garden",
           "DisplayName": "{{i18n: warp.Garden}}",
-          "Location": "Town",
-          "Tile": "112, 93",
+          "Location": "Custom_Garden",
+          "Tile": "22, 28",
           "SectionId": "Town"
         },
         "FlashShifter.StardewValleyExpandedCP_Shearwater Bridge": {
