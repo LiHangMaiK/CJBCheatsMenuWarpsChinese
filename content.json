@@ -2,6 +2,7 @@
   "Format": "2.0.0",
   "Changes": [
     {
+      "_Comment": "SVE Section",
       "Action": "EditData",
       "Target": "Mods/CJBok.CheatsMenu/WarpSections",
       "When": {
@@ -23,6 +24,7 @@
       }
     },
     {
+      "_Comment": "SVE Grandpa's Farm Warps",
       "Action": "EditData",
       "Target": "Mods/CJBok.CheatsMenu/Warps",
       "When": {
@@ -40,19 +42,14 @@
       }
     },
     {
+      "_Comment": "SVE Immersive Farm 2 Remastered Warps",
       "Action": "EditData",
       "Target": "Mods/CJBok.CheatsMenu/Warps",
       "When": {
         "HasMod": "flashshifter.immersivefarm2remastered"
       },
       "Entries": {
-        "FlashShifter.StardewValleyExpandedCP_Farm Entrance": {
-          "Id": "FlashShifter.StardewValleyExpandedCP_Farm Entrance",
-          "DisplayName": "{{i18n: warp.FarmEntrance}}",
-          "Location": "Farm",
-          "Tile": "81, 18",
-          "SectionId": "Main"
-        },
+        "FlashShifter.StardewValleyExpandedCP_Farm Entrance": null,
         "FlashShifter.StardewValleyExpandedCP_Hotspring": {
           "Id": "FlashShifter.StardewValleyExpandedCP_Hotspring",
           "DisplayName": "{{i18n: warp.Hotspring}}",
@@ -91,6 +88,7 @@
       }
     },
     {
+      "_Comment": "SVE Location Warps",
       "Action": "EditData",
       "Target": "Mods/CJBok.CheatsMenu/Warps",
       "When": {
@@ -398,59 +396,7 @@
       }
     },
     {
-      "Action": "EditData",
-      "Target": "Mods/CJBok.CheatsMenu/WarpSections",
-      "When": {
-        "HasMod": "Rafseazz.RSVCP"
-      },
-      "Entries": {
-        "Ridgeside Village": null,
-        "Ridgeside Surroundings": null,
-        "Other Ridgeside Locations": null
-      }
-    },
-    {
-      "Action": "EditData",
-      "Target": "Mods/CJBok.CheatsMenu/Warps",
-      "When": {
-        "HasMod": "Rafseazz.RSVCP"
-      },
-      "Entries": {
-        "Log Cabin Hotel": null,
-        "Ridgeside Plaza": null,
-        "Blooming Hill Farm": null,
-        "Pika's Restaurant": null,
-        "Nightingale Orchard": null,
-        "Water Research Facility": null,
-        "Lola's Shed": null,
-        "Ridgeside Clinic": null,
-        "Community Greenhouse": null,
-        "Heaps": null,
-        "Odd Jobs": null,
-        "Lenny's Office": null,
-
-        "Cable Car": null,
-        "Cliff": null,
-        "Hike Trail": null,
-        "Ninja House": null,
-        "Ridge": null,
-        "Ridge Forest": null,
-        "Ridge Falls": null,
-        "Spirit Realm": null,
-        "Summit Farm": null,
-
-        "Kobayashi Residence": null,
-        "Pickens Residence": null,
-        "Daniels Residence": null,
-        "Akina Residence": null,
-        "Ahn Yojeong Residence": null,
-        "Amethyne Residence": null,
-        "Liden Residence": null,
-        "Bladebane Residence": null,
-        "Tort's Pond": null
-      }
-    },
-    {
+      "_Comment": "RSV Section",
       "Action": "EditData",
       "Target": "Mods/CJBok.CheatsMenu/WarpSections",
       "When": {
@@ -472,6 +418,7 @@
       }
     },
     {
+      "_Comment": "RSV Location Warps",
       "Action": "EditData",
       "Target": "Mods/CJBok.CheatsMenu/Warps",
       "When": {
