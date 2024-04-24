@@ -1,0 +1,30 @@
+{
+  "Name": "[CP] My CJB Wraps",
+  "Author": "Lihang233",
+  "Version": "1.0",
+  "Description": "my CJB Wraps",
+  "UniqueID": "Lihang233.MyCJBWraps",
+  "MinimumApiVersion": "4.0.0",
+  "UpdateKeys": [],
+  "ContentPackFor": {
+    "UniqueID": "Pathoschild.ContentPatcher"
+  },
+  "Dependencies": [
+    {
+      "UniqueID": "CJBok.CheatsMenu",
+      "IsRequired": true
+    },
+    {
+      "UniqueID": "FlashShifter.StardewValleyExpandedCP",
+      "IsRequired": false
+    },
+    {
+      "UniqueID": "Rafseazz.RSVCP",
+      "IsRequired": false
+    },
+    {
+      "UniqueID": "LemurKat.EastScarpe.CP",
+      "IsRequired": false
+    }
+  ]
+}
