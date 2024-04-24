@@ -2,7 +2,7 @@
   "warp-sections.SVELocations": "SVE Locations",
   "warp-sections.Shops": "Shops",
   "warp-sections.Galdora": "Galdora",
-  "warp.FarmEntrance": "Farm Entrance",
+
   "warp.Grandpa'sShed": "Grandpa's Shed",
   "warp.Hotspring": "Hotspring",
   "warp.FarmQuarry": "Farm Quarry",
@@ -34,8 +34,8 @@
   "warp.SpriteSpring": "Sprite Spring",
   "warp.SewerGrate": "Sewer Grate",
   "warp.Sophia'sVineyard": "Sophia's Vineyard",
+  "warp.Sophia'sLedger": "Sophia's Ledger",
   "warp.Linus'sTent": "Linus' Tent",
-  "warp.Mine-SVE": "SVE Mine",
   "warp.Tunnel": "Tunnel (Qi's Battery)",
   "warp.GoldenScythe": "Golden Scythe",
   "warp.Susan'sFarm": "Susan's Farm",
