@@ -916,7 +916,7 @@
           "Id": "LemurKat.EastScarpe.CP_EastScarp Fievel's Hole",
           "DisplayName": "{{i18n: warp.EastScarp.FievelHole}}",
           "Location": "EastScarp_Village",
-          "Tile": "97 20",
+          "Tile": "97, 20",
           "SectionId": "LemurKat.EastScarpe.CP_EastScarp_Optional_Villagers"
         }
       }
@@ -935,7 +935,7 @@
           "Id": "LemurKat.EastScarpe.CP_EastScarp Sen's House",
           "DisplayName": "{{i18n: warp.EastScarp.SenHouse}}",
           "Location": "EastScarp_DeepDark",
-          "Tile": "21 25",
+          "Tile": "21, 25",
           "SectionId": "LemurKat.EastScarpe.CP_EastScarp_Optional_Villagers"
         }
       }
