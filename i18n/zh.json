@@ -2,7 +2,6 @@
   "warp-sections.SVELocations": "SVE特殊位置",
   "warp-sections.Shops": "商店",
   "warp-sections.Galdora": "盖多兰大陆",
-
   "warp.Grandpa'sShed": "爷爷的小屋",
   "warp.Hotspring": "农场温泉",
   "warp.FarmQuarry": "农场采石场",
@@ -55,7 +54,6 @@
   "warp-sections.RidgesideVillage": "里奇赛德村",
   "warp-sections.RidgesideSurroundings": "里奇赛德村周边",
   "warp-sections.Villager'sHome": "村民的家",
-
   "warp.RidgesidePlaza": "里村中心广场",
   "warp.SummitFarm": "山顶农场",
   "warp.CommunityGreenhouse": "社区温室",
@@ -86,5 +84,31 @@
   "warp.AmethyneResidence": "艾墨森家",
   "warp.LidenResidence": "利登家",
   "warp.BladebaneResidence": "布拉德贝家",
-  "warp.Tort'sPond": "托托的家"
+  "warp.Tort'sPond": "托托的家",
+
+  "warp-sections.EastScarp": "东斯卡普",
+  "warp-sections.EastScarp.OptionalVillagers": "东斯卡普扩展NPC",
+  "warp.EastScarp.Town": "东斯卡普",
+  "warp.EastScarp.MeadowFarm": "东斯卡普草地农场",
+  "warp.EastScarp.ScarpPath": "十字路口(葡萄园)",
+  "warp.EastScarp.VetHouse": "兽医诊所",
+  "warp.EastScarp.AiddenHome": "艾登的家",
+  "warp.EastScarp.ToriHome": "托丽的家",
+  "warp.EastScarp.Inn": "东斯卡普客栈",
+  "warp.EastScarp.Beach": "潮汐池",
+  "warp.EastScarp.LightHouse": "灯塔",
+  "warp.EastScarp.Orchard": "樱桃园",
+  "warp.EastScarp.DeepDark": "悬崖之下",
+  "warp.EastScarp.DeepMountains": "深山",
+  "warp.EastScarp.DeepMountainsLake": "深山湖泊",
+  "warp.EastScarp.SeaCave": "海边洞窟",
+  "warp.EastScarp.MineEntrance": "废弃矿井入口",
+  "warp.EastScarp.SmugglerDen": "走私者的巢穴",
+  "warp.EastScarp.MiaHome": "米娅的家",
+  "warp.EastScarp.JulietHouse": "朱丽叶与杰西的家",
+  "warp.EastScarp.RodneyHome": "罗德尼的家",
+  "warp.EastScarp.FievelHole": "菲维尔的洞穴",
+  "warp.EastScarp.SenHouse": "森的家",
+  "warp.EastScarp.Mateo": "马特奥的家(海岸冒险家公会)",
+  "warp.EastScarp.YriHome": "伊利的家"
 }
