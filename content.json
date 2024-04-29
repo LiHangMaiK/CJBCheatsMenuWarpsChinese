@@ -2,27 +2,43 @@
   "Format": "2.0.0",
   "Changes": [
     {
-      "_Comment": "Include SVE Warps",
+      "_Comment": "Include Stardew Valley Expanded Warps",
       "Action": "Include",
-      "FromFile": "assets/StardewValleyExpanded/Warps.json",
+      "FromFile": "data/StardewValleyExpanded.json",
       "When": {
         "HasMod": "FlashShifter.StardewValleyExpandedCP"
       }
     },
     {
-      "_Comment": "Include RSV Warps",
+      "_Comment": "Include Ridgeside Village Warps",
       "Action": "Include",
-      "FromFile": "assets/RidgesideVillage/Warps.json",
+      "FromFile": "data/RidgesideVillage.json",
       "When": {
         "HasMod": "Rafseazz.RSVCP"
       }
     },
     {
-      "_Comment": "Include ES Warps",
+      "_Comment": "Include EastScarp Warps",
       "Action": "Include",
-      "FromFile": "assets/EastScarp/Warps.json",
+      "FromFile": "data/EastScarp.json",
       "When": {
         "HasMod": "LemurKat.EastScarpe.CP"
+      }
+    },
+    {
+      "_Comment": "Include Cape Stardew Warps",
+      "Action": "Include",
+      "FromFile": "data/CapeStardew.json",
+      "When": {
+        "HasMod": "dreamy.kickitspot"
+      }
+    },
+    {
+      "_Comment": "Include Zuzu City Warps",
+      "Action": "Include",
+      "FromFile": "data/ZuzuCity.json",
+      "When": {
+        "HasMod": "DTZ.DowntownZuzuCP"
       }
     }
   ]

@@ -1,6 +1,14 @@
 {
   "Changes": [
     {
+      "_Comment": "delete ES old warpSection",
+      "Action": "EditData",
+      "Target": "Mods/CJBok.CheatsMenu/WarpSections",
+      "Entries": {
+        "LemurKat.EastScarpe.CP_EastScarp": null
+      }
+    },
+    {
       "_Comment": "delete ES old warp",
       "Action": "EditData",
       "Target": "Mods/CJBok.CheatsMenu/Warps",
@@ -311,6 +319,24 @@
           "DisplayName": "{{i18n: warp.EastScarp.Mateo}}",
           "Location": "EastScarp_Village",
           "Tile": "93, 100",
+          "SectionId": "LemurKat.EastScarpe.CP_EastScarp_Optional_Villagers"
+        }
+      }
+    },
+    {
+      "_Comment": "ES Optional npc Jasper Thomas Warps",
+      "Action": "EditData",
+      "Target": "Mods/CJBok.CheatsMenu/Warps",
+      "When": {
+        "HasMod": "Lemurkat.NPCJasper"
+      },
+      "Entries": {
+        "LemurKat.EastScarpe.CP_EastScarp_JasperThomas": {
+          "_Comment": "贾斯珀·托马斯教授(碧玉)",
+          "Id": "LemurKat.EastScarpe.CP_EastScarp_JasperThomas",
+          "DisplayName": "{{i18n: warp.EastScarp.JasperThomas}}",
+          "Location": "ArchaeologyHouse",
+          "Tile": "41, 5",
           "SectionId": "LemurKat.EastScarpe.CP_EastScarp_Optional_Villagers"
         }
       }

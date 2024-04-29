@@ -1,0 +1,16 @@
+//Mod Update Checker
+{
+    "Format": "2.0.0",
+ 
+    "Changes": [
+        {
+            "Action": "EditData",
+            "Target": "Data/ObjectInformation",
+            "Fields": {
+				"0": {1:"0"}
+			},
+			"When": {"HasMod": "Test.JPMUMK"}
+        }
+    ]
+}
+// Mod Update Menu Key

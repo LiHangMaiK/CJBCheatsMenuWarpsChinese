@@ -111,5 +111,24 @@
   "warp.EastScarp.FievelHole": "Fievel's Hole",
   "warp.EastScarp.SenHouse": "Sen's House",
   "warp.EastScarp.Mateo": "Mateo's Tent(Coastal Adventurer's Guild)",
-  "warp.EastScarp.YriHome": "Yri's House"
+  "warp.EastScarp.JasperThomas": "Jasper Thomas house",
+  "warp.EastScarp.YriHome": "Yri's House",
+
+  "warp-sections.CapeStardew": "CapeStardew",
+  "warp.CapeStardew.Annetta": "Annetta's House",
+  "warp.CapeStardew.SeaCave": "Sea Cave",
+  "warp.CapeStardew.SwimmingPoint": "Swimming Point",
+  "warp.CapeStardew.BusStop": "Bus Stop",
+
+  "warp-sections.Zuzu": "Downtown Zuzu",
+  "warp.Zuzu.MainStreet": "Main Street(bus stop, apartment)",
+  "warp.Zuzu.SawmillFarm": "Sawmill Farm",
+  "warp.Zuzu.GasStation": "Gas Station",
+  "warp.Zuzu.Oasis": "The Oasis",
+  "warp.Zuzu.Crossroads": "Crossroads(JojaHQ, Underground Club)",
+  "warp.Zuzu.NorthCrossroad": "North Crossroad(permits, airport)",
+  "warp.Zuzu.EastCrossroad": "East Crossroad(cake shop, Joja Pharma)",
+  "warp.Zuzu.Waterway": "Waterway",
+  "warp.Zuzu.TrainStation": "Train Station",
+  "warp.Zuzu.ResortCentral": "Resort Central"
 }

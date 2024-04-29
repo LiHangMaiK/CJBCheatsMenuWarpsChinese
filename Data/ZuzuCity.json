@@ -1,0 +1,103 @@
+{
+  "Changes": [
+    {
+      "_Comment": "ZuzuCity Section",
+      "Action": "EditData",
+      "Target": "Mods/CJBok.CheatsMenu/WarpSections",
+      "Entries": {
+        "DTZ.DowntownZuzuCP_ZuzuCity": {
+          "Id": "DTZ.DowntownZuzuCP_ZuzuCity",
+          "DisplayName": "{{i18n: warp-sections.Zuzu}}",
+          "Order": 100
+        }
+      }
+    },
+    {
+      "_Comment": "ZuzuCity Location Warps",
+      "Action": "EditData",
+      "Target": "Mods/CJBok.CheatsMenu/Warps",
+      "Entries": {
+        "DTZ.DowntownZuzuCP_ZuzuCity_MainStreet": {
+          "_Comment": "主街(巴士站, 公寓)",
+          "Id": "DTZ.DowntownZuzuCP_ZuzuCity_MainStreet",
+          "DisplayName": "{{i18n: warp.Zuzu.MainStreet}}",
+          "Location": "Custom_DTZ_ZuzuCity1",
+          "Tile": "21, 41",
+          "SectionId": "DTZ.DowntownZuzuCP_ZuzuCity"
+        },
+        "DTZ.DowntownZuzuCP_ZuzuCity_SawmillFarm": {
+          "_Comment": "锯木场农场",
+          "Id": "DTZ.DowntownZuzuCP_ZuzuCity_SawmillFarm",
+          "DisplayName": "{{i18n: warp.Zuzu.SawmillFarm}}",
+          "Location": "Custom_DTZ_Forest2",
+          "Tile": "23, 59",
+          "SectionId": "DTZ.DowntownZuzuCP_ZuzuCity"
+        },
+        "DTZ.DowntownZuzuCP_ZuzuCity_GasStation": {
+          "_Comment": "加油站",
+          "Id": "DTZ.DowntownZuzuCP_ZuzuCity_GasStation",
+          "DisplayName": "{{i18n: warp.Zuzu.GasStation}}",
+          "Location": "Custom_DTZ_GasStation",
+          "Tile": "35, 22",
+          "SectionId": "DTZ.DowntownZuzuCP_ZuzuCity"
+        },
+        "DTZ.DowntownZuzuCP_ZuzuCity_Oasis": {
+          "_Comment": "绿洲",
+          "Id": "DTZ.DowntownZuzuCP_ZuzuCity_Oasis",
+          "DisplayName": "{{i18n: warp.Zuzu.Oasis}}",
+          "Location": "Custom_DTZ_ZuzuCityOasis1",
+          "Tile": "40, 44",
+          "SectionId": "DTZ.DowntownZuzuCP_ZuzuCity"
+        },
+        "DTZ.DowntownZuzuCP_ZuzuCity_Crossroads": {
+          "_Comment": "十字路口(JoJa总部,地下夜总会)",
+          "Id": "DTZ.DowntownZuzuCP_ZuzuCity_Crossroads",
+          "DisplayName": "{{i18n: warp.Zuzu.Crossroads}}",
+          "Location": "Custom_DTZ_ZuzuCityCrossroads1",
+          "Tile": "34, 31",
+          "SectionId": "DTZ.DowntownZuzuCP_ZuzuCity"
+        },
+        "DTZ.DowntownZuzuCP_ZuzuCity_NorthCrossroad": {
+          "_Comment": "北十字路口(审批办公室，国际机场)",
+          "Id": "DTZ.DowntownZuzuCP_ZuzuCity_NorthCrossroad",
+          "DisplayName": "{{i18n: warp.Zuzu.NorthCrossroad}}",
+          "Location": "Custom_DTZ_CrossNorth",
+          "Tile": "58, 26",
+          "SectionId": "DTZ.DowntownZuzuCP_ZuzuCity"
+        },
+        "DTZ.DowntownZuzuCP_ZuzuCity_EastCrossroad": {
+          "_Comment": "东十字路口(粉红蛋糕店, JoJa药店)",
+          "Id": "DTZ.DowntownZuzuCP_ZuzuCity_EastCrossroad",
+          "DisplayName": "{{i18n: warp.Zuzu.EastCrossroad}}",
+          "Location": "Custom_DTZ_CrossEast",
+          "Tile": "31, 29",
+          "SectionId": "DTZ.DowntownZuzuCP_ZuzuCity"
+        },
+        "DTZ.DowntownZuzuCP_ZuzuCity_Waterway": {
+          "_Comment": "滨河路",
+          "Id": "DTZ.DowntownZuzuCP_ZuzuCity_Waterway",
+          "DisplayName": "{{i18n: warp.Zuzu.Waterway}}",
+          "Location": "Custom_DTZ_Waterway",
+          "Tile": "33, 17",
+          "SectionId": "DTZ.DowntownZuzuCP_ZuzuCity"
+        },
+        "DTZ.DowntownZuzuCP_ZuzuCity_TrainStation": {
+          "_Comment": "火车站",
+          "Id": "DTZ.DowntownZuzuCP_ZuzuCity_TrainStation",
+          "DisplayName": "{{i18n: warp.Zuzu.TrainStation}}",
+          "Location": "Custom_DTZ_Forest2",
+          "Tile": "48, 14",
+          "SectionId": "DTZ.DowntownZuzuCP_ZuzuCity"
+        },
+        "DTZ.DowntownZuzuCP_ZuzuCity_ResortCentral": {
+          "_Comment": "卡胡纳度假村",
+          "Id": "DTZ.DowntownZuzuCP_ZuzuCity_ResortCentral",
+          "DisplayName": "{{i18n: warp.Zuzu.ResortCentral}}",
+          "Location": "Custom_DTZ_ResortCentral",
+          "Tile": "23, 25",
+          "SectionId": "DTZ.DowntownZuzuCP_ZuzuCity"
+        }
+      }
+    }
+  ]
+}

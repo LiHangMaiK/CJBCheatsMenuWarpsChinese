@@ -1,0 +1,12 @@
+{
+   "Name": "WarpsEnglish",
+   "Author": "Juanpa98ar",
+   "Version": "1.1.1",
+   "Description": "English translation of Warps.",
+   "UniqueID": "juanpa98ar.WarpsEnglish",
+   "MinimumApiVersion": "3.1.0",
+   "UpdateKeys": ["Nexus:16296"],
+   "ContentPackFor": {
+  "UniqueID": "Pathoschild.ContentPatcher"
+   }
+}

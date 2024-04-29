@@ -110,5 +110,24 @@
   "warp.EastScarp.FievelHole": "菲维尔的洞穴",
   "warp.EastScarp.SenHouse": "森的家",
   "warp.EastScarp.Mateo": "马特奥的家(海岸冒险家公会)",
-  "warp.EastScarp.YriHome": "伊利的家"
+  "warp.EastScarp.JasperThomas": "贾斯伯教授的家",
+  "warp.EastScarp.YriHome": "伊利的家",
+
+  "warp-sections.CapeStardew": "星露角",
+  "warp.CapeStardew.Annetta": "安妮塔的家",
+  "warp.CapeStardew.SeaCave": "海洞入口",
+  "warp.CapeStardew.SwimmingPoint": "东南游泳点",
+  "warp.CapeStardew.BusStop": "星露角巴士站",
+
+  "warp-sections.Zuzu": "祖祖市中心",
+  "warp.Zuzu.MainStreet": "主街(巴士站，公寓)",
+  "warp.Zuzu.SawmillFarm": "锯木场农场",
+  "warp.Zuzu.GasStation": "加油站",
+  "warp.Zuzu.Oasis": "绿洲",
+  "warp.Zuzu.Crossroads": "十字路口(JoJa总部，地下夜总会)",
+  "warp.Zuzu.NorthCrossroad": "北十字路口(审批办公室，国际机场)",
+  "warp.Zuzu.EastCrossroad": "东十字路口(粉红蛋糕店，JoJa药店)",
+  "warp.Zuzu.Waterway": "滨河路",
+  "warp.Zuzu.TrainStation": "火车站",
+  "warp.Zuzu.ResortCentral": "卡胡纳度假村"
 }
