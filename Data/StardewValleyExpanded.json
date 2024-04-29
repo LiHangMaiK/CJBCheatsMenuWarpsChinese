@@ -82,7 +82,10 @@
           "Id": "{{ModId}}_Galdora",
           "DisplayName": "{{i18n: warp-sections.Galdora}}"
         }
-      }
+      },
+      "MoveEntries": [
+        { "ID": "{{ModId}}_Shops", "BeforeID": "town" }
+      ]
     },
     {
       "_Comment": "Grampleton Fields Sections",
@@ -217,7 +220,7 @@
         "adventurers-guild": {
           "Tile": "32, 22",
           "Location": "Custom_AdventurerSummit",
-          "SectionId": "Main"
+          "SectionId": "Mountain"
         },
         "mines": {
           "Tile": "17, 4"
@@ -550,7 +553,24 @@
           "Tile": "44,45",
           "SectionId": "Island"
         }
-      }
+      },
+      "MoveEntries": [
+        { "ID": "{{ModId}}_Leah's Cabin", "BeforeID": "hats" },
+        { "ID": "mastery-cave", "BeforeID": "{{ModId}}_Leah's Cabin" },
+        { "ID": "secret-woods", "BeforeID": "mastery-cave" },
+        { "ID": "wizard-tower", "BeforeID": "secret-woods" },
+        { "ID": "{{ModId}}_Andy's Farm", "BeforeID": "wizard-tower" },
+        { "ID": "{{ModId}}_Sophia's Vineyard", "BeforeID": "{{ModId}}_Andy's Farm" },
+        { "ID": "ranch", "BeforeID": "{{ModId}}_Sophia's Vineyard" },
+
+        { "ID": "{{ModId}}_Tunnel (Qi's Battery)", "BeforeID": "bathhouse" },
+        { "ID": "{{ModId}}_Train Platform (Qi's Rainbow Shell)", "BeforeID": "{{ModId}}_Tunnel (Qi's Battery)" },
+        { "ID": "{{ModId}}_Golden Scythe", "BeforeID": "{{ModId}}_Train Platform (Qi's Rainbow Shell)" },
+        { "ID": "quarry", "BeforeID": "{{ModId}}_Golden Scythe" },
+        { "ID": "{{ModId}}_Linus' Tent", "BeforeID": "quarry" },
+        { "ID": "{{ModId}}_Susan's Farm", "BeforeID": "{{ModId}}_Linus' Tent" },
+        { "ID": "adventurers-guild", "BeforeID": "{{ModId}}_Susan's Farm" }
+      ]
     }
   ]
 }
