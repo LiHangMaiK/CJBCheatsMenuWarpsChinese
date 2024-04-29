@@ -7,8 +7,7 @@
       "Entries": {
         "{{ModId}}_ZuzuCity": {
           "Id": "{{ModId}}_ZuzuCity",
-          "DisplayName": "{{i18n: warp-sections.Zuzu}}",
-          "Order": 100
+          "DisplayName": "{{i18n: warp-sections.Zuzu}}"
         }
       }
     },

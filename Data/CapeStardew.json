@@ -7,8 +7,7 @@
       "Entries": {
         "{{ModId}}_Cape_Stardew": {
           "Id": "{{ModId}}_Cape_Stardew",
-          "DisplayName": "{{i18n: warp-sections.CapeStardew}}",
-          "Order": 90
+          "DisplayName": "{{i18n: warp-sections.CapeStardew}}"
         }
       }
     },
