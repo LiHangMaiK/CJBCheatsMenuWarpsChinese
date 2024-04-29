@@ -5,8 +5,8 @@
       "Action": "EditData",
       "Target": "Mods/CJBok.CheatsMenu/WarpSections",
       "Entries": {
-        "dreamy.kickitspot_Cape_Stardew": {
-          "Id": "dreamy.kickitspot_Cape_Stardew",
+        "{{ModId}}_Cape_Stardew": {
+          "Id": "{{ModId}}_Cape_Stardew",
           "DisplayName": "{{i18n: warp-sections.CapeStardew}}",
           "Order": 90
         }
@@ -17,37 +17,37 @@
       "Action": "EditData",
       "Target": "Mods/CJBok.CheatsMenu/Warps",
       "Entries": {
-        "dreamy.kickitspot_Cape_Stardew_Annetta": {
+        "{{ModId}}_Cape_Stardew_Annetta": {
           "_Comment": "安妮塔的家",
-          "Id": "dreamy.kickitspot_Cape_Stardew_Annetta",
+          "Id": "{{ModId}}_Cape_Stardew_Annetta",
           "DisplayName": "{{i18n: warp.CapeStardew.Annetta}}",
           "Location": "Custom_CapeStardew",
           "Tile": "36, 14",
-          "SectionId": "dreamy.kickitspot_Cape_Stardew"
+          "SectionId": "{{ModId}}_Cape_Stardew"
         },
-        "dreamy.kickitspot_Cape_Stardew_SeaCave": {
+        "{{ModId}}_Cape_Stardew_SeaCave": {
           "_Comment": "海洞入口",
-          "Id": "dreamy.kickitspot_Cape_Stardew_SeaCave",
+          "Id": "{{ModId}}_Cape_Stardew_SeaCave",
           "DisplayName": "{{i18n: warp.CapeStardew.SeaCave}}",
           "Location": "Custom_Cape",
           "Tile": "6, 9",
-          "SectionId": "dreamy.kickitspot_Cape_Stardew"
+          "SectionId": "{{ModId}}_Cape_Stardew"
         },
-        "dreamy.kickitspot_Cape_Stardew_SwimmingPoint": {
+        "{{ModId}}_Cape_Stardew_SwimmingPoint": {
           "_Comment": "游泳点",
-          "Id": "dreamy.kickitspot_Cape_Stardew_SwimmingPoint",
+          "Id": "{{ModId}}_Cape_Stardew_SwimmingPoint",
           "DisplayName": "{{i18n: warp.CapeStardew.SwimmingPoint}}",
           "Location": "Custom_CapeStardew",
           "Tile": "67, 80",
-          "SectionId": "dreamy.kickitspot_Cape_Stardew"
+          "SectionId": "{{ModId}}_Cape_Stardew"
         },
-        "dreamy.kickitspot_Cape_Stardew_BusStop": {
+        "{{ModId}}_Cape_Stardew_BusStop": {
           "_Comment": "巴士站",
-          "Id": "dreamy.kickitspot_Cape_Stardew_BusStop",
+          "Id": "{{ModId}}_Cape_Stardew_BusStop",
           "DisplayName": "{{i18n: warp.CapeStardew.BusStop}}",
           "Location": "Custom_CapeBusStop",
           "Tile": "28, 26",
-          "SectionId": "dreamy.kickitspot_Cape_Stardew"
+          "SectionId": "{{ModId}}_Cape_Stardew"
         }
       }
     }

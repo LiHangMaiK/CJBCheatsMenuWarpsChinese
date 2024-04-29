@@ -27,15 +27,13 @@
       "Action": "EditData",
       "Target": "Mods/CJBok.CheatsMenu/WarpSections",
       "Entries": {
-        "LemurKat.EastScarpe.CP_EastScarp": {
-          "Id": "LemurKat.EastScarpe.CP_EastScarp",
-          "DisplayName": "{{i18n: warp-sections.EastScarp}}",
-          "Order": 70
+        "{{ModId}}_EastScarp": {
+          "Id": "{{ModId}}_EastScarp",
+          "DisplayName": "{{i18n: warp-sections.EastScarp}}"
         },
-        "LemurKat.EastScarpe.CP_EastScarp_Optional_Villagers": {
-          "Id": "LemurKat.EastScarpe.CP_EastScarp_Optional_Villagers",
-          "DisplayName": "{{i18n: warp-sections.EastScarp.OptionalVillagers}}",
-          "Order": 80
+        "{{ModId}}_EastScarp_Optional_Villagers": {
+          "Id": "{{ModId}}_EastScarp_Optional_Villagers",
+          "DisplayName": "{{i18n: warp-sections.EastScarp.OptionalVillagers}}"
         }
       }
     },
@@ -47,7 +45,7 @@
         "HasMod": "FlashShifter.StardewValleyExpandedCP"
       },
       "Entries": {
-        "LemurKat.EastScarpe.CP_EastScarp_ClearingHouse": null
+        "{{ModId}}_EastScarp_ClearingHouse": null
       }
     },
     {
@@ -58,13 +56,13 @@
         "HasMod |contains=FlashShifter.StardewValleyExpandedCP": false
       },
       "Entries": {
-        "LemurKat.EastScarpe.CP_EastScarp_ClearingHouse": {
+        "{{ModId}}_EastScarp_ClearingHouse": {
           "_Comment": "十字路口(葡萄园)",
-          "Id": "LemurKat.EastScarpe.CP_EastScarp_ClearingHouse",
+          "Id": "{{ModId}}_EastScarp_ClearingHouse",
           "DisplayName": "{{i18n: warp.EastScarp.ScarpPath}}",
           "Location": "EastScarp_ClearingHouse",
           "Tile": "25, 23",
-          "SectionId": "LemurKat.EastScarpe.CP_EastScarp"
+          "SectionId": "{{ModId}}_EastScarp"
         }
       }
     },
@@ -73,125 +71,125 @@
       "Action": "EditData",
       "Target": "Mods/CJBok.CheatsMenu/Warps",
       "Entries": {
-        "LemurKat.EastScarpe.CP_EastScarp Town": {
+        "{{ModId}}_EastScarp Town": {
           "_Comment": "东斯卡普",
-          "Id": "LemurKat.EastScarpe.CP_EastScarp Town",
+          "Id": "{{ModId}}_EastScarp Town",
           "DisplayName": "{{i18n: warp.EastScarp.Town}}",
           "Location": "EastScarp_Village",
           "Tile": "1, 71",
           "SectionId": "Main"
         },
-        "LemurKat.EastScarpe.CP_EastScarp MeadowFarm": {
+        "{{ModId}}_EastScarp MeadowFarm": {
           "_Comment": "东斯卡普草地农场",
-          "Id": "LemurKat.EastScarpe.CP_EastScarp MeadowFarm",
+          "Id": "{{ModId}}_EastScarp MeadowFarm",
           "DisplayName": "{{i18n: warp.EastScarp.MeadowFarm}}",
           "Location": "EastScarp_MeadowFarm",
           "Tile": "30, 39",
           "SectionId": "main"
         },
-        "LemurKat.EastScarpe.CP_Village_VetHouse": {
+        "{{ModId}}_Village_VetHouse": {
           "_Comment": "兽医诊所",
-          "Id": "LemurKat.EastScarpe.CP_Village_VetHouse",
+          "Id": "{{ModId}}_Village_VetHouse",
           "DisplayName": "{{i18n: warp.EastScarp.VetHouse}}",
           "Location": "EastScarp_Village",
           "Tile": "14, 26",
-          "SectionId": "LemurKat.EastScarpe.CP_EastScarp"
+          "SectionId": "{{ModId}}_EastScarp"
         },
-        "LemurKat.EastScarpe.CP_Village_CarpPond": {
+        "{{ModId}}_Village_CarpPond": {
           "_Comment": "东斯卡普客栈",
-          "Id": "LemurKat.EastScarpe.CP_Village_CarpPond",
+          "Id": "{{ModId}}_Village_CarpPond",
           "DisplayName": "{{i18n: warp.EastScarp.Inn}}",
           "Location": "EastScarp_Village",
           "Tile": "42, 66",
-          "SectionId": "LemurKat.EastScarpe.CP_EastScarp"
+          "SectionId": "{{ModId}}_EastScarp"
         },
-        "LemurKat.EastScarpe.CP_EastScarp LightHouse": {
+        "{{ModId}}_EastScarp LightHouse": {
           "_Comment": "灯塔",
-          "Id": "LemurKat.EastScarpe.CP_EastScarp LightHouse",
+          "Id": "{{ModId}}_EastScarp LightHouse",
           "DisplayName": "{{i18n: warp.EastScarp.LightHouse}}",
           "Location": "EastScarp_Village",
           "Tile": "71, 119",
-          "SectionId": "LemurKat.EastScarpe.CP_EastScarp"
+          "SectionId": "{{ModId}}_EastScarp"
         },
-        "LemurKat.EastScarpe.CP_EastScarp Aidden's Home": {
+        "{{ModId}}_EastScarp Aidden's Home": {
           "_Comment": "艾登的家",
-          "Id": "LemurKat.EastScarpe.CP_EastScarp Aidden's Home",
+          "Id": "{{ModId}}_EastScarp Aidden's Home",
           "DisplayName": "{{i18n: warp.EastScarp.AiddenHome}}",
           "Location": "EastScarp_Village",
           "Tile": "16, 53",
-          "SectionId": "LemurKat.EastScarpe.CP_EastScarp"
+          "SectionId": "{{ModId}}_EastScarp"
         },
-        "LemurKat.EastScarpe.CP_EastScarp Tori's Home": {
+        "{{ModId}}_EastScarp Tori's Home": {
           "_Comment": "托丽的家",
-          "Id": "LemurKat.EastScarpe.CP_EastScarp Tori's Home",
+          "Id": "{{ModId}}_EastScarp Tori's Home",
           "DisplayName": "{{i18n: warp.EastScarp.ToriHome}}",
           "Location": "EastScarp_Village",
           "Tile": "4, 62",
-          "SectionId": "LemurKat.EastScarpe.CP_EastScarp"
+          "SectionId": "{{ModId}}_EastScarp"
         },
-        "LemurKat.EastScarpe.CP_Village_Beach": {
+        "{{ModId}}_Village_Beach": {
           "_Comment": "潮汐池",
-          "Id": "LemurKat.EastScarpe.CP_Village_Beach",
+          "Id": "{{ModId}}_Village_Beach",
           "DisplayName": "{{i18n: warp.EastScarp.Beach}}",
           "Location": "EastScarp_Village",
           "Tile": "46, 91",
-          "SectionId": "LemurKat.EastScarpe.CP_EastScarp"
+          "SectionId": "{{ModId}}_EastScarp"
         },
-        "LemurKat.EastScarpe.CP_Orchard": {
+        "{{ModId}}_Orchard": {
           "_Comment": "樱桃园",
-          "Id": "LemurKat.EastScarpe.CP_Orchard",
+          "Id": "{{ModId}}_Orchard",
           "DisplayName": "{{i18n: warp.EastScarp.Orchard}}",
           "Location": "EastScarp_Orchard",
           "Tile": "25, 17",
-          "SectionId": "LemurKat.EastScarpe.CP_EastScarp"
+          "SectionId": "{{ModId}}_EastScarp"
         },
-        "LemurKat.EastScarpe.CP_Deep_Dark": {
+        "{{ModId}}_Deep_Dark": {
           "_Comment": "悬崖之下",
-          "Id": "LemurKat.EastScarpe.CP_Deep_Dark",
+          "Id": "{{ModId}}_Deep_Dark",
           "DisplayName": "{{i18n: warp.EastScarp.DeepDark}}",
           "Location": "EastScarp_DeepDark",
           "Tile": "14, 65",
-          "SectionId": "LemurKat.EastScarpe.CP_EastScarp"
+          "SectionId": "{{ModId}}_EastScarp"
         },
-        "LemurKat.EastScarpe.CP_Sea_Cave": {
+        "{{ModId}}_Sea_Cave": {
           "_Comment": "海边洞窟",
-          "Id": "LemurKat.EastScarpe.CP_Sea_Cave",
+          "Id": "{{ModId}}_Sea_Cave",
           "DisplayName": "{{i18n: warp.EastScarp.SeaCave}}",
           "Location": "EastScarp_SeaCave",
           "Tile": "19, 32",
-          "SectionId": "LemurKat.EastScarpe.CP_EastScarp"
+          "SectionId": "{{ModId}}_EastScarp"
         },
-        "LemurKat.EastScarpe.CP_DeepMountains_Pond": {
+        "{{ModId}}_DeepMountains_Pond": {
           "_Comment": "深山",
-          "Id": "LemurKat.EastScarpe.CP_DeepMountains_Pond",
+          "Id": "{{ModId}}_DeepMountains_Pond",
           "DisplayName": "{{i18n: warp.EastScarp.DeepMountains}}",
           "Location": "EastScarp_DeepMountains",
           "Tile": "49, 44",
-          "SectionId": "LemurKat.EastScarpe.CP_EastScarp"
+          "SectionId": "{{ModId}}_EastScarp"
         },
-        "LemurKat.EastScarpe.CP_DeepMountains_DeepLake": {
+        "{{ModId}}_DeepMountains_DeepLake": {
           "_Comment": "深山湖泊",
-          "Id": "LemurKat.EastScarpe.CP_DeepMountains_DeepLake",
+          "Id": "{{ModId}}_DeepMountains_DeepLake",
           "DisplayName": "{{i18n: warp.EastScarp.DeepMountainsLake}}",
           "Location": "EastScarp_DeepMountains",
           "Tile": "98, 42",
-          "SectionId": "LemurKat.EastScarpe.CP_EastScarp"
+          "SectionId": "{{ModId}}_EastScarp"
         },
-        "LemurKat.EastScarpe.CP_Mine_Entrance": {
+        "{{ModId}}_Mine_Entrance": {
           "_Comment": "废弃矿井入口",
-          "Id": "LemurKat.EastScarpe.CP_Mine_Entrance",
+          "Id": "{{ModId}}_Mine_Entrance",
           "DisplayName": "{{i18n: warp.EastScarp.MineEntrance}}",
           "Location": "EastScarp_MineEntrance",
           "Tile": "1, 22",
-          "SectionId": "LemurKat.EastScarpe.CP_EastScarp"
+          "SectionId": "{{ModId}}_EastScarp"
         },
-        "LemurKat.EastScarpe.CP_Smuggler's Den": {
+        "{{ModId}}_Smuggler's Den": {
           "_Comment": "走私者的巢穴",
-          "Id": "LemurKat.EastScarpe.CP_Smuggler's Den",
+          "Id": "{{ModId}}_Smuggler's Den",
           "DisplayName": "{{i18n: warp.EastScarp.SmugglerDen}}",
           "Location": "EastScarp_SmugglerDen",
           "Tile": "23, 9",
-          "SectionId": "LemurKat.EastScarpe.CP_EastScarp"
+          "SectionId": "{{ModId}}_EastScarp"
         }
       }
     },
@@ -203,13 +201,13 @@
         "HasMod": "Himetarts.ARV.CP"
       },
       "Entries": {
-        "LemurKat.EastScarpe.CP_EastScarp Mia's Home": {
+        "{{ModId}}_EastScarp Mia's Home": {
           "_Comment": "米娅的家",
-          "Id": "LemurKat.EastScarpe.CP_EastScarp Mia's Home",
+          "Id": "{{ModId}}_EastScarp Mia's Home",
           "DisplayName": "{{i18n: warp.EastScarp.MiaHome}}",
           "Location": "EastScarp_Village",
           "Tile": "31, 54",
-          "SectionId": "LemurKat.EastScarpe.CP_EastScarp_Optional_Villagers"
+          "SectionId": "{{ModId}}_EastScarp_Optional_Villagers"
         }
       }
     },
@@ -222,13 +220,13 @@
         "HasMod |contains=FlashShifter.StardewValleyExpandedCP": true
       },
       "Entries": {
-        "LemurKat.EastScarpe.CP_EastScarp_JulietHouse": {
+        "{{ModId}}_EastScarp_JulietHouse": {
           "_Comment": "朱丽叶与杰西(社区中心)",
-          "Id": "LemurKat.EastScarpe.CP_EastScarp_JulietHouse",
+          "Id": "{{ModId}}_EastScarp_JulietHouse",
           "DisplayName": "{{i18n: warp.EastScarp.JulietHouse}}",
           "Location": "Custom_LK_ClearingHouse",
           "Tile": "24, 17",
-          "SectionId": "LemurKat.EastScarpe.CP_EastScarp_Optional_Villagers"
+          "SectionId": "{{ModId}}_EastScarp_Optional_Villagers"
         }
       }
     },
@@ -241,13 +239,13 @@
         "HasMod |contains=FlashShifter.StardewValleyExpandedCP": false
       },
       "Entries": {
-        "LemurKat.EastScarpe.CP_EastScarp_JulietHouse": {
+        "{{ModId}}_EastScarp_JulietHouse": {
           "_Comment": "朱丽叶与杰西(十字路口)",
-          "Id": "LemurKat.EastScarpe.CP_EastScarp_JulietHouse",
+          "Id": "{{ModId}}_EastScarp_JulietHouse",
           "DisplayName": "{{i18n: warp.EastScarp.JulietHouse}}",
           "Location": "EastScarp_ClearingHouse",
           "Tile": "23, 12",
-          "SectionId": "LemurKat.EastScarpe.CP_EastScarp_Optional_Villagers"
+          "SectionId": "{{ModId}}_EastScarp_Optional_Villagers"
         }
       }
     },
@@ -259,13 +257,13 @@
         "HasMod": "TheFrenchDodo.RodneyOBrien"
       },
       "Entries": {
-        "LemurKat.EastScarpe.CP_EastScarp Rodney's House": {
+        "{{ModId}}_EastScarp Rodney's House": {
           "_Comment": "罗德尼的家",
-          "Id": "LemurKat.EastScarpe.CP_EastScarp Rodney's House",
+          "Id": "{{ModId}}_EastScarp Rodney's House",
           "DisplayName": "{{i18n: warp.EastScarp.RodneyHome}}",
           "Location": "EastScarp_Village",
           "Tile": "88, 33",
-          "SectionId": "LemurKat.EastScarpe.CP_EastScarp_Optional_Villagers"
+          "SectionId": "{{ModId}}_EastScarp_Optional_Villagers"
         }
       }
     },
@@ -277,13 +275,13 @@
         "HasMod": "EastScarp.FGES"
       },
       "Entries": {
-        "LemurKat.EastScarpe.CP_EastScarp Fievel's Hole": {
+        "{{ModId}}_EastScarp Fievel's Hole": {
           "_Comment": "菲维尔的洞穴",
-          "Id": "LemurKat.EastScarpe.CP_EastScarp Fievel's Hole",
+          "Id": "{{ModId}}_EastScarp Fievel's Hole",
           "DisplayName": "{{i18n: warp.EastScarp.FievelHole}}",
           "Location": "EastScarp_Village",
           "Tile": "97, 20",
-          "SectionId": "LemurKat.EastScarpe.CP_EastScarp_Optional_Villagers"
+          "SectionId": "{{ModId}}_EastScarp_Optional_Villagers"
         }
       }
     },
@@ -295,13 +293,13 @@
         "HasMod": "7thAxis.LitD.CP"
       },
       "Entries": {
-        "LemurKat.EastScarpe.CP_EastScarp Sen's House": {
+        "{{ModId}}_EastScarp Sen's House": {
           "_Comment": "森的家",
-          "Id": "LemurKat.EastScarpe.CP_EastScarp Sen's House",
+          "Id": "{{ModId}}_EastScarp Sen's House",
           "DisplayName": "{{i18n: warp.EastScarp.SenHouse}}",
           "Location": "EastScarp_DeepDark",
           "Tile": "21, 25",
-          "SectionId": "LemurKat.EastScarpe.CP_EastScarp_Optional_Villagers"
+          "SectionId": "{{ModId}}_EastScarp_Optional_Villagers"
         }
       }
     },
@@ -313,13 +311,13 @@
         "HasMod": "DN.SnS"
       },
       "Entries": {
-        "LemurKat.EastScarpe.CP_EastScarp Mateo": {
+        "{{ModId}}_EastScarp Mateo": {
           "_Comment": "马特奥的家(海岸冒险家公会)",
-          "Id": "LemurKat.EastScarpe.CP_EastScarp Mateo",
+          "Id": "{{ModId}}_EastScarp Mateo",
           "DisplayName": "{{i18n: warp.EastScarp.Mateo}}",
           "Location": "EastScarp_Village",
           "Tile": "93, 100",
-          "SectionId": "LemurKat.EastScarpe.CP_EastScarp_Optional_Villagers"
+          "SectionId": "{{ModId}}_EastScarp_Optional_Villagers"
         }
       }
     },
@@ -331,13 +329,13 @@
         "HasMod": "Lemurkat.NPCJasper"
       },
       "Entries": {
-        "LemurKat.EastScarpe.CP_EastScarp_JasperThomas": {
+        "{{ModId}}_EastScarp_JasperThomas": {
           "_Comment": "贾斯珀·托马斯教授(碧玉)",
-          "Id": "LemurKat.EastScarpe.CP_EastScarp_JasperThomas",
+          "Id": "{{ModId}}_EastScarp_JasperThomas",
           "DisplayName": "{{i18n: warp.EastScarp.JasperThomas}}",
           "Location": "ArchaeologyHouse",
           "Tile": "41, 5",
-          "SectionId": "LemurKat.EastScarpe.CP_EastScarp_Optional_Villagers"
+          "SectionId": "{{ModId}}_EastScarp_Optional_Villagers"
         }
       }
     },
@@ -346,13 +344,13 @@
       "Action": "EditData",
       "Target": "Mods/CJBok.CheatsMenu/Warps",
       "Entries": {
-        "LemurKat.EastScarpe.CP_EastScarp Yri's Home": {
+        "{{ModId}}_EastScarp Yri's Home": {
           "_Comment": "伊莉的家",
-          "Id": "LemurKat.EastScarpe.CP_EastScarp Yri's Home",
+          "Id": "{{ModId}}_EastScarp Yri's Home",
           "DisplayName": "{{i18n: warp.EastScarp.YriHome}}",
           "Location": "EastScarp_Village",
           "Tile": "50, 55",
-          "SectionId": "LemurKat.EastScarpe.CP_EastScarp_Optional_Villagers"
+          "SectionId": "{{ModId}}_EastScarp_Optional_Villagers"
         }
       }
     }

@@ -1,24 +1,103 @@
 {
   "Changes": [
     {
+      "_Comment": "Delete SVE Old Sections",
+      "Action": "EditData",
+      "Target": "Mods/CJBok.CheatsMenu/WarpSections",
+      "Entries": {
+        "FlashShifter.StardewValleyExpandedCP_SVELocations": null,
+        "FlashShifter.StardewValleyExpandedCP_Shops": null,
+        "FlashShifter.StardewValleyExpandedCP_Galdora": null
+      }
+    },
+    {
+      "_Comment": "Delete SVE Old Warps",
+      "Action": "EditData",
+      "Target": "Mods/CJBok.CheatsMenu/Warps",
+      "Entries": {
+        "FlashShifter.StardewValleyExpandedCP_Farm Entrance": null,
+        "FlashShifter.StardewValleyExpandedCP_Grandpa's Shed": null,
+
+        "FlashShifter.StardewValleyExpandedCP_Hotspring": null,
+        "FlashShifter.StardewValleyExpandedCP_Quarry": null,
+        "FlashShifter.StardewValleyExpandedCP_Hardwood Glade": null,
+        "FlashShifter.StardewValleyExpandedCP_Cave": null,
+        
+        "FlashShifter.StardewValleyExpandedCP_Enchanted Grove": null,
+        "FlashShifter.StardewValleyExpandedCP_Grampleton Suburbs": null,
+        "FlashShifter.StardewValleyExpandedCP_Travelling Merchant": null,
+        "FlashShifter.StardewValleyExpandedCP_Krobus' Shop": null,
+        "FlashShifter.StardewValleyExpandedCP_Clinic": null,
+        "FlashShifter.StardewValleyExpandedCP_Olivia And Victor's Manor": null,
+        "FlashShifter.StardewValleyExpandedCP_Sam's Home": null,
+        "FlashShifter.StardewValleyExpandedCP_Emily And Haley's Home": null,
+        "FlashShifter.StardewValleyExpandedCP_Lewis' Home": null,
+        "FlashShifter.StardewValleyExpandedCP_Alex's Home": null,
+        "FlashShifter.StardewValleyExpandedCP_Penny's Home": null,
+        "FlashShifter.StardewValleyExpandedCP_Garden": null,
+        "FlashShifter.StardewValleyExpandedCP_Shearwater Bridge": null,
+        "FlashShifter.StardewValleyExpandedCP_Leah's Cabin": null,
+        "FlashShifter.StardewValleyExpandedCP_Andy's Farm": null,
+        "FlashShifter.StardewValleyExpandedCP_Aurora Vineyard": null,
+        "FlashShifter.StardewValleyExpandedCP_Apples' Room": null,
+        "FlashShifter.StardewValleyExpandedCP_Bear's Cave": null,
+        "FlashShifter.StardewValleyExpandedCP_Junimo Woods": null,
+        "FlashShifter.StardewValleyExpandedCP_Junimo Village": null,
+        "FlashShifter.StardewValleyExpandedCP_Sprite Spring": null,
+        "FlashShifter.StardewValleyExpandedCP_Sewer Grate": null,
+        "FlashShifter.StardewValleyExpandedCP_Sophia's Vineyard": null,
+        "FlashShifter.StardewValleyExpandedCP_Linus' Tent": null,
+        "FlashShifter.StardewValleyExpandedCP_Tunnel (Qi's Battery)": null,
+        "FlashShifter.StardewValleyExpandedCP_Golden Scythe": null,
+        "FlashShifter.StardewValleyExpandedCP_Susan's Farm": null,
+        "FlashShifter.StardewValleyExpandedCP_Train Platform (Qi's Rainbow Shell)": null,
+        "FlashShifter.StardewValleyExpandedCP_Summit - POST PERFECTION": null,
+        "FlashShifter.StardewValleyExpandedCP_Summit - PRE PERFECTION": null,
+        "FlashShifter.StardewValleyExpandedCP_Highlands": null,
+        "FlashShifter.StardewValleyExpandedCP_Highlands Cavern": null,
+        "FlashShifter.StardewValleyExpandedCP_Elliot's Cabin": null,
+        "FlashShifter.StardewValleyExpandedCP_Skeleton (Qi's Solar Essence)": null,
+        "FlashShifter.StardewValleyExpandedCP_Castle Village Outpost": null,
+        "FlashShifter.StardewValleyExpandedCP_Crimson Badlands": null,
+        "FlashShifter.StardewValleyExpandedCP_Iridium Quarry": null,
+        "FlashShifter.StardewValleyExpandedCP_Crimson Badlands Treasure Cave": null,
+        "FlashShifter.StardewValleyExpandedCP_FableReef": null
+      }
+    },
+    {
       "_Comment": "SVE Sections",
       "Action": "EditData",
       "Target": "Mods/CJBok.CheatsMenu/WarpSections",
       "Entries": {
-        "FlashShifter.StardewValleyExpandedCP_SVELocations": {
-          "Id": "FlashShifter.StardewValleyExpandedCP_SVELocations",
-          "DisplayName": "{{i18n: warp-sections.SVELocations}}",
-          "Order": 10
+        "{{ModId}}_SVELocations": {
+          "_Comment": "SVE特殊位置",
+          "Id": "{{ModId}}_SVELocations",
+          "DisplayName": "{{i18n: warp-sections.SVELocations}}"
         },
-        "FlashShifter.StardewValleyExpandedCP_Shops":{
-          "Id": "FlashShifter.StardewValleyExpandedCP_Shops",
-          "DisplayName": "{{i18n: warp-sections.Shops}}",
-          "Order": 20
+        "{{ModId}}_Shops": {
+          "_Comment": "商店",
+          "Id": "{{ModId}}_Shops",
+          "DisplayName": "{{i18n: warp-sections.Shops}}"
         },
-        "FlashShifter.StardewValleyExpandedCP_Galdora": {
-          "Id": "FlashShifter.StardewValleyExpandedCP_Galdora",
-          "DisplayName": "{{i18n: warp-sections.Galdora}}",
-          "Order": 30
+        "{{ModId}}_Galdora": {
+          "_Comment": "盖多兰大陆",
+          "Id": "{{ModId}}_Galdora",
+          "DisplayName": "{{i18n: warp-sections.Galdora}}"
+        }
+      }
+    },
+    {
+      "_Comment": "Grampleton Fields Sections",
+      "Action": "EditData",
+      "Target": "Mods/CJBok.CheatsMenu/WarpSections",
+      "When": {
+        "HasMod": "flashshifter.GrampletonFields"
+      },
+      "Entries": {
+        "{{ModId}}_GrampletonFields": {
+          "_Comment": "格兰普顿平原",
+          "Id": "{{ModId}}_GrampletonFields",
+          "DisplayName": "{{i18n: warp-sections.GrampletonFields}}"
         }
       }
     },
@@ -30,9 +109,9 @@
         "HasMod": "flashshifter.GrandpasFarm"
       },
       "Entries": {
-        "FlashShifter.StardewValleyExpandedCP_Farm Entrance": null,
-        "FlashShifter.StardewValleyExpandedCP_Grandpa's Shed": {
-          "Id": "FlashShifter.StardewValleyExpandedCP_Grandpa's Shed",
+        "{{ModId}}_Grandpa's Shed": {
+          "_Comment": "爷爷的小屋",
+          "Id": "{{ModId}}_Grandpa's Shed",
           "DisplayName": "{{i18n: warp.Grandpa'sShed}}",
           "Location": "Farm",
           "Tile": "20, 22",
@@ -48,41 +127,87 @@
         "HasMod": "flashshifter.immersivefarm2remastered"
       },
       "Entries": {
-        "FlashShifter.StardewValleyExpandedCP_Farm Entrance": null,
-        "FlashShifter.StardewValleyExpandedCP_Hotspring": {
-          "Id": "FlashShifter.StardewValleyExpandedCP_Hotspring",
+        "{{ModId}}_Hotspring": {
+          "_Comment": "农场温泉",
+          "Id": "{{ModId}}_Hotspring",
           "DisplayName": "{{i18n: warp.Hotspring}}",
           "Location": "Farm",
           "Tile": "18, 91",
           "SectionId": "Main"
         },
-        "FlashShifter.StardewValleyExpandedCP_Quarry": {
-          "Id": "FlashShifter.StardewValleyExpandedCP_Quarry",
+        "{{ModId}}_Quarry": {
+          "_Comment": "农场采石场",
+          "Id": "{{ModId}}_Quarry",
           "DisplayName": "{{i18n: warp.FarmQuarry}}",
           "Location": "Farm",
           "Tile": "10, 147",
           "SectionId": "Main"
         },
-        "FlashShifter.StardewValleyExpandedCP_Hardwood Glade": {
-          "Id": "FlashShifter.StardewValleyExpandedCP_Hardwood Glade",
+        "{{ModId}}_Hardwood Glade": {
+          "_Comment": "农场硬木区",
+          "Id": "{{ModId}}_Hardwood Glade",
           "DisplayName": "{{i18n: warp.HardwoodGlade}}",
           "Location": "Farm",
           "Tile": "147, 148",
           "SectionId": "Main"
         },
-        "FlashShifter.StardewValleyExpandedCP_Cave": {
-          "Id": "FlashShifter.StardewValleyExpandedCP_Cave",
+        "{{ModId}}_Cave": {
+          "_Comment": "农场洞穴",
+          "Id": "{{ModId}}_Cave",
           "DisplayName": "{{i18n: warp.FarmCave}}",
           "Location": "FarmCave",
           "Tile": "8, 11",
           "SectionId": "Main"
         },
-        "FlashShifter.StardewValleyExpandedCP_Grandpa's Shed": {
-          "Id": "FlashShifter.StardewValleyExpandedCP_Grandpa's Shed",
+        "{{ModId}}_Grandpa's Shed": {
+          "_Comment": "爷爷的小屋",
+          "Id": "{{ModId}}_Grandpa's Shed",
           "DisplayName": "{{i18n: warp.Grandpa'sShed}}",
           "Location": "Farm",
           "Tile": "144, 34",
           "SectionId": "Main"
+        }
+      }
+    },
+    {
+      "_Comment": "Grampleton Fields Warps",
+      "Action": "EditData",
+      "Target": "Mods/CJBok.CheatsMenu/Warps",
+      "When": {
+        "HasMod": "flashshifter.GrampletonFields"
+      },
+      "Entries": {
+        "{{ModId}}_Entrance": {
+          "_Comment": "西部入口",
+          "Id": "{{ModId}}_Entrance",
+          "DisplayName": "{{i18n: warp.GrampletonFields.Entrance}}",
+          "Location": "Custom_GrampletonFields",
+          "Tile": "28, 109",
+          "SectionId": "{{ModId}}_GrampletonFields"
+        },
+        "{{ModId}}_TrainStation": {
+          "_Comment": "北部火车站",
+          "Id": "{{ModId}}_TrainStation",
+          "DisplayName": "{{i18n: warp.GrampletonFields.TrainStation}}",
+          "Location": "Custom_GrampletonFields",
+          "Tile": "87, 10",
+          "SectionId": "{{ModId}}_GrampletonFields"
+        },
+        "{{ModId}}_BeachDock": {
+          "_Comment": "南部海滩码头",
+          "Id": "{{ModId}}_BeachDock",
+          "DisplayName": "{{i18n: warp.GrampletonFields.BeachDock}}",
+          "Location": "Custom_GrampletonFields",
+          "Tile": "161, 148",
+          "SectionId": "{{ModId}}_GrampletonFields"
+        },
+        "{{ModId}}_LonelyTower": {
+          "_Comment": "东部孤独塔",
+          "Id": "{{ModId}}_LonelyTower",
+          "DisplayName": "{{i18n: warp.GrampletonFields.LonelyTower}}",
+          "Location": "Custom_GrampletonFields",
+          "Tile": "165, 30",
+          "SectionId": "{{ModId}}_GrampletonFields"
         }
       }
     },
@@ -93,7 +218,8 @@
       "Fields": {
         "adventurers-guild": {
           "Tile": "32, 22",
-          "Location": "Custom_AdventurerSummit"
+          "Location": "Custom_AdventurerSummit",
+          "SectionId": "Main"
         },
         "mines": {
           "Tile": "17, 4"
@@ -106,284 +232,321 @@
         }
       },
       "Entries": {
-        "FlashShifter.StardewValleyExpandedCP_Adventurer's Guild - SVE": null,
-        "FlashShifter.StardewValleyExpandedCP_Sandy's Shop - SVE": null,
-        "FlashShifter.StardewValleyExpandedCP_Wizard's Tower - SVE": null,
-        "FlashShifter.StardewValleyExpandedCP_Enchanted Grove": {
-          "Id": "FlashShifter.StardewValleyExpandedCP_Enchanted Grove",
+        "{{ModId}}_Enchanted Grove": {
+          "_Comment": "魔法森林(SVE传送阵)",
+          "Id": "{{ModId}}_Enchanted Grove",
           "DisplayName": "{{i18n: warp.EnchantedGrove}}",
           "Location": "Custom_EnchantedGrove",
           "Tile": "30, 28",
-          "SectionId": "FlashShifter.StardewValleyExpandedCP_SVELocations"
+          "SectionId": "{{ModId}}_SVELocations"
         },
-        "FlashShifter.StardewValleyExpandedCP_Grampleton Suburbs": {
-          "Id": "FlashShifter.StardewValleyExpandedCP_Grampleton Suburbs",
+        "{{ModId}}_Grampleton Suburbs": {
+          "_Comment": "格兰普顿郊区(斯嘉丽的家)",
+          "Id": "{{ModId}}_Grampleton Suburbs",
           "DisplayName": "{{i18n: warp.GrampletonSuburbs}}",
           "Location": "Custom_GrampletonSuburbs",
           "Tile": "3, 26",
-          "SectionId": "FlashShifter.StardewValleyExpandedCP_SVELocations"
+          "SectionId": "{{ModId}}_SVELocations"
         },
-        "FlashShifter.StardewValleyExpandedCP_Travelling Merchant": {
-          "Id": "FlashShifter.StardewValleyExpandedCP_Travelling Merchant",
-          "DisplayName": "{{i18n: warp.TravellingMerchant}}",
-          "Location": "Forest",
-          "Tile": "27, 13",
-          "SectionId": "FlashShifter.StardewValleyExpandedCP_Shops"
-        },
-        "FlashShifter.StardewValleyExpandedCP_Krobus' Shop": {
-          "Id": "FlashShifter.StardewValleyExpandedCP_Krobus' Shop",
-          "DisplayName": "{{i18n: warp.KrobusShop}}",
-          "Location": "Sewer",
-          "Tile": "31, 18",
-          "SectionId": "FlashShifter.StardewValleyExpandedCP_Shops"
-        },
-        "FlashShifter.StardewValleyExpandedCP_Clinic": {
-          "Id": "FlashShifter.StardewValleyExpandedCP_Clinic",
+        "{{ModId}}_Clinic": {
+          "_Comment": "哈维的诊所",
+          "Id": "{{ModId}}_Clinic",
           "DisplayName": "{{i18n: warp.Clinic}}",
           "Location": "Town",
           "Tile": "36, 56",
           "SectionId": "Town"
         },
-        "FlashShifter.StardewValleyExpandedCP_Olivia And Victor's Manor": {
-          "Id": "FlashShifter.StardewValleyExpandedCP_Olivia And Victor's Manor",
+        "{{ModId}}_Olivia And Victor's Manor": {
+          "_Comment": "奥利维亚和维克多的庄园",
+          "Id": "{{ModId}}_Olivia And Victor's Manor",
           "DisplayName": "{{i18n: warp.OliviaAndVictor'sManor}}",
           "Location": "Town",
           "Tile": "59, 52",
           "SectionId": "Town"
         },
-        "FlashShifter.StardewValleyExpandedCP_Sam's Home": {
-          "Id": "FlashShifter.StardewValleyExpandedCP_Sam's Home",
+        "{{ModId}}_Sam's Home": {
+          "_Comment": "山姆的家",
+          "Id": "{{ModId}}_Sam's Home",
           "DisplayName": "{{i18n: warp.Sam'sHome}}",
           "Location": "Town",
           "Tile": "10, 86",
           "SectionId": "Town"
         },
-        "FlashShifter.StardewValleyExpandedCP_Emily And Haley's Home": {
-          "Id": "FlashShifter.StardewValleyExpandedCP_Emily And Haley's Home",
+        "{{ModId}}_Emily And Haley's Home": {
+          "_Comment": "艾米丽和海莉的家",
+          "Id": "{{ModId}}_Emily And Haley's Home",
           "DisplayName": "{{i18n: warp.EmilyAndHaley'sHome}}",
           "Location": "Town",
           "Tile": "20, 89",
           "SectionId": "Town"
         },
-        "FlashShifter.StardewValleyExpandedCP_Lewis' Home": {
-          "Id": "FlashShifter.StardewValleyExpandedCP_Lewis' Home",
+        "{{ModId}}_Lewis' Home": {
+          "_Comment": "刘易斯的家",
+          "Id": "{{ModId}}_Lewis' Home",
           "DisplayName": "{{i18n: warp.Lewis'sHome}}",
           "Location": "Town",
           "Tile": "58, 86",
           "SectionId": "Town"
         },
-        "FlashShifter.StardewValleyExpandedCP_Alex's Home": {
-          "Id": "FlashShifter.StardewValleyExpandedCP_Alex's Home",
+        "{{ModId}}_Alex's Home": {
+          "_Comment": "亚历克斯的家",
+          "Id": "{{ModId}}_Alex's Home",
           "DisplayName": "{{i18n: warp.Alex'sHome}}",
           "Location": "Town",
           "Tile": "57, 64",
           "SectionId": "Town"
         },
-        "FlashShifter.StardewValleyExpandedCP_Penny's Home": {
-          "Id": "FlashShifter.StardewValleyExpandedCP_Penny's Home",
+        "{{ModId}}_Penny's Home": {
+          "_Comment": "潘妮的家",
+          "Id": "{{ModId}}_Penny's Home",
           "DisplayName": "{{i18n: warp.Penny'sHome}}",
           "Location": "Town",
           "Tile": "72, 71",
           "SectionId": "Town"
         },
-        "FlashShifter.StardewValleyExpandedCP_Garden": {
-          "Id": "FlashShifter.StardewValleyExpandedCP_Garden",
+        "{{ModId}}_Garden": {
+          "_Comment": "旧社区花园",
+          "Id": "{{ModId}}_Garden",
           "DisplayName": "{{i18n: warp.Garden}}",
           "Location": "Custom_Garden",
           "Tile": "22, 28",
           "SectionId": "Town"
         },
-        "FlashShifter.StardewValleyExpandedCP_Shearwater Bridge": {
-          "Id": "FlashShifter.StardewValleyExpandedCP_Shearwater Bridge",
+        "{{ModId}}_Shearwater Bridge": {
+          "_Comment": "海鸥桥",
+          "Id": "{{ModId}}_Shearwater Bridge",
           "DisplayName": "{{i18n: warp.ShearwaterBridge}}",
           "Location": "Custom_ShearwaterBridge",
           "Tile": "30, 20",
           "SectionId": "Town"
         },
-        "FlashShifter.StardewValleyExpandedCP_Leah's Cabin": {
-          "Id": "FlashShifter.StardewValleyExpandedCP_Leah's Cabin",
-          "DisplayName": "{{i18n: warp.Leah'sCabin}}",
-          "Location": "forest",
-          "Tile": "104, 33",
-          "SectionId": "Forest"
-        },
-        "FlashShifter.StardewValleyExpandedCP_Andy's Farm": {
-          "Id": "FlashShifter.StardewValleyExpandedCP_Andy's Farm",
-          "DisplayName": "{{i18n: warp.Andy'sFarm}}",
-          "Location": "forest",
-          "Tile": "62, 67",
-          "SectionId": "Forest"
-        },
-        "FlashShifter.StardewValleyExpandedCP_Aurora Vineyard": {
-          "Id": "FlashShifter.StardewValleyExpandedCP_Aurora Vineyard",
-          "DisplayName": "{{i18n: warp.AuroraVineyard}}",
-          "Location": "Custom_forestwest",
-          "Tile": "58, 18",
-          "SectionId": "forest"
-        },
-        "FlashShifter.StardewValleyExpandedCP_Apples' Room": {
-          "Id": "FlashShifter.StardewValleyExpandedCP_Apples' Room",
-          "DisplayName": "{{i18n: warp.Apples'Room}}",
-          "Location": "Custom_ApplesRoom",
-          "Tile": "14, 5",
-          "SectionId": "forest"
-        },
-        "FlashShifter.StardewValleyExpandedCP_Bear's Cave": {
-          "Id": "FlashShifter.StardewValleyExpandedCP_Bear's Cave",
-          "DisplayName": "{{i18n: warp.Bear'sCave}}",
-          "Location": "Custom_forestwest",
-          "Tile": "10, 6",
-          "SectionId": "FlashShifter.StardewValleyExpandedCP_Shops"
-        },
-        "FlashShifter.StardewValleyExpandedCP_Junimo Woods": {
-          "Id": "FlashShifter.StardewValleyExpandedCP_Junimo Woods",
-          "DisplayName": "{{i18n: warp.JunimoWoods}}",
-          "Location": "Custom_JunimoWoods",
-          "Tile": "37, 3",
-          "SectionId": "forest"
-        },
-        "FlashShifter.StardewValleyExpandedCP_Junimo Village": {
-          "Id": "FlashShifter.StardewValleyExpandedCP_Junimo Village",
-          "DisplayName": "{{i18n: warp.JunimoVillage}}",
-          "Location": "Custom_JunimoWoods",
-          "Tile": "34, 96",
-          "SectionId": "FlashShifter.StardewValleyExpandedCP_Shops"
-        },
-        "FlashShifter.StardewValleyExpandedCP_Sprite Spring": {
-          "Id": "FlashShifter.StardewValleyExpandedCP_Sprite Spring",
-          "DisplayName": "{{i18n: warp.SpriteSpring}}",
-          "Location": "Custom_SpriteSpring2",
-          "Tile": "16, 23",
-          "SectionId": "forest"
-        },
-        "FlashShifter.StardewValleyExpandedCP_Sewer Grate": {
-          "Id": "FlashShifter.StardewValleyExpandedCP_Sewer Grate",
-          "DisplayName": "{{i18n: warp.SewerGrate}}",
-          "Location": "forest",
-          "Tile": "95, 100",
-          "SectionId": "forest"
-        },
-        "FlashShifter.StardewValleyExpandedCP_Sophia's Vineyard": {
-          "Id": "FlashShifter.StardewValleyExpandedCP_Sophia's Vineyard",
+        "{{ModId}}_Sophia's Vineyard": {
+          "_Comment": "蓝月亮葡萄园",
+          "Id": "{{ModId}}_Sophia's Vineyard",
           "DisplayName": "{{i18n: warp.Sophia'sVineyard}}",
           "Location": "Custom_BlueMoonVineyard",
           "Tile": "28, 32",
           "SectionId": "forest"
         },
-        "FlashShifter.StardewValleyExpandedCP_Sophia's Vineyard Ledger": {
-          "Id": "FlashShifter.StardewValleyExpandedCP_Sophia's Vineyard Ledger",
-          "DisplayName": "{{i18n: warp.Sophia'sLedger}}",
-          "Location": "Custom_SophiaHouse",
-          "Tile": "6, 22",
-          "SectionId": "FlashShifter.StardewValleyExpandedCP_Shops"
+        "{{ModId}}_Leah's Cabin": {
+          "_Comment": "莉亚的小屋",
+          "Id": "{{ModId}}_Leah's Cabin",
+          "DisplayName": "{{i18n: warp.Leah'sCabin}}",
+          "Location": "forest",
+          "Tile": "104, 33",
+          "SectionId": "Forest"
         },
-        "FlashShifter.StardewValleyExpandedCP_Linus' Tent": {
-          "Id": "FlashShifter.StardewValleyExpandedCP_Linus' Tent",
-          "DisplayName": "{{i18n: warp.Linus'sTent}}",
-          "Location": "mountain",
-          "Tile": "29, 8",
-          "SectionId": "Mountain"
+        "{{ModId}}_Andy's Farm": {
+          "_Comment": "安迪的农场",
+          "Id": "{{ModId}}_Andy's Farm",
+          "DisplayName": "{{i18n: warp.Andy'sFarm}}",
+          "Location": "forest",
+          "Tile": "62, 67",
+          "SectionId": "Forest"
         },
-        "FlashShifter.StardewValleyExpandedCP_Tunnel (Qi's Battery)": {
-          "Id": "FlashShifter.StardewValleyExpandedCP_Tunnel (Qi's Battery)",
-          "DisplayName": "{{i18n: warp.Tunnel}}",
-          "Location": "Tunnel",
-          "Tile": "17, 7",
-          "SectionId": "Mountain"
+        "{{ModId}}_Aurora Vineyard": {
+          "_Comment": "极光葡萄园",
+          "Id": "{{ModId}}_Aurora Vineyard",
+          "DisplayName": "{{i18n: warp.AuroraVineyard}}",
+          "Location": "Custom_forestwest",
+          "Tile": "58, 18",
+          "SectionId": "forest"
         },
-        "FlashShifter.StardewValleyExpandedCP_Golden Scythe": {
-          "Id": "FlashShifter.StardewValleyExpandedCP_Golden Scythe",
-          "DisplayName": "{{i18n: warp.GoldenScythe}}",
-          "Location": "mine",
-          "Tile": "67, 10",
-          "SectionId": "Mountain"
+        "{{ModId}}_Apples' Room": {
+          "_Comment": "苹果的房间",
+          "Id": "{{ModId}}_Apples' Room",
+          "DisplayName": "{{i18n: warp.Apples'Room}}",
+          "Location": "Custom_ApplesRoom",
+          "Tile": "14, 5",
+          "SectionId": "forest"
         },
-        "FlashShifter.StardewValleyExpandedCP_Susan's Farm": {
-          "Id": "FlashShifter.StardewValleyExpandedCP_Susan's Farm",
+        "{{ModId}}_Junimo Woods": {
+          "_Comment": "祝尼魔森林",
+          "Id": "{{ModId}}_Junimo Woods",
+          "DisplayName": "{{i18n: warp.JunimoWoods}}",
+          "Location": "Custom_JunimoWoods",
+          "Tile": "37, 3",
+          "SectionId": "forest"
+        },
+        "{{ModId}}_Sprite Spring": {
+          "_Comment": "精灵泉",
+          "Id": "{{ModId}}_Sprite Spring",
+          "DisplayName": "{{i18n: warp.SpriteSpring}}",
+          "Location": "Custom_SpriteSpring2",
+          "Tile": "16, 23",
+          "SectionId": "forest"
+        },
+        "{{ModId}}_Sewer Grate": {
+          "_Comment": "下水道出水口",
+          "Id": "{{ModId}}_Sewer Grate",
+          "DisplayName": "{{i18n: warp.SewerGrate}}",
+          "Location": "forest",
+          "Tile": "95, 100",
+          "SectionId": "forest"
+        },
+        "{{ModId}}_Susan's Farm": {
+          "_Comment": "苏珊的农场",
+          "Id": "{{ModId}}_Susan's Farm",
           "DisplayName": "{{i18n: warp.Susan'sFarm}}",
           "Location": "Railroad",
           "Tile": "38, 51",
           "SectionId": "Mountain"
         },
-        "FlashShifter.StardewValleyExpandedCP_Train Platform (Qi's Rainbow Shell)": {
-          "Id": "FlashShifter.StardewValleyExpandedCP_Train Platform (Qi's Rainbow Shell)",
+        "{{ModId}}_Linus' Tent": {
+          "_Comment": "莱纳斯的帐篷",
+          "Id": "{{ModId}}_Linus' Tent",
+          "DisplayName": "{{i18n: warp.Linus'sTent}}",
+          "Location": "mountain",
+          "Tile": "29, 8",
+          "SectionId": "Mountain"
+        },
+        "{{ModId}}_Tunnel (Qi's Battery)": {
+          "_Comment": "巴士站隧道",
+          "Id": "{{ModId}}_Tunnel (Qi's Battery)",
+          "DisplayName": "{{i18n: warp.Tunnel}}",
+          "Location": "Tunnel",
+          "Tile": "17, 7",
+          "SectionId": "Mountain"
+        },
+        "{{ModId}}_Golden Scythe": {
+          "_Comment": "采石场矿井",
+          "Id": "{{ModId}}_Golden Scythe",
+          "DisplayName": "{{i18n: warp.GoldenScythe}}",
+          "Location": "mine",
+          "Tile": "67, 10",
+          "SectionId": "Mountain"
+        },
+        "{{ModId}}_Train Platform (Qi's Rainbow Shell)": {
+          "_Comment": "火车站站台",
+          "Id": "{{ModId}}_Train Platform (Qi's Rainbow Shell)",
           "DisplayName": "{{i18n: warp.TrainPlatform}}",
           "Location": "Railroad",
           "Tile": "44, 40",
           "SectionId": "Mountain"
         },
-        "FlashShifter.StardewValleyExpandedCP_Summit - POST PERFECTION": {
-          "Id": "FlashShifter.StardewValleyExpandedCP_Summit - POST PERFECTION",
+        "{{ModId}}_Summit - POST PERFECTION": {
+          "_Comment": "山顶 - 完美后(未达到完美过去会被齐先生打晕)",
+          "Id": "{{ModId}}_Summit - POST PERFECTION",
           "DisplayName": "{{i18n: warp.Summit.POST_PERFECTION}}",
           "Location": "Summit",
           "Tile": "11, 29",
           "SectionId": "Mountain"
         },
-        "FlashShifter.StardewValleyExpandedCP_Summit - PRE PERFECTION": {
-          "Id": "FlashShifter.StardewValleyExpandedCP_Summit - PRE PERFECTION",
+        "{{ModId}}_Summit - PRE PERFECTION": {
+          "_Comment": "山顶 - 完美前",
+          "Id": "{{ModId}}_Summit - PRE PERFECTION",
           "DisplayName": "{{i18n: warp.Summit.PRE_PERFECTION}}",
           "Location": "Custom_SVESummit",
           "Tile": "11, 29",
           "SectionId": "Mountain"
         },
-        "FlashShifter.StardewValleyExpandedCP_Highlands": {
-          "Id": "FlashShifter.StardewValleyExpandedCP_Highlands",
+        "{{ModId}}_Highlands": {
+          "_Comment": "高地",
+          "Id": "{{ModId}}_Highlands",
           "DisplayName": "{{i18n: warp.Highlands}}",
           "Location": "Custom_Highlands",
           "Tile": "129, 113",
           "SectionId": "Mountain"
         },
-        "FlashShifter.StardewValleyExpandedCP_Highlands Cavern": {
-          "Id": "FlashShifter.StardewValleyExpandedCP_Highlands Cavern",
+        "{{ModId}}_Highlands Cavern": {
+          "_Comment": "高地洞穴",
+          "Id": "{{ModId}}_Highlands Cavern",
           "DisplayName": "{{i18n: warp.HighlandsCavern}}",
           "Location": "Custom_HighlandsCavern",
           "Tile": "120, 145",
           "SectionId": "Mountain"
         },
-        "FlashShifter.StardewValleyExpandedCP_Elliot's Cabin": {
-          "Id": "FlashShifter.StardewValleyExpandedCP_Elliot's Cabin",
+        "{{ModId}}_Elliot's Cabin": {
+          "_Comment": "艾利欧特的小屋",
+          "Id": "{{ModId}}_Elliot's Cabin",
           "DisplayName": "{{i18n: warp.Elliot'sCabin}}",
           "Location": "Beach",
           "Tile": "49, 11",
           "SectionId": "Beach"
         },
-        "FlashShifter.StardewValleyExpandedCP_Skeleton (Qi's Solar Essence)": {
-          "Id": "FlashShifter.StardewValleyExpandedCP_Skeleton (Qi's Solar Essence)",
+        "{{ModId}}_Skeleton (Qi's Solar Essence)": {
+          "_Comment": "沙之巨龙",
+          "Id": "{{ModId}}_Skeleton (Qi's Solar Essence)",
           "DisplayName": "{{i18n: warp.Skeleton}}",
           "Location": "Desert",
           "Tile": "50, 90",
           "SectionId": "Desert"
         },
-        "FlashShifter.StardewValleyExpandedCP_Castle Village Outpost": {
-          "Id": "FlashShifter.StardewValleyExpandedCP_Castle Village Outpost",
+        "{{ModId}}_Travelling Merchant": {
+          "_Comment": "旅行商人",
+          "Id": "{{ModId}}_Travelling Merchant",
+          "DisplayName": "{{i18n: warp.TravellingMerchant}}",
+          "Location": "Forest",
+          "Tile": "27, 13",
+          "SectionId": "{{ModId}}_Shops"
+        },
+        "{{ModId}}_Krobus' Shop": {
+          "_Comment": "科罗布斯的商店",
+          "Id": "{{ModId}}_Krobus' Shop",
+          "DisplayName": "{{i18n: warp.KrobusShop}}",
+          "Location": "Sewer",
+          "Tile": "31, 18",
+          "SectionId": "{{ModId}}_Shops"
+        },
+        "{{ModId}}_Sophia's Vineyard Ledger": {
+          "_Comment": "索菲娅的商店",
+          "Id": "{{ModId}}_Sophia's Vineyard Ledger",
+          "DisplayName": "{{i18n: warp.Sophia'sLedger}}",
+          "Location": "Custom_SophiaHouse",
+          "Tile": "6, 22",
+          "SectionId": "{{ModId}}_Shops"
+        },
+        "{{ModId}}_Junimo Village": {
+          "_Comment": "祝尼魔村庄",
+          "Id": "{{ModId}}_Junimo Village",
+          "DisplayName": "{{i18n: warp.JunimoVillage}}",
+          "Location": "Custom_JunimoWoods",
+          "Tile": "34, 96",
+          "SectionId": "{{ModId}}_Shops"
+        },
+        "{{ModId}}_Bear's Cave": {
+          "_Comment": "熊店",
+          "Id": "{{ModId}}_Bear's Cave",
+          "DisplayName": "{{i18n: warp.Bear'sCave}}",
+          "Location": "Custom_forestwest",
+          "Tile": "10, 6",
+          "SectionId": "{{ModId}}_Shops"
+        },
+        "{{ModId}}_Castle Village Outpost": {
+          "_Comment": "城堡村前哨站",
+          "Id": "{{ModId}}_Castle Village Outpost",
           "DisplayName": "{{i18n: warp.CastleVillageOutpost}}",
           "Location": "Custom_CastleVillageOutpost",
           "Tile": "31, 28",
-          "SectionId": "FlashShifter.StardewValleyExpandedCP_Galdora"
+          "SectionId": "{{ModId}}_Galdora"
         },
-        "FlashShifter.StardewValleyExpandedCP_Crimson Badlands": {
-          "Id": "FlashShifter.StardewValleyExpandedCP_Crimson Badlands",
+        "{{ModId}}_Crimson Badlands": {
+          "_Comment": "猩红荒地",
+          "Id": "{{ModId}}_Crimson Badlands",
           "DisplayName": "{{i18n: warp.CrimsonBadlands}}",
           "Location": "Custom_CrimsonBadlands",
           "Tile": "228, 84",
-          "SectionId": "FlashShifter.StardewValleyExpandedCP_Galdora"
+          "SectionId": "{{ModId}}_Galdora"
         },
-        "FlashShifter.StardewValleyExpandedCP_Iridium Quarry": {
-          "Id": "FlashShifter.StardewValleyExpandedCP_Iridium Quarry",
+        "{{ModId}}_Iridium Quarry": {
+          "_Comment": "铱矿场",
+          "Id": "{{ModId}}_Iridium Quarry",
           "DisplayName": "{{i18n: warp.IridiumQuarry}}",
           "Location": "Custom_IridiumQuarry",
           "Tile": "68, 17",
-          "SectionId": "FlashShifter.StardewValleyExpandedCP_Galdora"
+          "SectionId": "{{ModId}}_Galdora"
         },
-        "FlashShifter.StardewValleyExpandedCP_Crimson Badlands Treasure Cave": {
-          "Id": "FlashShifter.StardewValleyExpandedCP_Crimson Badlands Treasure Cave",
+        "{{ModId}}_Crimson Badlands Treasure Cave": {
+          "_Comment": "宝藏洞",
+          "Id": "{{ModId}}_Crimson Badlands Treasure Cave",
           "DisplayName": "{{i18n: warp.CrimsonBadlandsTreasureCave}}",
           "Location": "Custom_TreasureCave",
           "Tile": "10, 12",
-          "SectionId": "FlashShifter.StardewValleyExpandedCP_Galdora"
+          "SectionId": "{{ModId}}_Galdora"
         },
-        "FlashShifter.StardewValleyExpandedCP_FableReef": {
-          "Id": "FlashShifter.StardewValleyExpandedCP_FableReef",
+        "{{ModId}}_FableReef": {
+          "_Comment": "寓言礁",
+          "Id": "{{ModId}}_FableReef",
           "DisplayName": "{{i18n: warp.FableReef}}",
           "Location": "Custom_FableReef",
           "Tile": "44,45",

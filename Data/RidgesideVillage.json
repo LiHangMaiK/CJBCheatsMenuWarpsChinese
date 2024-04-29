@@ -5,20 +5,17 @@
       "Action": "EditData",
       "Target": "Mods/CJBok.CheatsMenu/WarpSections",
       "Entries": {
-        "Rafseazz.RSVCP_Ridgeside Village": {
-          "Id": "Rafseazz.RSVCP_Ridgeside Village",
-          "DisplayName": "{{i18n: warp-sections.RidgesideVillage}}",
-          "Order": 40
+        "{{ModId}}_Ridgeside Village": {
+          "Id": "{{ModId}}_Ridgeside Village",
+          "DisplayName": "{{i18n: warp-sections.RidgesideVillage}}"
         },
-        "Rafseazz.RSVCP_Ridgeside Surroundings": {
-          "Id": "Rafseazz.RSVCP_Ridgeside Surroundings",
-          "DisplayName": "{{i18n: warp-sections.RidgesideSurroundings}}",
-          "Order": 50
+        "{{ModId}}_Ridgeside Surroundings": {
+          "Id": "{{ModId}}_Ridgeside Surroundings",
+          "DisplayName": "{{i18n: warp-sections.RidgesideSurroundings}}"
         },
-        "Rafseazz.RSVCP_Villager's Home": {
-          "Id": "Rafseazz.RSVCP_Villager's Home",
-          "DisplayName": "{{i18n: warp-sections.Villager'sHome}}",
-          "Order": 60
+        "{{ModId}}_Villager's Home": {
+          "Id": "{{ModId}}_Villager's Home",
+          "DisplayName": "{{i18n: warp-sections.Villager'sHome}}"
         }
       }
     },
@@ -27,222 +24,253 @@
       "Action": "EditData",
       "Target": "Mods/CJBok.CheatsMenu/Warps",
       "Entries": {
-        "Rafseazz.RSVCP_Ridgeside Plaza": {
-          "Id": "Rafseazz.RSVCP_Ridgeside Plaza",
+        "{{ModId}}_Ridgeside Plaza": {
+          "_Comment": "里村中心广场",
+          "Id": "{{ModId}}_Ridgeside Plaza",
           "DisplayName": "{{i18n: warp.RidgesidePlaza}}",
           "Location": "Custom_Ridgeside_RidgesideVillage",
           "Tile": "114, 45",
           "SectionId": "main"
         },
-        "Rafseazz.RSVCP_Summit Farm": {
-          "Id": "Rafseazz.RSVCP_Summit Farm",
+        "{{ModId}}_Summit Farm": {
+          "_Comment": "山顶农场",
+          "Id": "{{ModId}}_Summit Farm",
           "DisplayName": "{{i18n: warp.SummitFarm}}",
           "Location": "Custom_Ridgeside_SummitFarm",
           "Tile": "18, 47",
           "SectionId": "main"
         },
-        "Rafseazz.RSVCP_Community Greenhouse": {
-          "Id": "Rafseazz.RSVCP_Community Greenhouse",
+        "{{ModId}}_Community Greenhouse": {
+          "_Comment": "社区温室",
+          "Id": "{{ModId}}_Community Greenhouse",
           "DisplayName": "{{i18n: warp.CommunityGreenhouse}}",
           "Location": "Custom_Ridgeside_RidgesideVillage",
           "Tile": "96, 75",
           "SectionId": "main"
         },
-        "Rafseazz.RSVCP_Phantom Greenhouse": {
-          "Id": "Rafseazz.RSVCP_Phantom Greenhouse",
+        "{{ModId}}_Phantom Greenhouse": {
+          "_Comment": "幻影温室",
+          "Id": "{{ModId}}_Phantom Greenhouse",
           "DisplayName": "{{i18n: warp.PhantomGreenhouse}}",
           "Location": "Custom_Ridgeside_RSVTheHike",
           "Tile": "38, 27",
           "SectionId": "main"
         },
-        "Rafseazz.RSVCP_Lenny's Office": {
-          "Id": "Rafseazz.RSVCP_Lenny's Office",
+        "{{ModId}}_Lenny's Office": {
+          "_Comment": "村内事务所",
+          "Id": "{{ModId}}_Lenny's Office",
           "DisplayName": "{{i18n: warp.Lenny'sOffice}}",
           "Location": "Custom_Ridgeside_RidgesideVillage",
           "Tile": "114, 39",
-          "SectionId": "Rafseazz.RSVCP_Ridgeside Village"
+          "SectionId": "{{ModId}}_Ridgeside Village"
         },
-        "Rafseazz.RSVCP_Log Cabin Hotel": {
-          "Id": "Rafseazz.RSVCP_Log Cabin Hotel",
-          "DisplayName": "{{i18n: warp.LogCabinHotel}}",
-          "Location": "Custom_Ridgeside_RidgesideVillage",
-          "Tile": "114, 24",
-          "SectionId": "Rafseazz.RSVCP_Ridgeside Village"
-        },
-        "Rafseazz.RSVCP_Pika's Restaurant": {
-          "Id": "Rafseazz.RSVCP_Pika's Restaurant",
-          "DisplayName": "{{i18n: warp.Pika'sRestaurant}}",
-          "Location": "Custom_Ridgeside_RidgesideVillage",
-          "Tile": "97, 42",
-          "SectionId": "Rafseazz.RSVCP_Ridgeside Village"
-        },
-        "Rafseazz.RSVCP_Heaps": {
-          "Id": "Rafseazz.RSVCP_Heaps",
-          "DisplayName": "{{i18n: warp.Heaps}}",
-          "Location": "Custom_Ridgeside_RidgesideVillage",
-          "Tile": "76, 19",
-          "SectionId": "Rafseazz.RSVCP_Ridgeside Village"
-        },
-        "Rafseazz.RSVCP_Odd Jobs": {
-          "Id": "Rafseazz.RSVCP_Odd Jobs",
+        "{{ModId}}_Odd Jobs": {
+          "_Comment": "零工服务",
+          "Id": "{{ModId}}_Odd Jobs",
           "DisplayName": "{{i18n: warp.OddJobs}}",
           "Location": "Custom_Ridgeside_RidgesideVillage",
           "Tile": "133, 23",
-          "SectionId": "Rafseazz.RSVCP_Ridgeside Village"
+          "SectionId": "{{ModId}}_Ridgeside Village"
         },
-        "Rafseazz.RSVCP_Blooming Hill Farm": {
-          "Id": "Rafseazz.RSVCP_Blooming Hill Farm",
+        "{{ModId}}_Log Cabin Hotel": {
+          "_Comment": "小木屋旅馆",
+          "Id": "{{ModId}}_Log Cabin Hotel",
+          "DisplayName": "{{i18n: warp.LogCabinHotel}}",
+          "Location": "Custom_Ridgeside_RidgesideVillage",
+          "Tile": "114, 24",
+          "SectionId": "{{ModId}}_Ridgeside Village"
+        },
+        "{{ModId}}_Pika's Restaurant": {
+          "_Comment": "皮卡餐厅",
+          "Id": "{{ModId}}_Pika's Restaurant",
+          "DisplayName": "{{i18n: warp.Pika'sRestaurant}}",
+          "Location": "Custom_Ridgeside_RidgesideVillage",
+          "Tile": "97, 42",
+          "SectionId": "{{ModId}}_Ridgeside Village"
+        },
+        "{{ModId}}_Heaps": {
+          "_Comment": "山坡便利店",
+          "Id": "{{ModId}}_Heaps",
+          "DisplayName": "{{i18n: warp.Heaps}}",
+          "Location": "Custom_Ridgeside_RidgesideVillage",
+          "Tile": "76, 19",
+          "SectionId": "{{ModId}}_Ridgeside Village"
+        },
+        "{{ModId}}_Blooming Hill Farm": {
+          "_Comment": "开花山农场",
+          "Id": "{{ModId}}_Blooming Hill Farm",
           "displayName": "{{i18n: warp.BloomingHillFarm}}",
           "Location": "Custom_Ridgeside_RidgesideVillage",
           "Tile": "22,23",
-          "SectionId": "Rafseazz.RSVCP_Ridgeside Village"
+          "SectionId": "{{ModId}}_Ridgeside Village"
         },
-        "Rafseazz.RSVCP_Nightingale Orchard": {
-          "Id": "Rafseazz.RSVCP_Nightingale Orchard",
+        "{{ModId}}_Nightingale Orchard": {
+          "_Comment": "夜莺果园",
+          "Id": "{{ModId}}_Nightingale Orchard",
           "DisplayName": "{{i18n: warp.NightingaleOrchard}}",
           "Location": "Custom_Ridgeside_RidgesideVillage",
           "Tile": "19, 101",
-          "SectionId": "Rafseazz.RSVCP_Ridgeside Village"
+          "SectionId": "{{ModId}}_Ridgeside Village"
         },
-        "Rafseazz.RSVCP_Water Research Facility": {
-          "Id": "Rafseazz.RSVCP_Water Research Facility",
+        "{{ModId}}_Water Research Facility": {
+          "_Comment": "水体研究所",
+          "Id": "{{ModId}}_Water Research Facility",
           "DisplayName": "{{i18n: warp.WaterResearchFacility}}",
           "Location": "Custom_Ridgeside_RidgesideVillage",
           "Tile": "98, 111",
-          "SectionId": "Rafseazz.RSVCP_Ridgeside Village"
+          "SectionId": "{{ModId}}_Ridgeside Village"
         },
-        "Rafseazz.RSVCP_Lola's Shed": {
-          "Id": "Rafseazz.RSVCP_Lola's Shed",
+        "{{ModId}}_Lola's Shed": {
+          "_Comment": "萝拉小屋",
+          "Id": "{{ModId}}_Lola's Shed",
           "DisplayName": "{{i18n: warp.Lola'sShed}}",
           "Location": "Custom_Ridgeside_RidgesideVillage",
           "Tile": "7, 50",
-          "SectionId": "Rafseazz.RSVCP_Ridgeside Village"
+          "SectionId": "{{ModId}}_Ridgeside Village"
         },
-        "Rafseazz.RSVCP_Ridgeside Clinic": {
-          "Id": "Rafseazz.RSVCP_Ridgeside Clinic",
+        "{{ModId}}_Ridgeside Clinic": {
+          "_Comment": "山脊诊所",
+          "Id": "{{ModId}}_Ridgeside Clinic",
           "DisplayName": "{{i18n: warp.RidgesideClinic}}",
           "Location": "Custom_Ridgeside_RidgesideVillage",
           "Tile": "135, 37",
-          "SectionId": "Rafseazz.RSVCP_Ridgeside Village"
+          "SectionId": "{{ModId}}_Ridgeside Village"
         },
-        "Rafseazz.RSVCP_Ridge": {
-          "Id": "Rafseazz.RSVCP_Ridge",
+        "{{ModId}}_Ridge": {
+          "_Comment": "山脊",
+          "Id": "{{ModId}}_Ridge",
           "DisplayName": "{{i18n: warp.Ridge}}",
           "Location": "Custom_Ridgeside_Ridge",
           "Tile": "50, 30",
-          "SectionId": "Rafseazz.RSVCP_Ridgeside Surroundings"
+          "SectionId": "{{ModId}}_Ridgeside Surroundings"
         },
-        "Rafseazz.RSVCP_Ninja House": {
-          "Id": "Rafseazz.RSVCP_Ninja House",
+        "{{ModId}}_Ninja House": {
+          "_Comment": "忍者之家",
+          "Id": "{{ModId}}_Ninja House",
           "DisplayName": "{{i18n: warp.NinjaHouse}}",
           "Location": "Custom_Ridgeside_Ridge",
           "Tile": "89, 23",
-          "SectionId": "Rafseazz.RSVCP_Ridgeside Surroundings"
+          "SectionId": "{{ModId}}_Ridgeside Surroundings"
         },
-        "Rafseazz.RSVCP_Ridge Forest": {
-          "Id": "Rafseazz.RSVCP_Ridge Forest",
+        "{{ModId}}_Ridge Forest": {
+          "_Comment": "山脊森林",
+          "Id": "{{ModId}}_Ridge Forest",
           "DisplayName": "{{i18n: warp.RidgeForest}}",
           "Location": "Custom_Ridgeside_RidgeForest",
           "Tile": "80, 132",
-          "SectionId": "Rafseazz.RSVCP_Ridgeside Surroundings"
+          "SectionId": "{{ModId}}_Ridgeside Surroundings"
         },
-        "Rafseazz.RSVCP_Ridge Falls": {
-          "Id": "Rafseazz.RSVCP_Ridge Falls",
+        "{{ModId}}_Ridge Falls": {
+          "_Comment": "山脊瀑布",
+          "Id": "{{ModId}}_Ridge Falls",
           "DisplayName": "{{i18n: warp.RidgeFalls}}",
           "Location": "Custom_Ridgeside_RidgeFalls",
           "Tile": "39, 23",
-          "SectionId": "Rafseazz.RSVCP_Ridgeside Surroundings"
+          "SectionId": "{{ModId}}_Ridgeside Surroundings"
         },
-        "Rafseazz.RSVCP_Cable Car": {
-          "Id": "Rafseazz.RSVCP_Cable Car",
+        "{{ModId}}_Cable Car": {
+          "_Comment": "缆车站-山下",
+          "Id": "{{ModId}}_Cable Car",
           "DisplayName": "{{i18n: warp.CableCar}}",
           "Location": "Custom_Ridgeside_RSVCableCar",
           "Tile": "20, 13",
-          "SectionId": "Rafseazz.RSVCP_Ridgeside Surroundings"
+          "SectionId": "{{ModId}}_Ridgeside Surroundings"
         },
-        "Rafseazz.RSVCP_Cliff": {
-          "Id": "Rafseazz.RSVCP_Cliff",
+        "{{ModId}}_Cliff": {
+          "_Comment": "缆车站-山上(悬崖)",
+          "Id": "{{ModId}}_Cliff",
           "DisplayName": "{{i18n: warp.Cliff}}",
           "Location": "Custom_Ridgeside_RSVCliff",
           "Tile": "39, 24",
-          "SectionId": "Rafseazz.RSVCP_Ridgeside Surroundings"
+          "SectionId": "{{ModId}}_Ridgeside Surroundings"
         },
-        "Rafseazz.RSVCP_Hike Trail": {
-          "Id": "Rafseazz.RSVCP_Hike Trail",
+        "{{ModId}}_Hike Trail": {
+          "_Comment": "远足小道",
+          "Id": "{{ModId}}_Hike Trail",
           "DisplayName": "{{i18n: warp.HikeTrail}}",
           "Location": "Custom_Ridgeside_RSVTheHike",
           "Tile": "33, 39",
-          "SectionId": "Rafseazz.RSVCP_Ridgeside Surroundings"
+          "SectionId": "{{ModId}}_Ridgeside Surroundings"
         },
-        "Rafseazz.RSVCP_Spirit Realm": {
-          "Id": "Rafseazz.RSVCP_Spirit Realm",
+        "{{ModId}}_Spirit Realm": {
+          "_Comment": "灵界",
+          "Id": "{{ModId}}_Spirit Realm",
           "DisplayName": "{{i18n: warp.SpiritRealm}}",
           "Location": "Custom_Ridgeside_RSVSpiritRealm",
           "Tile": "48, 80",
-          "SectionId": "Rafseazz.RSVCP_Ridgeside Surroundings"
+          "SectionId": "{{ModId}}_Ridgeside Surroundings"
         },
-        "Rafseazz.RSVCP_Kobayashi Residence": {
-          "Id": "Rafseazz.RSVCP_Kobayashi Residence",
+        "{{ModId}}_Kobayashi Residence": {
+          "_Comment": "小林家",
+          "Id": "{{ModId}}_Kobayashi Residence",
           "DisplayName": "{{i18n: warp.KobayashiResidence}}",
           "Location": "Custom_Ridgeside_RidgesideVillage",
           "Tile": "130, 45",
-          "SectionId": "Rafseazz.RSVCP_Villager's Home"
+          "SectionId": "{{ModId}}_Villager's Home"
         },
-        "Rafseazz.RSVCP_Pickens Residence": {
-          "Id": "Rafseazz.RSVCP_Pickens Residence",
+        "{{ModId}}_Pickens Residence": {
+          "_Comment": "皮肯斯家",
+          "Id": "{{ModId}}_Pickens Residence",
           "DisplayName": "{{i18n: warp.PickensResidence}}",
           "Location": "Custom_Ridgeside_RidgesideVillage",
           "Tile": "89, 28",
-          "SectionId": "Rafseazz.RSVCP_Villager's Home"
+          "SectionId": "{{ModId}}_Villager's Home"
         },
-        "Rafseazz.RSVCP_Daniels Residence": {
-          "Id": "Rafseazz.RSVCP_Daniels Residence",
+        "{{ModId}}_Daniels Residence": {
+          "_Comment": "丹尼尔家",
+          "Id": "{{ModId}}_Daniels Residence",
           "DisplayName": "{{i18n: warp.DanielsResidence}}",
           "Location": "Custom_Ridgeside_RidgesideVillage",
           "Tile": "83, 19",
-          "SectionId": "Rafseazz.RSVCP_Villager's Home"
+          "SectionId": "{{ModId}}_Villager's Home"
         },
-        "Rafseazz.RSVCP_Akina Residence": {
-          "Id": "Rafseazz.RSVCP_Akina Residence",
+        "{{ModId}}_Akina Residence": {
+          "_Comment": "阿基纳家",
+          "Id": "{{ModId}}_Akina Residence",
           "DisplayName": "{{i18n: warp.AkinaResidence}}",
           "Location": "Custom_Ridgeside_RidgesideVillage",
           "Tile": "75, 59",
-          "SectionId": "Rafseazz.RSVCP_Villager's Home"
+          "SectionId": "{{ModId}}_Villager's Home"
         },
-        "Rafseazz.RSVCP_Ahn Yojeong Residence": {
-          "Id": "Rafseazz.RSVCP_Ahn Yojeong Residence",
+        "{{ModId}}_Ahn Yojeong Residence": {
+          "_Comment": "仙儿的家和服装店",
+          "Id": "{{ModId}}_Ahn Yojeong Residence",
           "DisplayName": "{{i18n: warp.AhnYojeongResidence}}",
           "Location": "Custom_Ridgeside_RidgesideVillage",
           "Tile": "105, 63",
-          "SectionId": "Rafseazz.RSVCP_Villager's Home"
+          "SectionId": "{{ModId}}_Villager's Home"
         },
-        "Rafseazz.RSVCP_Amethyne Residence": {
-          "Id": "Rafseazz.RSVCP_Amethyne Residence",
+        "{{ModId}}_Amethyne Residence": {
+          "_Comment": "艾墨森家",
+          "Id": "{{ModId}}_Amethyne Residence",
           "DisplayName": "{{i18n: warp.AmethyneResidence}}",
           "Location": "Custom_Ridgeside_RidgesideVillage",
           "Tile": "129, 71",
-          "SectionId": "Rafseazz.RSVCP_Villager's Home"
+          "SectionId": "{{ModId}}_Villager's Home"
         },
-        "Rafseazz.RSVCP_Liden Residence": {
-          "Id": "Rafseazz.RSVCP_Liden Residence",
+        "{{ModId}}_Liden Residence": {
+          "_Comment": "利登家",
+          "Id": "{{ModId}}_Liden Residence",
           "DisplayName": "{{i18n: warp.LidenResidence}}",
           "Location": "Custom_Ridgeside_RidgesideVillage",
           "Tile": "76, 115",
-          "SectionId": "Rafseazz.RSVCP_Villager's Home"
+          "SectionId": "{{ModId}}_Villager's Home"
         },
-        "Rafseazz.RSVCP_Bladebane Residence": {
-          "Id": "Rafseazz.RSVCP_Bladebane Residence",
+        "{{ModId}}_Bladebane Residence": {
+          "_Comment": "布拉德贝家",
+          "Id": "{{ModId}}_Bladebane Residence",
           "DisplayName": "{{i18n: warp.BladebaneResidence}}",
           "Location": "Custom_Ridgeside_RidgesideVillage",
           "Tile": "14, 63",
-          "SectionId": "Rafseazz.RSVCP_Villager's Home"
+          "SectionId": "{{ModId}}_Villager's Home"
         },
-        "Rafseazz.RSVCP_Tort's Pond": {
-          "Id": "Rafseazz.RSVCP_Tort's Pond",
+        "{{ModId}}_Tort's Pond": {
+          "_Comment": "托托的家",
+          "Id": "{{ModId}}_Tort's Pond",
           "DisplayName": "{{i18n: warp.Tort'sPond}}",
           "Location": "Custom_Ridgeside_RidgesideVillage",
           "Tile": "57, 53",
-          "SectionId": "Rafseazz.RSVCP_Villager's Home"
+          "SectionId": "{{ModId}}_Villager's Home"
         }
       }
     }
