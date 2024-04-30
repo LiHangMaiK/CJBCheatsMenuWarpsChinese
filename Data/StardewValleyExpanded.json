@@ -68,7 +68,7 @@
       "Target": "Mods/CJBok.CheatsMenu/WarpSections",
       "Entries": {
         "{{ModId}}_SVELocations": {
-          "_Comment": "SVE特殊位置",
+          "_Comment": "SVE地点",
           "Id": "{{ModId}}_SVELocations",
           "DisplayName": "{{i18n: warp-sections.SVELocations}}"
         },
@@ -145,7 +145,7 @@
           "SectionId": "Main"
         },
         "{{ModId}}_Hardwood Glade": {
-          "_Comment": "农场硬木区",
+          "_Comment": "硬木林地",
           "Id": "{{ModId}}_Hardwood Glade",
           "DisplayName": "{{i18n: warp.HardwoodGlade}}",
           "Location": "Farm",
@@ -203,7 +203,7 @@
           "SectionId": "{{ModId}}_GrampletonFields"
         },
         "{{ModId}}_LonelyTower": {
-          "_Comment": "东部孤独塔",
+          "_Comment": "东部孤塔",
           "Id": "{{ModId}}_LonelyTower",
           "DisplayName": "{{i18n: warp.GrampletonFields.LonelyTower}}",
           "Location": "Custom_GrampletonFields",
@@ -425,19 +425,19 @@
           "Tile": "44, 40",
           "SectionId": "Mountain"
         },
-        "{{ModId}}_Summit - POST PERFECTION": {
-          "_Comment": "山顶 - 完美后(未达到完美过去会被齐先生打晕)",
-          "Id": "{{ModId}}_Summit - POST PERFECTION",
-          "DisplayName": "{{i18n: warp.Summit.POST_PERFECTION}}",
-          "Location": "Summit",
-          "Tile": "11, 29",
-          "SectionId": "Mountain"
-        },
         "{{ModId}}_Summit - PRE PERFECTION": {
-          "_Comment": "山顶 - 完美前",
+          "_Comment": "山顶 - 100% 完美前",
           "Id": "{{ModId}}_Summit - PRE PERFECTION",
           "DisplayName": "{{i18n: warp.Summit.PRE_PERFECTION}}",
           "Location": "Custom_SVESummit",
+          "Tile": "11, 29",
+          "SectionId": "Mountain"
+        },
+        "{{ModId}}_Summit - POST PERFECTION": {
+          "_Comment": "山顶 - 100% 完美后(未达到完美过去会被齐先生打晕)",
+          "Id": "{{ModId}}_Summit - POST PERFECTION",
+          "DisplayName": "{{i18n: warp.Summit.POST_PERFECTION}}",
+          "Location": "Summit",
           "Tile": "11, 29",
           "SectionId": "Mountain"
         },
@@ -522,7 +522,7 @@
           "SectionId": "{{ModId}}_Galdora"
         },
         "{{ModId}}_Crimson Badlands": {
-          "_Comment": "猩红荒地",
+          "_Comment": "绯红荒地",
           "Id": "{{ModId}}_Crimson Badlands",
           "DisplayName": "{{i18n: warp.CrimsonBadlands}}",
           "Location": "Custom_CrimsonBadlands",
