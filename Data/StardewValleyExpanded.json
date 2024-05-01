@@ -103,116 +103,6 @@
       }
     },
     {
-      "_Comment": "SVE Grandpa's Farm Warps",
-      "Action": "EditData",
-      "Target": "Mods/CJBok.CheatsMenu/Warps",
-      "When": {
-        "HasMod": "flashshifter.GrandpasFarm"
-      },
-      "Entries": {
-        "{{ModId}}_Grandpa's Shed": {
-          "_Comment": "爷爷的小屋",
-          "Id": "{{ModId}}_Grandpa's Shed",
-          "DisplayName": "{{i18n: warp.Grandpa'sShed}}",
-          "Location": "Farm",
-          "Tile": "20, 22",
-          "SectionId": "Main"
-        }
-      }
-    },
-    {
-      "_Comment": "SVE Immersive Farm 2 Remastered Warps",
-      "Action": "EditData",
-      "Target": "Mods/CJBok.CheatsMenu/Warps",
-      "When": {
-        "HasMod": "flashshifter.immersivefarm2remastered"
-      },
-      "Entries": {
-        "{{ModId}}_Hotspring": {
-          "_Comment": "农场温泉",
-          "Id": "{{ModId}}_Hotspring",
-          "DisplayName": "{{i18n: warp.Hotspring}}",
-          "Location": "Farm",
-          "Tile": "18, 91",
-          "SectionId": "Main"
-        },
-        "{{ModId}}_Quarry": {
-          "_Comment": "农场采石场",
-          "Id": "{{ModId}}_Quarry",
-          "DisplayName": "{{i18n: warp.FarmQuarry}}",
-          "Location": "Farm",
-          "Tile": "10, 147",
-          "SectionId": "Main"
-        },
-        "{{ModId}}_Hardwood Glade": {
-          "_Comment": "硬木林地",
-          "Id": "{{ModId}}_Hardwood Glade",
-          "DisplayName": "{{i18n: warp.HardwoodGlade}}",
-          "Location": "Farm",
-          "Tile": "147, 148",
-          "SectionId": "Main"
-        },
-        "{{ModId}}_Cave": {
-          "_Comment": "农场洞穴",
-          "Id": "{{ModId}}_Cave",
-          "DisplayName": "{{i18n: warp.FarmCave}}",
-          "Location": "FarmCave",
-          "Tile": "8, 11",
-          "SectionId": "Main"
-        },
-        "{{ModId}}_Grandpa's Shed": {
-          "_Comment": "爷爷的小屋",
-          "Id": "{{ModId}}_Grandpa's Shed",
-          "DisplayName": "{{i18n: warp.Grandpa'sShed}}",
-          "Location": "Farm",
-          "Tile": "144, 34",
-          "SectionId": "Main"
-        }
-      }
-    },
-    {
-      "_Comment": "Grampleton Fields Warps",
-      "Action": "EditData",
-      "Target": "Mods/CJBok.CheatsMenu/Warps",
-      "When": {
-        "HasMod": "flashshifter.GrampletonFields"
-      },
-      "Entries": {
-        "{{ModId}}_Entrance": {
-          "_Comment": "西部入口",
-          "Id": "{{ModId}}_Entrance",
-          "DisplayName": "{{i18n: warp.GrampletonFields.Entrance}}",
-          "Location": "Custom_GrampletonFields",
-          "Tile": "28, 109",
-          "SectionId": "{{ModId}}_GrampletonFields"
-        },
-        "{{ModId}}_TrainStation": {
-          "_Comment": "北部火车站",
-          "Id": "{{ModId}}_TrainStation",
-          "DisplayName": "{{i18n: warp.GrampletonFields.TrainStation}}",
-          "Location": "Custom_GrampletonFields",
-          "Tile": "87, 10",
-          "SectionId": "{{ModId}}_GrampletonFields"
-        },
-        "{{ModId}}_BeachDock": {
-          "_Comment": "南部海滩码头",
-          "Id": "{{ModId}}_BeachDock",
-          "DisplayName": "{{i18n: warp.GrampletonFields.BeachDock}}",
-          "Location": "Custom_GrampletonFields",
-          "Tile": "161, 148",
-          "SectionId": "{{ModId}}_GrampletonFields"
-        },
-        "{{ModId}}_LonelyTower": {
-          "_Comment": "东部孤塔",
-          "Id": "{{ModId}}_LonelyTower",
-          "DisplayName": "{{i18n: warp.GrampletonFields.LonelyTower}}",
-          "Location": "Custom_GrampletonFields",
-          "Tile": "165, 30",
-          "SectionId": "{{ModId}}_GrampletonFields"
-        }
-      }
-    },
-    {
       "_Comment": "SVE Location Warps",
       "Action": "EditData",
       "Target": "Mods/CJBok.CheatsMenu/Warps",
@@ -233,6 +123,14 @@
         }
       },
       "Entries": {
+        "{{ModId}}_Grandpa's Shed": {
+          "_Comment": "爷爷的小屋(非SVE农场)",
+          "Id": "{{ModId}}_Grandpa's Shed",
+          "DisplayName": "{{i18n: warp.Grandpa'sShed}}",
+          "Location": "Custom_GrandpasShedOutside",
+          "Tile": "23, 17",
+          "SectionId": "Main"
+        },
         "{{ModId}}_Enchanted Grove": {
           "_Comment": "魔法森林(SVE传送阵)",
           "Id": "{{ModId}}_Enchanted Grove",
@@ -571,6 +469,112 @@
         { "ID": "{{ModId}}_Susan's Farm", "BeforeID": "{{ModId}}_Linus' Tent" },
         { "ID": "adventurers-guild", "BeforeID": "{{ModId}}_Susan's Farm" }
       ]
+    },
+    {
+      "_Comment": "SVE Grandpa's Farm Warps",
+      "Action": "EditData",
+      "Target": "Mods/CJBok.CheatsMenu/Warps",
+      "When": {
+        "HasMod": "flashshifter.GrandpasFarm"
+      },
+      "Fields": {
+        "{{ModId}}_Grandpa's Shed": {
+          "_Comment": "爷爷的小屋(爷爷的农场)",
+          "Location": "Farm",
+          "Tile": "20, 22"
+        }
+      }
+    },
+    {
+      "_Comment": "SVE Immersive Farm 2 Remastered Warps",
+      "Action": "EditData",
+      "Target": "Mods/CJBok.CheatsMenu/Warps",
+      "When": {
+        "HasMod": "flashshifter.immersivefarm2remastered"
+      },
+      "Fields":{
+        "{{ModId}}_Grandpa's Shed": {
+          "_Comment": "爷爷的小屋(沉浸式农场2 - 重制版)",
+          "Location": "Farm",
+          "Tile": "144, 34"
+        }
+      },
+      "Entries": {
+        "{{ModId}}_Hotspring": {
+          "_Comment": "农场温泉",
+          "Id": "{{ModId}}_Hotspring",
+          "DisplayName": "{{i18n: warp.Hotspring}}",
+          "Location": "Farm",
+          "Tile": "18, 91",
+          "SectionId": "Main"
+        },
+        "{{ModId}}_Quarry": {
+          "_Comment": "农场采石场",
+          "Id": "{{ModId}}_Quarry",
+          "DisplayName": "{{i18n: warp.FarmQuarry}}",
+          "Location": "Farm",
+          "Tile": "10, 147",
+          "SectionId": "Main"
+        },
+        "{{ModId}}_Hardwood Glade": {
+          "_Comment": "硬木林地",
+          "Id": "{{ModId}}_Hardwood Glade",
+          "DisplayName": "{{i18n: warp.HardwoodGlade}}",
+          "Location": "Farm",
+          "Tile": "147, 148",
+          "SectionId": "Main"
+        },
+        "{{ModId}}_Cave": {
+          "_Comment": "农场洞穴",
+          "Id": "{{ModId}}_Cave",
+          "DisplayName": "{{i18n: warp.FarmCave}}",
+          "Location": "FarmCave",
+          "Tile": "8, 11",
+          "SectionId": "Main"
+        }
+      }
+    },
+    {
+      "_Comment": "Grampleton Fields Warps",
+      "Action": "EditData",
+      "Target": "Mods/CJBok.CheatsMenu/Warps",
+      "When": {
+        "HasMod": "flashshifter.GrampletonFields"
+      },
+      "Entries": {
+        "{{ModId}}_Entrance": {
+          "_Comment": "西部入口",
+          "Id": "{{ModId}}_Entrance",
+          "DisplayName": "{{i18n: warp.GrampletonFields.Entrance}}",
+          "Location": "Custom_GrampletonFields",
+          "Tile": "28, 109",
+          "SectionId": "{{ModId}}_GrampletonFields"
+        },
+        "{{ModId}}_TrainStation": {
+          "_Comment": "北部火车站",
+          "Id": "{{ModId}}_TrainStation",
+          "DisplayName": "{{i18n: warp.GrampletonFields.TrainStation}}",
+          "Location": "Custom_GrampletonFields",
+          "Tile": "87, 10",
+          "SectionId": "{{ModId}}_GrampletonFields"
+        },
+        "{{ModId}}_BeachDock": {
+          "_Comment": "南部海滩码头",
+          "Id": "{{ModId}}_BeachDock",
+          "DisplayName": "{{i18n: warp.GrampletonFields.BeachDock}}",
+          "Location": "Custom_GrampletonFields",
+          "Tile": "161, 148",
+          "SectionId": "{{ModId}}_GrampletonFields"
+        },
+        "{{ModId}}_LonelyTower": {
+          "_Comment": "东部孤塔",
+          "Id": "{{ModId}}_LonelyTower",
+          "DisplayName": "{{i18n: warp.GrampletonFields.LonelyTower}}",
+          "Location": "Custom_GrampletonFields",
+          "Tile": "165, 30",
+          "SectionId": "{{ModId}}_GrampletonFields"
+        }
+      }
     }
   ]
 }
