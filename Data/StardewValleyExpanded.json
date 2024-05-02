@@ -120,6 +120,9 @@
         },
         "wizard-tower": {
           "Tile": "9, 21"
+        },
+        "secret-woods": {
+          "Tile": "69, 29"
         }
       },
       "Entries": {
