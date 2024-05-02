@@ -1,0 +1,242 @@
+﻿{
+    /*********
+    ** Warps tab
+    *********/
+    //Farm
+	
+    "JP98.Farm":"Granja",
+    "JP98.Farmhouse": "Casa",
+	"JP98.Farm Cave": "Cueva",
+	"JP98.Grandpa's Shed": "Cobertizo del Abuelo",
+
+    // Additional Farms
+    "JP98.Additional Farms": "Granjas Adicionales",
+	"JP98.Ridgeside Village Summit Farm": "Granja de la Cumbre, Pueblo Ridgeside",
+    "JP98.Ridgeside Village Phantom Farm": "Granja Fantasma, Pueblo Ridgeside",
+    "JP98.Ridgeside Village Community Greenhouse": "Invernadero Comunitario, Ridgeside",
+	"JP98.Ridgeside Village Cave Farm": "Gruta, Pueblo Ridgeside",
+
+    // Shops
+    "JP98.Shops": "Tiendas",
+	"JP98.Pierre's Shop": "Tienda de Pierre",
+    "JP98.Robin's Carpentry Shop": "Carpintería",
+    "JP98.Marnie's Ranch": "Rancho de Marnie",
+	"JP98.Clint's Blacksmithing": "Herrería",
+	"JP98.Willy's Shop": "Tienda de Pesca",
+    "JP98.Joja Mart": "Mercado Joja",
+
+    // Town
+    "JP98.Town": "Pueblo",
+    "JP98.Community Center": "Centro Comunitario",
+	"JP98.Garden": "Jardín",
+    "JP98.Museum": "Museo",
+	"JP98.Shearwater Bridge": "Puente Shearwater",
+    "JP98.Mayor's Manor": "Mansión del Alcalde",
+    "JP98.Stardrop Saloon": "Salón Fruta Estelar",
+
+    // Forest
+    "JP98.Forest": "Bosque Tizón",
+    "JP98.Wizard's Tower": "Torre del Mago",
+    "JP98.Sophia's Vineyard": "Viñedo Blue Moon",
+    "JP98.Andy's Farm": "Granja de Andy",
+	"JP98.Aurora Vineyard": "Viñedo Aurora",
+    "JP98.Secret Woods": "Bosque Secreto",
+    "JP98.Junimo Village": "Aldea Junimo",
+    "JP98.Sprite Spring": "Manantial de Hadas",
+    "JP98.Bear's Cave": "Cueva del Oso",
+	"JP98.Sewer Outlet": "Desagüe",
+	"JP98.Mastery Cave": "Cueva de Maestría",
+    "JP98.Hat Mouse": "Ratón Sombreril",
+	"JP98.Travelling Merchant": "Carro Ambulante",
+
+    // Mountain
+    "JP98.Mountain": "Montaña",
+    "JP98.Mine": "Mina",
+    "JP98.Summit": "La Cumbre",
+	"JP98.Quarry": "Cantera",
+	"JP98.Railroad": "Ferrocarril",
+	"JP98.Back Woods": "Bosque Trasero",
+    "JP98.Highlands": "Tierras Altas",
+    "JP98.Highlands Cavern": "Tierras Altas, Caverna",
+    "JP98.Train Platform": "Ferrocarril",
+    "JP98.Adventurer's Guild": "Gremio de Aventureros",
+
+    // Beach
+    "JP98.Beach": "Playa",
+    "JP98.Elliot's Cabin": "Cabaña de Elliot",
+    "JP98.Tide Pools": "Pozas de Marea",
+
+    // Desert
+    "JP98.Desert": "Desierto",
+	"JP98.Skull Cave": "Caverna Calavera",
+    "JP98.Casino": "Casino",
+	"JP98.Pillars": "Pilares",
+    "JP98.Sand Dragon": "Esqueleto del Dragón",
+    "JP98.Sandy's Shop": "Tienda de Sandy",
+
+    // UnderWorld
+	"JP98.Under World": "Bajo Mundo",
+    "JP98.Krobus's Shop": "Tienda de Krobus",
+	"JP98.warp.witch-swamp": "Pantano de la Bruja",
+	"JP98.warp.mutant-bug-lair": "Madriguera de Bichos Mutantes",
+
+    // Ginger Island
+    "JP98.Ginger Island": "Isla Jengibre",
+    "JP98.Island Farm": "Granja",
+    "JP98.Leo's Home": "Casa de Leo",
+    "JP98.Fable Reef": "Arrecife Fábula",
+    "JP98.Island Dwarf Shop": "Tienda del Enano",
+	"JP98.Island Trader" :"Comerciante Isleño",
+    "JP98.Volcano Caldera": "Forja del Volcán",
+	"JP98.Tide Pool": "Cala Pirata",
+	
+	// Galdora
+    "JP98.Galdora": "Galdora (SVE)",
+    "JP98.Castle Village Outpost": "Puesto Avanzado, V. Castillo",
+    "JP98.Crimson Badlands": "Badlands Carmesí",
+	"JP98.Treasure Cave": "Cueva del Tesoro",
+    "JP98.Iridium Quarry": "Cantera de Iridio",
+	"JP98.Enchanted Grove": "Arboleda Encantada",
+	
+	// East Scarp
+	"JP98.East Scarp": "East Scarp",
+	"JP98.East Scarp Town": "Pueblo",
+	"JP98.Light House": "Faro",
+	"JP98.Rodney's House": "Casa de Rodney",
+	"JP98.Vet's House": "Casa del Veterinario",
+	
+	// East Scarp Surroundings
+	"JP98.East Scarp Surroundings": "Alrededores de East Scarp",
+	"JP98.Meadow Farm": "Granja Meadow",
+	"JP98.Orchard": "Huerto de Cerezos",
+	"JP98.ES Sea Cave": "Cueva Marina",
+	"JP98.ES Beach": "Playa",
+	"JP98.Mine Entrance": "Entrada a la Mina",
+	"JP98.Deep Mountain": "Montaña Profunda",
+
+    // Ridgeside Village
+    "JP98.Ridgeside Village": "Pueblo Ridgeside",
+	"JP98.Ridgeside Plaza": "Plaza",
+	"JP98.Nightingale Orchard": "Huerto Nightingale",
+	"JP98.Heaps Convenience Store": "Almacén Heaps",
+	"JP98.Stage Stairs": "Escaleras del Escenario",
+	"JP98.Amethyne Mansion": "Mansión Amethyne",
+    "JP98.Blooming Hill Farm": "Granja Blooming Hill",
+	"JP98.Bladebane Residence": "Residencia Bladebane",
+	"JP98.Water Research Facility & Laboratory": "Centro de Investigación",
+	
+    // Ridgeside Surroundings
+    "JP98.Ridgeside Surroundings": "Alrededores de Ridgeside",
+	"JP98.Ridge": "Cresta",
+	"JP98.Ridge Forest": "Bosque Ridge",
+	"JP98.Ridge Falls": "Cascadas Ridge",
+	"JP98.Ridge Pond": "Estanque Ridge",
+	"JP98.Ninja House": "Casa Ninja",
+	"JP98.Cliff": "Acantilado",
+	"JP98.Spirit Realm": "Reino de los Espíritus",
+	
+    // Cape Stardew
+	"JP98.Cape Stardew": "Cape Stardew",
+	"JP98.Cape Stardew AH": "Casa de Annetta",
+	"JP98.Cape Stardew SWMP": "Extremo Suroeste",
+	"JP98.Cape Stardew SBC": "Cueva Base Secreta",
+	
+	// Stardew Aquarium
+	"JP98.Stardew Aquarium": "Stardew Aquarium",
+	"JP98.Stardew Aquarium B": "Playa",
+	"JP98.Stardew Aquarium FM": "Museo de Peces",
+	
+	// Downtown Zuzu
+	"JP98.Downtown Zuzu": "Downtown Zuzu",
+	"JP98.DTZ PST": "Calle Principal",
+	"JP98.DTZ GS": "Gasolinera",
+	"JP98.DTZ ZCO": "El Oasis",
+	"JP98.DTZ CR": "Cruce",
+	"JP98.DTZ CRE": "Cruce Este",
+	"JP98.DTZ WW": "Canal",
+	"JP98.DTZ CRN": "Cruce Norte",
+	"JP98.DTZ SF": "Granja Aserradero",
+	"JP98.DTZ TS": "Estación de Tren",
+	
+	// Lunna Astray
+	"JP98.Lunna ASV": "Lunna Astray",
+	"JP98.Lunna ASVH": "Casa de Lunna",
+	"JP98.Lunna ASVAL": "Lago Antiguo",
+	"JP98.Lunna ASVU": "Umuwi",
+	
+	// DeepWoods
+	"JP98.DeepWoods": "DeepWoods",
+	"JP98.Deep Woods": "Casa de la Entrada",
+	
+	// Cheat Locations
+	"JP98.Cheat Locations": "Ubicaciones Trampa",
+	"JP98.CheatMine": "Mina Nivel:",
+	"JP98.CheatSkullMine": "Caverna Calavera Nivel:",
+	"JP98.CheatSkullMine4": "Caverna Calavera Nivel 5000",
+	
+	// Boarding House
+	
+	"JP98.Boarding House": "Boarding House",
+	"JP98.BoardingHouse": "Exterior de la Pensión",
+	"JP98.BoardingValley": "Tienda de Gregory",
+	"JP98.BoardingRuins": "Ruinas Prehistóricas",
+
+	// Durin's Rest
+	
+    "JP98.Durins Rest": "Durin's Rest",
+	"JP98.DurinsFarm": "Granja",
+	"JP98.SleepyMarketExterior": "Sleepy Market (Exterior)",
+	"JP98.PubExterior": "Pub (Exterior)",
+	"JP98.TenebraPlace": "Lugar de Tenebra",
+	
+	// Mineral Town
+	
+	"JP98.Mineral Town": "Mineral Town",
+	"JP98.MineralEntrance": "Entrada del Pueblo",
+	"JP98.MineralTownCenter": "Centro del Pueblo",
+	"JP98.YodelRanch": "Rancho Yodel",
+	"JP98.MineralChurch": "Iglesia",
+	"JP98.MineralBlacksmith": "Herrería",
+	"JP98.MineralBeach": "Playa",
+	"JP98.MineralTidePool": "Pozas de Marea",
+	"JP98.MineralWoodCutter": "Leñador",
+	"JP98.MineralHotSprings": "Aguas Termales",
+	"JP98.MineralFlowerHill": "Colina de las Flores",
+	"JP98.MineralMountainLake": "Lago de la Montaña",
+	"JP98.MineralSpriteHouse": "Casa de los Duendecillos",
+	
+    //Options
+	"config.Stardew Valley Expanded.description": "Opción Activada: Muestra los Teletransportes correspondientes a Stardew Valley Expanded.\nOpción Desactivada: Muestra los Teletransportes correspondientes a Stardew Valley.",
+	"config.WarpFarm.name": "Teletransportes: Granja",
+	"config.WarpFarm.description": "Activa/Desactiva esta opción para Mostrar/Ocultar esta sección en el menú de Teletransportes.\nCada sección contiene varios Teletransportes correspondientes a cada zona, recomiendo verlos bien antes de desactivarlos.\nEstas secciones son compartidas por Stardew Valley y Stardew Valley Expanded.",
+	"config.WarpShops.name": "Teletransportes: Tiendas",
+	"config.WarpShops.description": "Activa/Desactiva esta opción para Mostrar/Ocultar esta sección en el menú de Teletransportes.\nCada sección contiene varios Teletransportes correspondientes a cada zona, recomiendo verlos bien antes de desactivarlos.\nEstas secciones son compartidas por Stardew Valley y Stardew Valley Expanded.",
+	"config.WarpTown.name": "Teletransportes: Pueblo",
+	"config.WarpTown.description": "Activa/Desactiva esta opción para Mostrar/Ocultar esta sección en el menú de Teletransportes.\nCada sección contiene varios Teletransportes correspondientes a cada zona, recomiendo verlos bien antes de desactivarlos.\nEstas secciones son compartidas por Stardew Valley y Stardew Valley Expanded.",
+	"config.WarpForest.name": "Teletransportes: Bosque",
+	"config.WarpForest.description": "Activa/Desactiva esta opción para Mostrar/Ocultar esta sección en el menú de Teletransportes.\nCada sección contiene varios Teletransportes correspondientes a cada zona, recomiendo verlos bien antes de desactivarlos.\nEstas secciones son compartidas por Stardew Valley y Stardew Valley Expanded.",
+	"config.WarpMountain.name": "Teletransportes: Montaña",
+	"config.WarpMountain.description": "Activa/Desactiva esta opción para Mostrar/Ocultar esta sección en el menú de Teletransportes.\nCada sección contiene varios Teletransportes correspondientes a cada zona, recomiendo verlos bien antes de desactivarlos.\nEstas secciones son compartidas por Stardew Valley y Stardew Valley Expanded.",
+	"config.WarpBeach.name": "Teletransportes: Playa",
+	"config.WarpBeach.description": "Activa/Desactiva esta opción para Mostrar/Ocultar esta sección en el menú de Teletransportes.\nCada sección contiene varios Teletransportes correspondientes a cada zona, recomiendo verlos bien antes de desactivarlos.\nEstas secciones son compartidas por Stardew Valley y Stardew Valley Expanded.",
+	"config.WarpDesert.name": "Teletransportes: Desierto",
+	"config.WarpDesert.description": "Activa/Desactiva esta opción para Mostrar/Ocultar esta sección en el menú de Teletransportes.\nCada sección contiene varios Teletransportes correspondientes a cada zona, recomiendo verlos bien antes de desactivarlos.\nEstas secciones son compartidas por Stardew Valley y Stardew Valley Expanded.",
+	"config.WarpUnderWorld.name": "Teletransportes: Bajo Mundo",
+	"config.WarpUnderWorld.description": "Activa/Desactiva esta opción para Mostrar/Ocultar esta sección en el menú de Teletransportes.\nCada sección contiene varios Teletransportes correspondientes a cada zona, recomiendo verlos bien antes de desactivarlos.\nEstas secciones son compartidas por Stardew Valley y Stardew Valley Expanded.",
+	"config.WarpGingerIsland.name": "Teletransportes: Isla Jengibre",
+	"config.WarpGingerIsland.description": "Activa/Desactiva esta opción para Mostrar/Ocultar esta sección en el menú de Teletransportes.\nCada sección contiene varios Teletransportes correspondientes a cada zona, recomiendo verlos bien antes de desactivarlos.\nEstas secciones son compartidas por Stardew Valley y Stardew Valley Expanded.",
+	"config.WarpGaldora.name": "Teletransportes: Galdora",
+	"config.WarpGaldora.description": "Activa/Desactiva esta opción para Mostrar/Ocultar esta sección en el menú de Teletransportes.\nCada sección contiene varios Teletransportes correspondientes a cada zona, recomiendo verlos bien antes de desactivarlos.\nEstas secciones son compartidas por Stardew Valley y Stardew Valley Expanded.",
+	"config.WarpCheatLocations.name": "Teletransportes: Ubicaciones Trampa",
+	"config.WarpCheatLocations.description": "Activa/Desactiva esta opción para Mostrar/Ocultar esta sección en el menú de Teletransportes.\nCada sección contiene varios Teletransportes correspondientes a cada zona, recomiendo verlos bien antes de desactivarlos.\nEstas secciones son compartidas por Stardew Valley y Stardew Valley Expanded.",
+	"config.East Scarp.description": "Activa/Desactiva esta opción para Mostrar/Ocultar los Teletransportes correspondientes a este Mod.\nEstos Teletransportes no están divididos en secciones, si desactivas la opción desactivas todos los Teletransportes del Mod correspondiente.",
+	"config.Ridgeside Village.description": "Activa/Desactiva esta opción para Mostrar/Ocultar los Teletransportes correspondientes a este Mod.\nEstos Teletransportes no están divididos en secciones, si desactivas la opción desactivas todos los Teletransportes del Mod correspondiente.",
+	"config.Boarding House.description": "Activa/Desactiva esta opción para Mostrar/Ocultar los Teletransportes correspondientes a este Mod.\nEstos Teletransportes no están divididos en secciones, si desactivas la opción desactivas todos los Teletransportes del Mod correspondiente.",
+	"config.Cape Stardew.description": "Activa/Desactiva esta opción para Mostrar/Ocultar los Teletransportes correspondientes a este Mod.\nEstos Teletransportes no están divididos en secciones, si desactivas la opción desactivas todos los Teletransportes del Mod correspondiente.",
+	"config.Deep Woods.description": "Activa/Desactiva esta opción para Mostrar/Ocultar los Teletransportes correspondientes a este Mod.\nEstos Teletransportes no están divididos en secciones, si desactivas la opción desactivas todos los Teletransportes del Mod correspondiente.",
+	"config.Downtown Zuzu.description": "Activa/Desactiva esta opción para Mostrar/Ocultar los Teletransportes correspondientes a este Mod.\nEstos Teletransportes no están divididos en secciones, si desactivas la opción desactivas todos los Teletransportes del Mod correspondiente.",
+	"config.Durins Rest.description": "Activa/Desactiva esta opción para Mostrar/Ocultar los Teletransportes correspondientes a este Mod.\nEstos Teletransportes no están divididos en secciones, si desactivas la opción desactivas todos los Teletransportes del Mod correspondiente.",
+	"config.Lunna Astray.description": "Activa/Desactiva esta opción para Mostrar/Ocultar los Teletransportes correspondientes a este Mod.\nEstos Teletransportes no están divididos en secciones, si desactivas la opción desactivas todos los Teletransportes del Mod correspondiente.",
+	"config.Mineral Town.description": "Activa/Desactiva esta opción para Mostrar/Ocultar los Teletransportes correspondientes a este Mod.\nEstos Teletransportes no están divididos en secciones, si desactivas la opción desactivas todos los Teletransportes del Mod correspondiente.",
+	"config.Stardew Aquarium.description": "Activa/Desactiva esta opción para Mostrar/Ocultar los Teletransportes correspondientes a este Mod.\nEstos Teletransportes no están divididos en secciones, si desactivas la opción desactivas todos los Teletransportes del Mod correspondiente.",
+}

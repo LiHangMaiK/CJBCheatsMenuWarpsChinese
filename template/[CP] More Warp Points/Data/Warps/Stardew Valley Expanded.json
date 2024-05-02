@@ -1,0 +1,696 @@
+{
+	"Changes": [
+//WarpSections	
+	    {
+        "Action": "EditData",
+        "Target": "Mods/CJBok.CheatsMenu/WarpSections",
+        "Entries": {
+            "Juanpa98ar.MWP98_SVE.Farm": {
+                    "Id": "Juanpa98ar.MWP98_SVE.Farm",
+                    "DisplayName": "{{i18n: JP98.Farm}}",
+					"Order": 1
+			    }
+		    },
+		"When": {"WarpFarm": "true", "Stardew Valley Expanded": "true"}
+		},
+		{
+        "Action": "EditData",
+        "Target": "Mods/CJBok.CheatsMenu/WarpSections",
+        "Entries": {
+            "Juanpa98ar.MWP98_SVE.Shops": {
+                    "Id": "Juanpa98ar.MWP98_SVE.Shops",
+                    "DisplayName": "{{i18n: JP98.Shops}}",
+					"Order": 2
+			    }
+		    },
+		"When": {"WarpShops": "true", "Stardew Valley Expanded": "true"}
+		},
+		{
+        "Action": "EditData",
+        "Target": "Mods/CJBok.CheatsMenu/WarpSections",
+        "Entries": {
+            "Juanpa98ar.MWP98_SVE.Town": {
+                    "Id": "Juanpa98ar.MWP98_SVE.Town",
+                    "DisplayName": "{{i18n: JP98.Town}}",
+					"Order": 3
+			    }
+		    },
+		"When": {"WarpTown": "true", "Stardew Valley Expanded": "true"}
+		},
+		{
+        "Action": "EditData",
+        "Target": "Mods/CJBok.CheatsMenu/WarpSections",
+        "Entries": {
+            "Juanpa98ar.MWP98_SVE.Forest": {
+                    "Id": "Juanpa98ar.MWP98_SVE.Forest",
+                    "DisplayName": "{{i18n: JP98.Forest}}",
+					"Order": 4
+			    }
+		    },
+		"When": {"WarpForest": "true", "Stardew Valley Expanded": "true"}
+		},
+		{
+        "Action": "EditData",
+        "Target": "Mods/CJBok.CheatsMenu/WarpSections",
+        "Entries": {
+            "Juanpa98ar.MWP98_SVE.Mountain": {
+                    "Id": "Juanpa98ar.MWP98_SVE.Mountain",
+                    "DisplayName": "{{i18n: JP98.Mountain}}",
+					"Order": 5
+			    }
+		    },
+		"When": {"WarpMountain": "true", "Stardew Valley Expanded": "true"}
+		},
+		{
+        "Action": "EditData",
+        "Target": "Mods/CJBok.CheatsMenu/WarpSections",
+        "Entries": {
+            "Juanpa98ar.MWP98_SVE.Beach": {
+                    "Id": "Juanpa98ar.MWP98_SVE.Beach",
+                    "DisplayName": "{{i18n: JP98.Beach}}",
+					"Order": 6
+			    }
+		    },
+		"When": {"WarpBeach": "true", "Stardew Valley Expanded": "true"}
+		},
+		{
+        "Action": "EditData",
+        "Target": "Mods/CJBok.CheatsMenu/WarpSections",
+        "Entries": {
+            "Juanpa98ar.MWP98_SVE.Desert": {
+                    "Id": "Juanpa98ar.MWP98_SVE.Desert",
+                    "DisplayName": "{{i18n: JP98.Desert}}",
+					"Order": 7
+			    }
+		    },
+		"When": {"WarpDesert": "true", "Stardew Valley Expanded": "true"}
+		},
+		{
+        "Action": "EditData",
+        "Target": "Mods/CJBok.CheatsMenu/WarpSections",
+        "Entries": {
+            "Juanpa98ar.MWP98_SVE.UnderWorld": {
+                    "Id": "Juanpa98ar.MWP98_SVE.UnderWorld",
+                    "DisplayName": "{{i18n: JP98.Under World}}",
+					"Order": 8
+			    }
+		    },
+		"When": {"WarpUnderWorld": "true", "Stardew Valley Expanded": "true"}
+		},
+		{
+        "Action": "EditData",
+        "Target": "Mods/CJBok.CheatsMenu/WarpSections",
+        "Entries": {
+            "Juanpa98ar.MWP98_SVE.GingerIsland": {
+                    "Id": "Juanpa98ar.MWP98_SVE.GingerIsland",
+                    "DisplayName": "{{i18n: JP98.Ginger Island}}",
+					"Order": 9
+			    }
+		    },
+		"When": {"WarpGingerIsland": "true", "Stardew Valley Expanded": "true"}
+		},
+		{
+        "Action": "EditData",
+        "Target": "Mods/CJBok.CheatsMenu/WarpSections",
+        "Entries": {
+            "Juanpa98ar.MWP98_SVE.Galdora": {
+                    "Id": "Juanpa98ar.MWP98_SVE.Galdora",
+                    "DisplayName": "{{i18n: JP98.Galdora}}",
+					"Order": 10
+			    }
+		    },
+		"When": {"WarpGaldora": "true", "Stardew Valley Expanded": "true"}
+		},
+		{
+        "Action": "EditData",
+        "Target": "Mods/CJBok.CheatsMenu/WarpSections",
+        "Entries": {
+            "Juanpa98ar.MWP98_SVE.CheatLocations": {
+                    "Id": "Juanpa98ar.MWP98_SVE.CheatLocations",
+                    "DisplayName": "{{i18n: JP98.Cheat Locations}}",
+					"Order": 999
+			    }
+		    },
+		"When": {"WarpCheatLocations": "true", "Stardew Valley Expanded": "true"}
+		},
+//Warps
+		{
+        "Action": "EditData",
+        "Target": "Mods/CJBok.CheatsMenu/Warps",
+        "Entries": {
+            //Farm
+            "Juanpa98ar.MWP98_SVE.FarmHouse": {
+                "Id": "Juanpa98ar.MWP98_SVE.FarmHouse",
+                "SectionId": "Juanpa98ar.MWP98_SVE.Farm",
+                "DisplayName": "{{i18n: JP98.Farmhouse}}",
+                "Location": "Farm",
+                "Tile": "0, 0",
+				"Order": -1
+                },
+			"Juanpa98ar.MWP98_SVE.FarmCave": {
+                "Id": "Juanpa98ar.MWP98_SVE.FarmCave",
+                "SectionId": "Juanpa98ar.MWP98_SVE.Farm",
+                "DisplayName": "{{i18n: JP98.Farm Cave}}",
+                "Location": "FarmCave",
+                "Tile": "8, 11"
+                }
+		    },
+		"When": {"WarpFarm": "true", "Stardew Valley Expanded": "true"}
+		},
+		{
+        "Action": "EditData",
+        "Target": "Mods/CJBok.CheatsMenu/Warps",
+        "Entries": {
+            //Shops
+			"Juanpa98ar.MWP98_SVE.Robin": {
+                "Id": "Juanpa98ar.MWP98_SVE.Robin",
+                "SectionId": "Juanpa98ar.MWP98_SVE.Shops",
+                "DisplayName": "{{i18n: JP98.Robin's Carpentry Shop}}",
+                "Location": "Mountain",
+                "Tile": "12, 26",
+				"Order": 1
+                },
+            "Juanpa98ar.MWP98_SVE.Pierre": {
+                "Id": "Juanpa98ar.MWP98_SVE.Pierre",
+                "SectionId": "Juanpa98ar.MWP98_SVE.Shops",
+                "DisplayName": "{{i18n: JP98.Pierre's Shop}}",
+                "Location": "Town",
+                "Tile": "43, 57",
+				"Order": 2
+                },
+			"Juanpa98ar.MWP98_SVE.Marnie": {
+                "Id": "Juanpa98ar.MWP98_SVE.Marnie",
+                "SectionId": "Juanpa98ar.MWP98_SVE.Shops",
+                "DisplayName": "{{i18n: JP98.Marnie's Ranch}}",
+                "Location": "Forest",
+                "Tile": "90, 16",
+				"Order": 3
+                },
+			"Juanpa98ar.MWP98_SVE.Clint": {
+                "Id": "Juanpa98ar.MWP98_SVE.Clint",
+                "SectionId": "Juanpa98ar.MWP98_SVE.Shops",
+                "DisplayName": "{{i18n: JP98.Clint's Blacksmithing}}",
+                "Location": "Town",
+                "Tile": "94, 82",
+				"Order": 4
+                },
+			"Juanpa98ar.MWP98_SVE.Willy": {
+                "Id": "Juanpa98ar.MWP98_SVE.Willy",
+                "SectionId": "Juanpa98ar.MWP98_SVE.Shops",
+                "DisplayName": "{{i18n: JP98.Willy's Shop}}",
+                "Location": "Beach",
+                "Tile": "30, 34",
+				"Order": 5
+                },
+			"Juanpa98ar.MWP98_SVE.Joja": {
+                "Id": "Juanpa98ar.MWP98_SVE.Joja",
+                "SectionId": "Juanpa98ar.MWP98_SVE.Shops",
+                "DisplayName": "{{i18n: JP98.Joja Mart}}",
+                "Location": "Town",
+                "Tile": "95, 51",
+				"Order": 6
+                }
+		    },
+		"When": {"WarpShops": "true", "Stardew Valley Expanded": "true"}
+		},
+		{
+        "Action": "EditData",
+        "Target": "Mods/CJBok.CheatsMenu/Warps",
+        "Entries": {
+            //Town
+			"Juanpa98ar.MWP98_SVE.CC": {
+                "Id": "Juanpa98ar.MWP98_SVE.CC",
+                "SectionId": "Juanpa98ar.MWP98_SVE.Town",
+                "DisplayName": "{{i18n: JP98.Community Center}}",
+                "Location": "Town",
+                "Tile": "52, 21",
+				"Order": 1
+                },
+			"Juanpa98ar.MWP98_SVE.Museum": {
+                "Id": "Juanpa98ar.MWP98_SVE.Museum",
+                "SectionId": "Juanpa98ar.MWP98_SVE.Town",
+                "DisplayName": "{{i18n: JP98.Museum}}",
+                "Location": "Town",
+                "Tile": "101, 90"
+                },
+			"Juanpa98ar.MWP98_SVE.Mayor": {
+                "Id": "Juanpa98ar.MWP98_SVE.Mayor",
+                "SectionId": "Juanpa98ar.MWP98_SVE.Town",
+                "DisplayName": "{{i18n: JP98.Mayor's Manor}}",
+                "Location": "Town",
+                "Tile": "58, 86"
+                },
+			"Juanpa98ar.MWP98_SVE.Stardrop": {
+                "Id": "Juanpa98ar.MWP98_SVE.Stardrop",
+                "SectionId": "Juanpa98ar.MWP98_SVE.Town",
+                "DisplayName": "{{i18n: JP98.Stardrop Saloon}}",
+                "Location": "Town",
+                "Tile": "45, 72"
+                },
+			"Juanpa98ar.MWP98_SVE.Garden": {
+                "Id": "Juanpa98ar.MWP98_SVE.Garden",
+                "SectionId": "Juanpa98ar.MWP98_SVE.Town",
+                "DisplayName": "{{i18n: JP98.Garden}}",
+                "Location": "Custom_Garden",
+                "Tile": "22, 28"
+                },
+			"Juanpa98ar.MWP98_SVE.Shearwater": {
+                "Id": "Juanpa98ar.MWP98_SVE.Shearwater",
+                "SectionId": "Juanpa98ar.MWP98_SVE.Town",
+                "DisplayName": "{{i18n: JP98.Shearwater Bridge}}",
+                "Location": "Custom_ShearwaterBridge",
+                "Tile": "30, 21"
+                }
+		    },
+		"When": {"WarpTown": "true", "Stardew Valley Expanded": "true"}
+		},
+		{
+        "Action": "EditData",
+        "Target": "Mods/CJBok.CheatsMenu/Warps",
+        "Entries": {
+            //Forest
+			"Juanpa98ar.MWP98_SVE.Wizard": {
+                "Id": "Juanpa98ar.MWP98_SVE.Wizard",
+                "SectionId": "Juanpa98ar.MWP98_SVE.Forest",
+                "DisplayName": "{{i18n: JP98.Wizard's Tower}}",
+                "Location": "Forest",
+                "Tile": "9, 21",
+				"Order": 1
+                },
+			"Juanpa98ar.MWP98_SVE.AuroraVineyard": {
+                "Id": "Juanpa98ar.MWP98_SVE.AuroraVineyard",
+                "SectionId": "Juanpa98ar.MWP98_SVE.Forest",
+                "DisplayName": "{{i18n: JP98.Aurora Vineyard}}",
+                "Location": "Custom_forestwest",
+                "Tile": "58, 18",
+				"Order": 2
+                },
+			"Juanpa98ar.MWP98_SVE.Sophia": {
+                "Id": "Juanpa98ar.MWP98_SVE.Sophia",
+                "SectionId": "Juanpa98ar.MWP98_SVE.Forest",
+                "DisplayName": "{{i18n: JP98.Sophia's Vineyard}}",
+                "Location": "Custom_BlueMoonVineyard",
+                "Tile": "28, 47"
+                },
+			"Juanpa98ar.MWP98_SVE.Andy": {
+                "Id": "Juanpa98ar.MWP98_SVE.Andy",
+                "SectionId": "Juanpa98ar.MWP98_SVE.Forest",
+                "DisplayName": "{{i18n: JP98.Andy's Farm}}",
+                "Location": "Forest",
+                "Tile": "68, 73"
+                },
+			"Juanpa98ar.MWP98_SVE.SecretWoods": {
+                "Id": "Juanpa98ar.MWP98_SVE.SecretWoods",
+                "SectionId": "Juanpa98ar.MWP98_SVE.Forest",
+                "DisplayName": "{{i18n: JP98.Secret Woods}}",
+                "Location": "Woods",
+                "Tile": "80, 30"
+                },
+			"Juanpa98ar.MWP98_SVE.JunimoVillage": {
+                "Id": "Juanpa98ar.MWP98_SVE.JunimoVillage",
+                "SectionId": "Juanpa98ar.MWP98_SVE.Forest",
+                "DisplayName": "{{i18n: JP98.Junimo Village}}",
+                "Location": "Custom_JunimoWoods",
+                "Tile": "36, 91"
+                },
+			"Juanpa98ar.MWP98_SVE.SpriteSpring": {
+                "Id": "Juanpa98ar.MWP98_SVE.SpriteSpring",
+                "SectionId": "Juanpa98ar.MWP98_SVE.Forest",
+                "DisplayName": "{{i18n: JP98.Sprite Spring}}",
+                "Location": "Custom_SpriteSpring2",
+                "Tile": "16, 23"
+                },
+			"Juanpa98ar.MWP98_SVE.Travelling": {
+                "Id": "Juanpa98ar.MWP98_SVE.Travelling",
+                "SectionId": "Juanpa98ar.MWP98_SVE.Forest",
+                "DisplayName": "{{i18n: JP98.Travelling Merchant}}",
+                "Location": "Forest",
+                "Tile": "27, 12"
+                },
+			"Juanpa98ar.MWP98_SVE.BearCave": {
+                "Id": "Juanpa98ar.MWP98_SVE.BearCave",
+                "SectionId": "Juanpa98ar.MWP98_SVE.Forest",
+                "DisplayName": "{{i18n: JP98.Bear's Cave}}",
+                "Location": "Custom_forestwest",
+                "Tile": "10, 6"
+                },
+			"Juanpa98ar.MWP98_SVE.Hat": {
+                "Id": "Juanpa98ar.MWP98_SVE.Hat",
+                "SectionId": "Juanpa98ar.MWP98_SVE.Forest",
+                "DisplayName": "{{i18n: JP98.Hat Mouse}}",
+                "Location": "Forest",
+                "Tile": "34, 96"
+                }
+		    },
+		"When": {"WarpForest": "true", "Stardew Valley Expanded": "true"}
+		},
+		{
+        "Action": "EditData",
+        "Target": "Mods/CJBok.CheatsMenu/Warps",
+        "Entries": {
+            //Mountain
+			"Juanpa98ar.MWP98_SVE.Mines": {
+                "Id": "Juanpa98ar.MWP98_SVE.Mines",
+                "SectionId": "Juanpa98ar.MWP98_SVE.Mountain",
+                "DisplayName": "{{i18n: JP98.Mine}}",
+                "Location": "mine",
+                "Tile": "18, 11",
+				"Order": 1
+                },
+			"Juanpa98ar.MWP98_SVE.Adventurer": {
+                "Id": "Juanpa98ar.MWP98_SVE.Adventurer",
+                "SectionId": "Juanpa98ar.MWP98_SVE.Mountain",
+                "DisplayName": "{{i18n: JP98.Adventurer's Guild}}",
+                "Location": "Custom_AdventurerSummit",
+                "Tile": "32, 22",
+				"Order": 2
+                },
+			"Juanpa98ar.MWP98_SVE.Summit": {
+                "Id": "Juanpa98ar.MWP98_SVE.Summit",
+                "SectionId": "Juanpa98ar.MWP98_SVE.Mountain",
+                "DisplayName": "{{i18n: JP98.Summit}}",
+                "Location": "Summit",
+                "Tile": "11, 28"
+                },
+			"Juanpa98ar.MWP98_SVE.Quarry": {
+                "Id": "Juanpa98ar.MWP98_SVE.Quarry",
+                "SectionId": "Juanpa98ar.MWP98_SVE.Mountain",
+                "DisplayName": "{{i18n: JP98.Quarry}}",
+                "Location": "Mountain",
+                "Tile": "106, 26"
+                },
+			"Juanpa98ar.MWP98_SVE.TrainPlatform": {
+                "Id": "Juanpa98ar.MWP98_SVE.TrainPlatform",
+                "SectionId": "Juanpa98ar.MWP98_SVE.Mountain",
+                "DisplayName": "{{i18n: JP98.Train Platform}}",
+                "Location": "Railroad",
+                "Tile": "29, 48"
+                },
+			"Juanpa98ar.MWP98_SVE.BackWoods": {
+                "Id": "Juanpa98ar.MWP98_SVE.BackWoods",
+                "SectionId": "Juanpa98ar.MWP98_SVE.Mountain",
+                "DisplayName": "{{i18n: JP98.Back Woods}}",
+                "Location": "Backwoods",
+                "Tile": "46, 13"
+                },
+			"Juanpa98ar.MWP98_SVE.Highlands": {
+                "Id": "Juanpa98ar.MWP98_SVE.Highlands",
+                "SectionId": "Juanpa98ar.MWP98_SVE.Mountain",
+                "DisplayName": "{{i18n: JP98.Highlands}}",
+                "Location": "Custom_Highlands",
+                "Tile": "129, 122"
+                },
+			"Juanpa98ar.MWP98_SVE.HighlandsCavern": {
+                "Id": "Juanpa98ar.MWP98_SVE.HighlandsCavern",
+                "SectionId": "Juanpa98ar.MWP98_SVE.Mountain",
+                "DisplayName": "{{i18n: JP98.Highlands Cavern}}",
+                "Location": "Custom_HighlandsCavern",
+                "Tile": "120, 145"
+                }
+		    },
+		"When": {"WarpMountain": "true", "Stardew Valley Expanded": "true"}
+		},
+		{
+        "Action": "EditData",
+        "Target": "Mods/CJBok.CheatsMenu/Warps",
+        "Entries": {
+            //Beach
+			"Juanpa98ar.MWP98_SVE.Elliot": {
+                "Id": "Juanpa98ar.MWP98_SVE.Elliot",
+                "SectionId": "Juanpa98ar.MWP98_SVE.Beach",
+                "DisplayName": "{{i18n: JP98.Elliot's Cabin}}",
+                "Location": "Beach",
+                "Tile": "49, 11"
+                },
+			"Juanpa98ar.MWP98_SVE.TidePools": {
+                "Id": "Juanpa98ar.MWP98_SVE.TidePools",
+                "SectionId": "Juanpa98ar.MWP98_SVE.Beach",
+                "DisplayName": "{{i18n: JP98.Tide Pools}}",
+                "Location": "Beach",
+                "Tile": "63, 13"
+                }
+		    },
+		"When": {"WarpBeach": "true", "Stardew Valley Expanded": "true"}
+		},
+		{
+        "Action": "EditData",
+        "Target": "Mods/CJBok.CheatsMenu/Warps",
+        "Entries": {
+            //Desert
+			"Juanpa98ar.MWP98_SVE.Sandy": {
+                "Id": "Juanpa98ar.MWP98_SVE.Sandy",
+                "SectionId": "Juanpa98ar.MWP98_SVE.Desert",
+                "DisplayName": "{{i18n: JP98.Sandy's Shop}}",
+                "Location": "SandyHouse",
+                "Tile": "2, 7",
+				"Order": 1
+                },
+			"Juanpa98ar.MWP98_SVE.SkullCave": {
+                "Id": "Juanpa98ar.MWP98_SVE.SkullCave",
+                "SectionId": "Juanpa98ar.MWP98_SVE.Desert",
+                "DisplayName": "{{i18n: JP98.Skull Cave}}",
+                "Location": "skullcave",
+                "Tile": "3, 4"
+                },
+			"Juanpa98ar.MWP98_SVE.Casino": {
+                "Id": "Juanpa98ar.MWP98_SVE.Casino",
+                "SectionId": "Juanpa98ar.MWP98_SVE.Desert",
+                "DisplayName": "{{i18n: JP98.Casino}}",
+                "Location": "Club",
+                "Tile": "8, 11"
+                },
+			"Juanpa98ar.MWP98_SVE.Pillars": {
+                "Id": "Juanpa98ar.MWP98_SVE.Pillars",
+                "SectionId": "Juanpa98ar.MWP98_SVE.Desert",
+                "DisplayName": "{{i18n: JP98.Pillars}}",
+                "Location": "Desert",
+                "Tile": "30, 142"
+                },
+			"Juanpa98ar.MWP98_SVE.SandDragon": {
+                "Id": "Juanpa98ar.MWP98_SVE.SandDragon",
+                "SectionId": "Juanpa98ar.MWP98_SVE.Desert",
+                "DisplayName": "{{i18n: JP98.Sand Dragon}}",
+                "Location": "Desert",
+                "Tile": "53, 89"
+                }
+		    },
+		"When": {"WarpDesert": "true", "Stardew Valley Expanded": "true"}
+		},
+		{
+        "Action": "EditData",
+        "Target": "Mods/CJBok.CheatsMenu/Warps",
+        "Entries": {
+            //UnderWorld
+			"Juanpa98ar.MWP98_SVE.Krobus": {
+                "Id": "Juanpa98ar.MWP98_SVE.Krobus",
+                "SectionId": "Juanpa98ar.MWP98_SVE.UnderWorld",
+                "DisplayName": "{{i18n: JP98.Krobus's Shop}}",
+                "Location": "Sewer",
+                "Tile": "31, 18",
+				"Order": 1
+                },
+			"Juanpa98ar.MWP98_SVE.BugLair": {
+                "Id": "Juanpa98ar.MWP98_SVE.BugLair",
+                "SectionId": "Juanpa98ar.MWP98_SVE.UnderWorld",
+                "DisplayName": "{{i18n: JP98.warp.mutant-bug-lair}}",
+                "Location": "Bugland",
+                "Tile": "14, 52"
+                },
+			"Juanpa98ar.MWP98_SVE.Swamp": {
+                "Id": "Juanpa98ar.MWP98_SVE.Swamp",
+                "SectionId": "Juanpa98ar.MWP98_SVE.UnderWorld",
+                "DisplayName": "{{i18n: JP98.warp.witch-swamp}}",
+                "Location": "WitchSwamp",
+                "Tile": "20, 23"
+                }
+		    },
+		"When": {"WarpUnderWorld": "true", "Stardew Valley Expanded": "true"}
+		},
+		{
+        "Action": "EditData",
+        "Target": "Mods/CJBok.CheatsMenu/Warps",
+        "Entries": {
+            //Ginger Island
+			"Juanpa98ar.MWP98_SVE.IslandFarm": {
+                "Id": "Juanpa98ar.MWP98_SVE.IslandFarm",
+                "SectionId": "Juanpa98ar.MWP98_SVE.GingerIsland",
+                "DisplayName": "{{i18n: JP98.Island Farm}}",
+                "Location": "IslandWest",
+                "Tile": "77, 41",
+				"Order": 1
+                },
+			"Juanpa98ar.MWP98_SVE.LeoHome": {
+                "Id": "Juanpa98ar.MWP98_SVE.LeoHome",
+                "SectionId": "Juanpa98ar.MWP98_SVE.GingerIsland",
+                "DisplayName": "{{i18n: JP98.Leo's Home}}",
+                "Location": "IslandEast",
+                "Tile": "22, 11"
+                },
+			"Juanpa98ar.MWP98_SVE.FableReef": {
+                "Id": "Juanpa98ar.MWP98_SVE.FableReef",
+                "SectionId": "Juanpa98ar.MWP98_SVE.GingerIsland",
+                "DisplayName": "{{i18n: JP98.Fable Reef}}",
+                "Location": "Custom_FableReef",
+                "Tile": "44, 46"
+                },
+			"Juanpa98ar.MWP98_SVE.IslandTrader": {
+                "Id": "Juanpa98ar.MWP98_SVE.IslandTrader",
+                "SectionId": "Juanpa98ar.MWP98_SVE.GingerIsland",
+                "DisplayName": "{{i18n: JP98.Island Trader}}",
+                "Location": "IslandNorth",
+                "Tile": "36, 73"
+                },
+			"Juanpa98ar.MWP98_SVE.TidePool": {
+                "Id": "Juanpa98ar.MWP98_SVE.TidePool",
+                "SectionId": "Juanpa98ar.MWP98_SVE.GingerIsland",
+                "DisplayName": "{{i18n: JP98.Tide Pool}}",
+                "Location": "IslandSouthEast",
+                "Tile": "6, 29"
+                }
+		    },
+		"When": {"WarpGingerIsland": "true", "Stardew Valley Expanded": "true"}
+		},
+		{
+        "Action": "EditData",
+        "Target": "Mods/CJBok.CheatsMenu/Warps",
+        "Entries": {
+            //Galdora
+			"Juanpa98ar.MWP98_SVE.CastleVillage": {
+                "Id": "Juanpa98ar.MWP98_SVE.CastleVillage",
+                "SectionId": "Juanpa98ar.MWP98_SVE.Galdora",
+                "DisplayName": "{{i18n: JP98.Castle Village Outpost}}",
+                "Location": "Custom_CastleVillageOutpost",
+                "Tile": "31, 28"
+                },
+			"Juanpa98ar.MWP98_SVE.CrimsonBadlands": {
+                "Id": "Juanpa98ar.MWP98_SVE.CrimsonBadlands",
+                "SectionId": "Juanpa98ar.MWP98_SVE.Galdora",
+                "DisplayName": "{{i18n: JP98.Crimson Badlands}}",
+                "Location": "Custom_CrimsonBadlands",
+                "Tile": "228, 84"
+                },
+			"Juanpa98ar.MWP98_SVE.IridiumQuarry": {
+                "Id": "Juanpa98ar.MWP98_SVE.IridiumQuarry",
+                "SectionId": "Juanpa98ar.MWP98_SVE.Galdora",
+                "DisplayName": "{{i18n: JP98.Iridium Quarry}}",
+                "Location": "Custom_IridiumQuarry",
+                "Tile": "68, 17"
+                },
+			"Juanpa98ar.MWP98_SVE.EnchantedGrove": {
+                "Id": "Juanpa98ar.MWP98_SVE.EnchantedGrove",
+                "SectionId": "Juanpa98ar.MWP98_SVE.Galdora",
+                "DisplayName": "{{i18n: JP98.Enchanted Grove}}",
+                "Location": "Custom_EnchantedGrove",
+                "Tile": "30, 29"
+                }
+		    },
+		"When": {"WarpGaldora": "true", "Stardew Valley Expanded": "true"}
+		},
+		{
+        "Action": "EditData",
+        "Target": "Mods/CJBok.CheatsMenu/Warps",
+        "Entries": {
+            //Cheat Locations
+		    "Juanpa98ar.MWP98_SVE.CheatMine": {
+                "Id": "Juanpa98ar.MWP98_SVE.CheatMine",
+                "SectionId": "Juanpa98ar.MWP98_SVE.CheatLocations",
+                "DisplayName": "{{i18n: JP98.CheatMine}}",
+                "Location": "Mine",
+                "Tile": "13, 10",
+				"Order": 1
+                },
+			"Juanpa98ar.MWP98_SVE.CheatSkullMine": {
+                "Id": "Juanpa98ar.MWP98_SVE.CheatSkullMine",
+                "SectionId": "Juanpa98ar.MWP98_SVE.CheatLocations",
+                "DisplayName": "{{i18n: JP98.CheatSkullMine}}",
+                "Location": "SkullCave",
+                "Tile": "3, 4",
+				"Order": 2
+                },
+			"Juanpa98ar.MWP98_SVE.CheatSkullMine2": {
+                "Id": "Juanpa98ar.MWP98_SVE.CheatSkullMine2",
+                "SectionId": "Juanpa98ar.MWP98_SVE.CheatLocations",
+                "DisplayName": "{{i18n: JP98.CheatSkullMine4}}",
+                "Location": "UndergroundMine5120",
+                "Tile": "0, 0",
+				"Order": 3
+                },
+			"Juanpa98ar.MWP98_SVE.VolcanoCaldera": {
+                "Id": "Juanpa98ar.MWP98_SVE.VolcanoCaldera",
+                "SectionId": "Juanpa98ar.MWP98_SVE.CheatLocations",
+                "DisplayName": "{{i18n: JP98.Volcano Caldera}}",
+                "Location": "Caldera",
+                "Tile": "23, 24"
+                },
+			"Juanpa98ar.MWP98_SVE.IslandDwarf": {
+                "Id": "Juanpa98ar.MWP98_SVE.IslandDwarf",
+                "SectionId": "Juanpa98ar.MWP98_SVE.CheatLocations",
+                "DisplayName": "{{i18n: JP98.Island Dwarf Shop}}",
+                "Location": "VolcanoDungeon5",
+                "Tile": "36, 32"
+                },
+			"Juanpa98ar.MWP98_SVE.MasteryCave": {
+                "Id": "Juanpa98ar.MWP98_SVE.MasteryCave",
+                "SectionId": "Juanpa98ar.MWP98_SVE.CheatLocations",
+                "DisplayName": "{{i18n: JP98.Mastery Cave}}",
+                "Location": "MasteryCave",
+                "Tile": "7, 10"
+                },
+			"Juanpa98ar.MWP98_SVE.TreasureCave": {
+                "Id": "Juanpa98ar.MWP98_SVE.TreasureCave",
+                "SectionId": "Juanpa98ar.MWP98_SVE.CheatLocations",
+                "DisplayName": "{{i18n: JP98.Treasure Cave}}",
+                "Location": "Custom_TreasureCave",
+                "Tile": "10, 13"
+                }
+		    },
+		"When": {"WarpCheatLocations": "true", "Stardew Valley Expanded": "true"}
+		},
+		//  
+		{
+        "Action": "EditData",
+        "Target": "Mods/CJBok.CheatsMenu/Warps",
+        "Entries": {
+            //Shed Others
+            "Juanpa98ar.MWP98_SVE.GrandpaShed": {
+                "Id": "Juanpa98ar.MWP98_SVE.GrandpaShed",
+                "SectionId": "Juanpa98ar.MWP98_SVE.Farm",
+                "DisplayName": "{{i18n: JP98.Grandpa's Shed}}",
+                "Location": "Custom_GrandpasShedOutside",
+                "Tile": "22, 19",
+                }
+		    },
+		"When": {"WarpFarm": "true", "Stardew Valley Expanded": "true", "HasMod |contains=flashshifter.GrandpasFarm, flashshifter.immersivefarm2remastered": false}
+		},
+		{
+        "Action": "EditData",
+        "Target": "Mods/CJBok.CheatsMenu/Warps",
+        "Entries": {
+            //Shed GF
+            "Juanpa98ar.MWP98_SVE.GrandpaShedGF": {
+                "Id": "Juanpa98ar.MWP98_SVE.GrandpaShedGF",
+                "SectionId": "Juanpa98ar.MWP98_SVE.Farm",
+                "DisplayName": "{{i18n: JP98.Grandpa's Shed}}",
+                "Location": "Farm",
+                "Tile": "22, 33",
+                }
+		    },
+		"When": {"WarpFarm": "true", "Stardew Valley Expanded": "true", "HasMod": "flashshifter.GrandpasFarm"}
+		},
+		{
+        "Action": "EditData",
+        "Target": "Mods/CJBok.CheatsMenu/Warps",
+        "Entries": {
+            //Shed IF2
+            "Juanpa98ar.MWP98_SVE.GrandpaShedIF2": {
+                "Id": "Juanpa98ar.MWP98_SVE.GrandpaShedIF2",
+                "SectionId": "Juanpa98ar.MWP98_SVE.Farm",
+                "DisplayName": "{{i18n: JP98.Grandpa's Shed}}",
+                "Location": "Farm",
+                "Tile": "140, 36",
+                }
+		    },
+		"When": {"WarpFarm": "true", "Stardew Valley Expanded": "true", "HasMod": "flashshifter.immersivefarm2remastered"}
+		},
+	]
+}

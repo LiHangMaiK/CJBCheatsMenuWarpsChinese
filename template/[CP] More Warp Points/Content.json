@@ -1,0 +1,217 @@
+{
+        "Format": "2.0.0",
+       
+        "ConfigSchema": {
+    		
+    		"Stardew Valley Expanded": {
+    			"Description": "",
+                "AllowValues": "true, false",
+                "Default": "false",
+				"Section": "Stardew Valley"
+            },
+			"WarpFarm": {
+    			"Description": "",
+                "AllowValues": "true, false",
+                "Default": "true",
+				"Section": "Stardew Valley"
+            },
+			"WarpShops": {
+    			"Description": "",
+                "AllowValues": "true, false",
+                "Default": "true",
+				"Section": "Stardew Valley"
+            },
+			"WarpTown": {
+    			"Description": "",
+                "AllowValues": "true, false",
+                "Default": "true",
+				"Section": "Stardew Valley"
+            },
+			"WarpForest": {
+    			"Description": "",
+                "AllowValues": "true, false",
+                "Default": "true",
+				"Section": "Stardew Valley"
+            },
+			"WarpMountain": {
+    			"Description": "",
+                "AllowValues": "true, false",
+                "Default": "true",
+				"Section": "Stardew Valley"
+            },
+			"WarpBeach": {
+    			"Description": "",
+                "AllowValues": "true, false",
+                "Default": "true",
+				"Section": "Stardew Valley"
+            },
+			"WarpDesert": {
+    			"Description": "",
+                "AllowValues": "true, false",
+                "Default": "true",
+				"Section": "Stardew Valley"
+            },
+			"WarpUnderWorld": {
+    			"Description": "",
+                "AllowValues": "true, false",
+                "Default": "true",
+				"Section": "Stardew Valley"
+            },
+			"WarpGingerIsland": {
+    			"Description": "",
+                "AllowValues": "true, false",
+                "Default": "true",
+				"Section": "Stardew Valley"
+            },
+			"WarpGaldora": {
+    			"Description": "",
+                "AllowValues": "true, false",
+                "Default": "true",
+				"Section": "Stardew Valley"
+            },
+			"WarpCheatLocations": {
+    			"Description": "",
+                "AllowValues": "true, false",
+                "Default": "true",
+				"Section": "Stardew Valley"
+            },
+			"East Scarp": {
+    			"Description": "",
+                "AllowValues": "true, false",
+                "Default": "false",
+				"Section": "East Scarp"
+            },
+			"Ridgeside Village": {
+    			"Description": "",
+                "AllowValues": "true, false",
+                "Default": "false",
+				"Section": "Ridgeside Village"
+            },
+			/*"Boarding House": {
+    			"Description": "",
+                "AllowValues": "true, false",
+                "Default": "false",
+				"Section": "Boarding House"
+            },*/
+			"Cape Stardew": {
+    			"Description": "",
+                "AllowValues": "true, false",
+                "Default": "false",
+				"Section": "Cape Stardew"
+            },
+			/*"Deep Woods": {
+    			"Description": "",
+                "AllowValues": "true, false",
+                "Default": "false",
+				"Section": "DeepWoods"
+            },*/
+			"Downtown Zuzu": {
+    			"Description": "",
+                "AllowValues": "true, false",
+                "Default": "false",
+				"Section": "Downtown Zuzu"
+            },
+			/*"Durins Rest": {
+    			"Description": "",
+                "AllowValues": "true, false",
+                "Default": "false",
+				"Section": "Durin's Rest"
+            },*/
+			"Lunna Astray": {
+    			"Description": "",
+                "AllowValues": "true, false",
+                "Default": "false",
+				"Section": "Lunna Astray"
+            },
+			/*"Mineral Town": {
+    			"Description": "",
+                "AllowValues": "true, false",
+                "Default": "false",
+				"Section": "Mineral Town"
+            },
+			"Stardew Aquarium": {
+    			"Description": "",
+                "AllowValues": "true, false",
+                "Default": "false",
+				"Section": "Stardew Aquarium"
+            },*/
+        },
+	"Changes": [
+//Warps Replacer	
+        {
+        "Action": "Include",
+        "FromFile": "Data/Locations/Vanilla.json",
+        },
+		{
+        "Action": "Include",
+        "FromFile": "Data/Locations/SVE.json",
+        },
+		{
+        "Action": "Include",
+        "FromFile": "Data/Locations/ES.json",
+        },
+//Don't tell me, my love, that you don't have the courage... Because nothing is forever. 
+//New Warps		
+        {
+        "Action": "Include",
+        "FromFile": "Data/Warps/Original.json",
+		"When": { "Stardew Valley Expanded": "false"}
+        },
+		{
+        "Action": "Include",
+        "FromFile": "Data/Warps/Stardew Valley Expanded.json",
+		"When": { "Stardew Valley Expanded": "true"}
+        },
+		{
+        "Action": "Include",
+        "FromFile": "Data/Warps/East Scarp.json",
+		"When": { "East Scarp": "true"}
+        },
+		{
+        "Action": "Include",
+        "FromFile": "Data/Warps/Ridgeside Village.json",
+		"When": { "Ridgeside Village": "true"}
+        },
+		/*{
+        "Action": "Include",
+        "FromFile": "Data/Warps/Boarding House.json",
+		"When": { "Boarding House": "true"}
+        },*/
+		{
+        "Action": "Include",
+        "FromFile": "Data/Warps/Cape Stardew.json",
+		"When": { "Cape Stardew": "true"}
+        },
+		/*{
+        "Action": "Include",
+        "FromFile": "Data/Warps/Deep Woods.json",
+		"When": { "Deep Woods": "true"}
+        },*/
+		{
+        "Action": "Include",
+        "FromFile": "Data/Warps/Downtown Zuzu.json",
+		"When": { "Downtown Zuzu": "true"}
+        },
+		/*{
+        "Action": "Include",
+        "FromFile": "Data/Warps/Durins Rest.json",
+		"When": { "Durins Rest": "true"}
+        },*/
+		{
+        "Action": "Include",
+        "FromFile": "Data/Warps/Lunna Astray.json",
+		"When": { "Lunna Astray": "true"}
+        },
+		/*{
+        "Action": "Include",
+        "FromFile": "Data/Warps/Mineral Town.json",
+		"When": { "Mineral Town": "true"}
+        },
+		{
+        "Action": "Include",
+        "FromFile": "Data/Warps/Stardew Aquarium.json",
+		"When": { "Stardew Aquarium": "true"}
+        },*/
+//In Hell We Live, Lament
+	]
+}

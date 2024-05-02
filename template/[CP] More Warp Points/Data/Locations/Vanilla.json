@@ -1,0 +1,56 @@
+{
+	"Changes": [
+	
+        {
+        "Action": "EditData",
+        "Target": "Mods/CJBok.CheatsMenu/WarpSections",
+        "Entries": {
+			"main": null,
+            "town": null,
+            "forest": null,
+            "mountain": null,
+            "beach": null,
+            "desert": null,
+            "island": null
+            }
+        },
+		{
+        "Action": "EditData",
+        "Target": "Mods/CJBok.CheatsMenu/Warps",
+        "Entries": {
+			"farm": null,
+			"carpenter": null,
+			"mines": null,
+			"pierre-shop": null,
+			"blacksmith": null,
+			"community-center": null,
+			"jojamart": null,
+			"movie-theater": null,
+			"movie-theater-joja": null,
+			"museum": null, 
+			"saloon": null,
+			"sewer": null,
+			"hats": null,
+			"ranch": null,
+			"secret-woods": null,
+			"wizard-tower": null,
+			"mastery-cave": null, 
+			"adventurers-guild": null,
+			"bathhouse": null,
+			"mutant-bug-lair": null,
+			"quarry": null,
+			"witch-swamp": null,
+			"willy-shop": null,
+			"tide-pools": null,
+			"island-farm": null, 
+			"dwarf-shop": null,
+			"field-office": null,
+			"forge": null,
+			"leo-house": null,
+			"casino": null,
+			"sandy-shop": null,
+			"skull-cavern": null
+		    }
+		}
+	]
+}

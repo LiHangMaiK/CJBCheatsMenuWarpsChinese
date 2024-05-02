@@ -1,0 +1,47 @@
+{
+	"Changes": [
+	
+	    {
+        "Action": "EditData",
+        "Target": "Mods/CJBok.CheatsMenu/WarpSections",
+        "Entries": {
+            "Juanpa98ar.MWP98_BoardingHouse": {
+                    "Id": "Juanpa98ar.MWP98_BoardingHouse",
+                    "DisplayName": "{{i18n: JP98.Boarding House}}",
+					"Order": 15
+			    }
+            }
+        },   
+		{
+        "Action": "EditData",
+        "Target": "Mods/CJBok.CheatsMenu/Warps",
+        "Entries": {
+            //BH
+            "Juanpa98ar.MWP98_BH": {
+                "Id": "Juanpa98ar.MWP98_BH",
+                "SectionId": "Juanpa98ar.MWP98_BoardingHouse",
+                "DisplayName": "{{i18n: JP98.BoardingHouse}}",
+                "Location": "Custom_BoardingHouse_BackwoodsPlateau",
+                "Tile": "33, 12",
+				"Order": 1
+                },
+			"Juanpa98ar.MWP98_BHV": {
+                "Id": "Juanpa98ar.MWP98_BHV",
+                "SectionId": "Juanpa98ar.MWP98_BoardingHouse",
+                "DisplayName": "{{i18n: JP98.BoardingValley}}",
+                "Location": "Custom_BoardingHouse_TheLostValley",
+                "Tile": "64, 18",
+				"Order": 2
+                },
+			"Juanpa98ar.MWP98_BHR": {
+                "Id": "Juanpa98ar.MWP98_BHR",
+                "SectionId": "Juanpa98ar.MWP98_BoardingHouse",
+                "DisplayName": "{{i18n: JP98.BoardingRuins}}",
+                "Location": "Custom_BoardingHouse_Ruins",
+                "Tile": "3, 20",
+				"Order": 3
+                }
+		    }
+	    }
+	]
+}

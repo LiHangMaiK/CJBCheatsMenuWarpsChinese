@@ -1,0 +1,39 @@
+{
+	"Changes": [
+	
+	    {
+        "Action": "EditData",
+        "Target": "Mods/CJBok.CheatsMenu/WarpSections",
+        "Entries": {
+            "Juanpa98ar.MWP98_StardewAquarium": {
+                    "Id": "Juanpa98ar.MWP98_StardewAquarium",
+                    "DisplayName": "{{i18n: JP98.Stardew Aquarium}}",
+					"Order": 22
+			    }
+            }
+        },   
+		{
+        "Action": "EditData",
+        "Target": "Mods/CJBok.CheatsMenu/Warps",
+        "Entries": {
+            //SA
+            "Juanpa98ar.MWP98_SAB": {
+                "Id": "Juanpa98ar.MWP98_SAB",
+                "SectionId": "Juanpa98ar.MWP98_CapeStardew",
+                "DisplayName": "{{i18n: JP98.Stardew Aquarium B}}",
+                "Location": "Custom_ExteriorMuseum",
+                "Tile": "48, 47",
+				"Order": 1
+                },
+			"Juanpa98ar.MWP98_SAFM": {
+                "Id": "Juanpa98ar.MWP98_CSSBC",
+                "SectionId": "Juanpa98ar.MWP98_CapeStardew",
+                "DisplayName": "{{i18n: JP98.Stardew Aquarium FM}}",
+                "Location": "Custom_FishMuseum",
+                "Tile": "20, 37",
+				"Order": 2
+                }
+		    }
+	    }
+	]
+}

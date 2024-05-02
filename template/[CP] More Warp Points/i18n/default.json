@@ -1,0 +1,242 @@
+﻿{
+    /*********
+    ** Warps tab
+    *********/
+    //Farm
+
+    "JP98.Farm":"Farm",
+    "JP98.Farmhouse": "Farmhouse",
+	"JP98.Farm Cave": "Farm Cave",
+	"JP98.Grandpa's Shed": "Grandpa's Shed",
+
+    // Additional Farms
+    "JP98.Additional Farms": "Additional Farms",
+	"JP98.Ridgeside Village Summit Farm": "Ridgeside Village Summit Farm",
+    "JP98.Ridgeside Village Phantom Farm": "Ridgeside Village Phantom Farm",
+    "JP98.Ridgeside Village Community Greenhouse": "Ridgeside Village C. Greenhouse",
+	"JP98.Ridgeside Village Cave Farm": "Ridgeside Village Cave Farm",
+
+    // Shops
+    "JP98.Shops": "Shops",
+	"JP98.Pierre's Shop": "Pierre's G. Store",
+    "JP98.Robin's Carpentry Shop": "Carpenter's Shop",
+    "JP98.Marnie's Ranch": "Marnie's Ranch",
+	"JP98.Clint's Blacksmithing": "Blacksmith",
+	"JP98.Willy's Shop": "Fish Shop",
+    "JP98.Joja Mart": "Joja Mart",
+
+    // Town
+    "JP98.Town": "Town",
+    "JP98.Community Center": "Community Center",
+	"JP98.Garden": "Garden",
+    "JP98.Museum": "Museum",
+	"JP98.Shearwater Bridge": "Shearwater Bridge",
+    "JP98.Mayor's Manor": "Mayor's Manor",
+    "JP98.Stardrop Saloon": "Stardrop Saloon",
+
+    // Forest
+    "JP98.Forest": "Cindersap Forest",
+    "JP98.Wizard's Tower": "Wizard's Tower",
+    "JP98.Sophia's Vineyard": "Blue Moon Vineyard",
+    "JP98.Andy's Farm": "Andy's Farm",
+	"JP98.Aurora Vineyard": "Aurora Vineyard",
+    "JP98.Secret Woods": "Secret Woods",
+    "JP98.Junimo Village": "Junimo Village",
+    "JP98.Sprite Spring": "Sprite Spring",
+    "JP98.Bear's Cave": "Bear's Cave",
+	"JP98.Sewer Outlet": "Sewer Outlet",
+    "JP98.Mastery Cave": "Mastery Cave",
+    "JP98.Hat Mouse": "Hat Mouse",
+	"JP98.Travelling Merchant": "Traveling Cart",
+
+    // Mountain
+    "JP98.Mountain": "Mountain",
+    "JP98.Mine": "Mine",
+    "JP98.Summit": "The Summit",
+	"JP98.Quarry": "Quarry",
+	"JP98.Railroad": "Railroad",
+	"JP98.Back Woods": "Backwoods",
+    "JP98.Highlands": "Highlands",
+    "JP98.Highlands Cavern": "Highlands Cavern",
+    "JP98.Train Platform": "Railroad",
+    "JP98.Adventurer's Guild": "Adventurer's Guild",
+
+    // Beach
+    "JP98.Beach": "Beach",
+    "JP98.Elliot's Cabin": "Elliot's Cabin",
+    "JP98.Tide Pools": "Tide Pools",
+
+    // Desert
+    "JP98.Desert": "Desert",
+	"JP98.Skull Cave": "Skull Cavern",
+    "JP98.Casino": "Casino",
+	"JP98.Pillars": "Pillars",
+    "JP98.Sand Dragon": "Sand Dragon Bones",
+    "JP98.Sandy's Shop": "Sandy's Shop",
+
+    // UnderWorld
+	"JP98.Under World": "Underworld",
+    "JP98.Krobus's Shop": "Krobus's Shop",
+	"JP98.warp.witch-swamp": "Witch's Swamp",
+	"JP98.warp.mutant-bug-lair": "Mutant Bug Lair",
+
+    // Ginger Island
+    "JP98.Ginger Island": "Ginger Island",
+    "JP98.Island Farm": "Farm",
+    "JP98.Leo's Home": "Leo's Home",
+    "JP98.Fable Reef": "Fable Reef",
+    "JP98.Island Dwarf Shop": "Volcano Dwarf Shop",
+	"JP98.Island Trader" :"Island Trader",
+    "JP98.Volcano Caldera": "Volcano Forge",
+	"JP98.Tide Pool": "Tide Pool",
+	
+	// Galdora
+    "JP98.Galdora": "Galdora (SVE)",
+    "JP98.Castle Village Outpost": "Castle Village Outpost",
+    "JP98.Crimson Badlands": "Crimson Badlands",
+    "JP98.Iridium Quarry": "Iridium Quarry",
+	"JP98.Enchanted Grove": "Enchanted Grove",
+	"JP98.Treasure Cave": "Treasure Cave",
+	
+	// East Scarp
+	"JP98.East Scarp": "East Scarp",
+	"JP98.East Scarp Town": "Town",
+	"JP98.Light House": "Light House",
+	"JP98.Rodney's House": "Rodney's House",
+	"JP98.Vet's House": "Vet's House",
+	
+	// East Scarp Surroundings
+	"JP98.East Scarp Surroundings": "East Scarp Surroundings",
+	"JP98.Meadow Farm": "Meadow Farm",
+	"JP98.Orchard": "Cherry Orchard",
+	"JP98.ES Sea Cave": "Sea Cave",
+	"JP98.ES Beach": "Beach",
+	"JP98.Mine Entrance": "Mine Entrance",
+	"JP98.Deep Mountain": "Deep Mountain",
+
+    // Ridgeside Village
+    "JP98.Ridgeside Village": "Ridgeside Village",
+	"JP98.Ridgeside Plaza": "Plaza",
+	"JP98.Nightingale Orchard": "Nightingale Orchard",
+	"JP98.Heaps Convenience Store": "Heaps Convenience Store",
+	"JP98.Stage Stairs": "Stage Stairs",
+	"JP98.Amethyne Mansion": "Amethyne Mansion",
+    "JP98.Blooming Hill Farm": "Blooming Hill Farm",
+	"JP98.Bladebane Residence": "Bladebane Residence",
+	"JP98.Water Research Facility & Laboratory": "Water Research Facility",
+	
+    // Ridgeside Surroundings
+    "JP98.Ridgeside Surroundings": "Ridgeside Surroundings",
+	"JP98.Ridge": "Ridge",
+	"JP98.Ridge Forest": "Ridge Forest",
+	"JP98.Ridge Falls": "Ridge Falls",
+	"JP98.Ridge Pond": "Ridge Pond",
+	"JP98.Ninja House": "Ninja House",
+	"JP98.Cliff": "Cliff",
+	"JP98.Spirit Realm": "Spirit Realm",
+	
+    // Cape Stardew
+	"JP98.Cape Stardew": "Cape Stardew",
+	"JP98.Cape Stardew AH": "Annetta's House",
+	"JP98.Cape Stardew SWMP": "Southwesternmost Point",
+	"JP98.Cape Stardew SBC": "Secret Base Cave",
+	
+	// Stardew Aquarium
+	"JP98.Stardew Aquarium": "Stardew Aquarium (NO 1.6)",
+	"JP98.Stardew Aquarium B": "Beach",
+	"JP98.Stardew Aquarium FM": "Fish Museum",
+	
+	// Downtown Zuzu
+	"JP98.Downtown Zuzu": "Downtown Zuzu",
+	"JP98.DTZ PST": "Main Street",
+	"JP98.DTZ GS": "Gas Station",
+	"JP98.DTZ ZCO": "The Oasis",
+	"JP98.DTZ CR": "Crossroad",
+	"JP98.DTZ CRE": "East Crossroad",
+	"JP98.DTZ WW": "Waterway",
+	"JP98.DTZ CRN": "North Crossroad",
+	"JP98.DTZ SF": "Sawmill Farm",
+	"JP98.DTZ TS": "Train Station",
+	
+	// Lunna Astray
+	"JP98.Lunna ASV": "Lunna Astray",
+	"JP98.Lunna ASVH": "Lunna's House",
+	"JP98.Lunna ASVAL": "Ancient Lake",
+	"JP98.Lunna ASVU": "Umuwi",
+	
+	// DeepWoods
+	"JP98.DeepWoods": "DeepWoods (NO 1.6)",
+	"JP98.Deep Woods": "Entrance House",
+	
+	// Cheat Locations
+	"JP98.Cheat Locations": "Cheat Locations",
+	"JP98.CheatMine": "Mine Level:",
+	"JP98.CheatSkullMine": "Skull Cavern Level:",
+	"JP98.CheatSkullMine4": "Skull Cavern Level 5000",
+	
+	// Boarding House
+	
+	"JP98.Boarding House": "Boarding House (NO 1.6)",
+	"JP98.BoardingHouse": "Boarding House Exterior",
+	"JP98.BoardingValley": "Gregory's Tent",
+	"JP98.BoardingRuins": "Prehistoric Ruins",
+	
+	// Durin's Rest
+	
+    "JP98.Durins Rest": "Durin's Rest (NO 1.6)",
+	"JP98.DurinsFarm": "Farm",
+	"JP98.SleepyMarketExterior": "Sleepy Market Exterior",
+	"JP98.PubExterior": "Pub Exterior",
+	"JP98.TenebraPlace": "Tenebra's Place",
+	
+	// Mineral Town
+	
+	"JP98.Mineral Town": "Mineral Town (NO 1.6)",
+	"JP98.MineralEntrance": "Town Entrance",
+	"JP98.MineralTownCenter": "Town Center",
+	"JP98.YodelRanch": "Yodel Ranch",
+	"JP98.MineralChurch": "Church",
+	"JP98.MineralBlacksmith": "Blacksmith",
+	"JP98.MineralBeach": "Beach",
+	"JP98.MineralTidePool": "Tide Pools",
+	"JP98.MineralWoodCutter": "Woodcutter",
+	"JP98.MineralHotSprings": "Hot Springs",
+	"JP98.MineralFlowerHill": "Flower Hill",
+	"JP98.MineralMountainLake": "Mountain Lake",
+	"JP98.MineralSpriteHouse": "Sprites House",
+
+    //Options
+	"config.Stardew Valley Expanded.description": "Enabled Option: Displays the Warps corresponding to Stardew Valley Expanded.\nDisabled option: Displays the Warps corresponding to Stardew Valley.",
+	"config.WarpFarm.name": "Farm Warps",
+	"config.WarpFarm.description": "Enable/Disable this option to Show/Hide this section in the Warps menu.\nEach section contains several Warps corresponding to each area, I recommend to see them well before deactivating them.\nThese sections are shared by Stardew Valley and Stardew Valley Expanded.",
+	"config.WarpShops.name": "Shops Warps",
+	"config.WarpShops.description": "Enable/Disable this option to Show/Hide this section in the Warps menu.\nEach section contains several Warps corresponding to each area, I recommend to see them well before deactivating them.\nThese sections are shared by Stardew Valley and Stardew Valley Expanded.",
+	"config.WarpTown.name": "Town Warps",
+	"config.WarpTown.description": "Enable/Disable this option to Show/Hide this section in the Warps menu.\nEach section contains several Warps corresponding to each area, I recommend to see them well before deactivating them.\nThese sections are shared by Stardew Valley and Stardew Valley Expanded.",
+	"config.WarpForest.name": "Forest Warps",
+	"config.WarpForest.description": "Enable/Disable this option to Show/Hide this section in the Warps menu.\nEach section contains several Warps corresponding to each area, I recommend to see them well before deactivating them.\nThese sections are shared by Stardew Valley and Stardew Valley Expanded.",
+	"config.WarpMountain.name": "Mountain Warps",
+	"config.WarpMountain.description": "Enable/Disable this option to Show/Hide this section in the Warps menu.\nEach section contains several Warps corresponding to each area, I recommend to see them well before deactivating them.\nThese sections are shared by Stardew Valley and Stardew Valley Expanded.",
+	"config.WarpBeach.name": "Beach Warps",
+	"config.WarpBeach.description": "Enable/Disable this option to Show/Hide this section in the Warps menu.\nEach section contains several Warps corresponding to each area, I recommend to see them well before deactivating them.\nThese sections are shared by Stardew Valley and Stardew Valley Expanded.",
+	"config.WarpDesert.name": "Desert Warps",
+	"config.WarpDesert.description": "Enable/Disable this option to Show/Hide this section in the Warps menu.\nEach section contains several Warps corresponding to each area, I recommend to see them well before deactivating them.\nThese sections are shared by Stardew Valley and Stardew Valley Expanded.",
+	"config.WarpUnderWorld.name": "Underworld Warps",
+	"config.WarpUnderWorld.description": "Enable/Disable this option to Show/Hide this section in the Warps menu.\nEach section contains several Warps corresponding to each area, I recommend to see them well before deactivating them.\nThese sections are shared by Stardew Valley and Stardew Valley Expanded.",
+	"config.WarpGingerIsland.name": "Ginger Island Warps",
+	"config.WarpGingerIsland.description": "Enable/Disable this option to Show/Hide this section in the Warps menu.\nEach section contains several Warps corresponding to each area, I recommend to see them well before deactivating them.\nThese sections are shared by Stardew Valley and Stardew Valley Expanded.",
+	"config.WarpGaldora.name": "Galdora Warps",
+	"config.WarpGaldora.description": "Enable/Disable this option to Show/Hide this section in the Warps menu.\nEach section contains several Warps corresponding to each area, I recommend to see them well before deactivating them.\nThese sections are shared by Stardew Valley and Stardew Valley Expanded.",
+	"config.WarpCheatLocations.name": "Cheat Locations Warps",
+	"config.WarpCheatLocations.description": "Enable/Disable this option to Show/Hide this section in the Warps menu.\nEach section contains several Warps corresponding to each area, I recommend to see them well before deactivating them.\nThese sections are shared by Stardew Valley and Stardew Valley Expanded.",
+	"config.East Scarp.description": "Enable/Disable this option to Show/Hide the Warps corresponding to this Mod.\nThese Warps are not divided into sections, if you deactivate the option you deactivate all the Warps of the corresponding Mod.",
+	"config.Ridgeside Village.description": "Enable/Disable this option to Show/Hide the Warps corresponding to this Mod.\nThese Warps are not divided into sections, if you deactivate the option you deactivate all the Warps of the corresponding Mod.",
+	"config.Boarding House.description": "Enable/Disable this option to Show/Hide the Warps corresponding to this Mod.\nThese Warps are not divided into sections, if you deactivate the option you deactivate all the Warps of the corresponding Mod.",
+	"config.Cape Stardew.description": "Enable/Disable this option to Show/Hide the Warps corresponding to this Mod.\nThese Warps are not divided into sections, if you deactivate the option you deactivate all the Warps of the corresponding Mod.",
+	"config.Deep Woods.description": "Enable/Disable this option to Show/Hide the Warps corresponding to this Mod.\nThese Warps are not divided into sections, if you deactivate the option you deactivate all the Warps of the corresponding Mod.",
+	"config.Downtown Zuzu.description": "Enable/Disable this option to Show/Hide the Warps corresponding to this Mod.\nThese Warps are not divided into sections, if you deactivate the option you deactivate all the Warps of the corresponding Mod.",
+	"config.Durins Rest.description": "Enable/Disable this option to Show/Hide the Warps corresponding to this Mod.\nThese Warps are not divided into sections, if you deactivate the option you deactivate all the Warps of the corresponding Mod.",
+	"config.Lunna Astray.description": "Enable/Disable this option to Show/Hide the Warps corresponding to this Mod.\nThese Warps are not divided into sections, if you deactivate the option you deactivate all the Warps of the corresponding Mod.",
+	"config.Mineral Town.description": "Enable/Disable this option to Show/Hide the Warps corresponding to this Mod.\nThese Warps are not divided into sections, if you deactivate the option you deactivate all the Warps of the corresponding Mod.",
+	"config.Stardew Aquarium.description": "Enable/Disable this option to Show/Hide the Warps corresponding to this Mod.\nThese Warps are not divided into sections, if you deactivate the option you deactivate all the Warps of the corresponding Mod.",
+}

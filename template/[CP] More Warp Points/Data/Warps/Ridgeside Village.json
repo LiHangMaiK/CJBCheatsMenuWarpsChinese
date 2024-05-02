@@ -1,0 +1,137 @@
+{
+	"Changes": [
+	
+	    {
+        "Action": "EditData",
+        "Target": "Mods/CJBok.CheatsMenu/WarpSections",
+        "Entries": {
+            "Juanpa98ar.MWP98_RidgesideVillage": {
+                    "Id": "Juanpa98ar.MWP98_RidgesideVillage",
+                    "DisplayName": "{{i18n: JP98.Ridgeside Village}}",
+					"Order": 13
+			    },
+			"Juanpa98ar.MWP98_RidgesideSorroundings": {
+                    "Id": "Juanpa98ar.MWP98_RidgesideSorroundings",
+                    "DisplayName": "{{i18n: JP98.Ridgeside Surroundings}}",
+					"Order": 14
+			    }
+            }
+        },   
+		{
+        "Action": "EditData",
+        "Target": "Mods/CJBok.CheatsMenu/Warps",
+        "Entries": {
+            //RSV
+            "Juanpa98ar.MWP98_RSVRP": {
+                "Id": "Juanpa98ar.MWP98_RSVRP",
+                "SectionId": "Juanpa98ar.MWP98_RidgesideVillage",
+                "DisplayName": "{{i18n: JP98.Ridgeside Plaza}}",
+                "Location": "Custom_Ridgeside_RidgesideVillage",
+                "Tile": "114, 46",
+				"Order": 1
+                },
+			"Juanpa98ar.MWP98_RSVHCS": {
+                "Id": "Juanpa98ar.MWP98_RSVHCS",
+                "SectionId": "Juanpa98ar.MWP98_RidgesideVillage",
+                "DisplayName": "{{i18n: JP98.Heaps Convenience Store}}",
+                "Location": "Custom_Ridgeside_RidgesideVillage",
+                "Tile": "76, 22",
+				"Order": 2
+                },
+			"Juanpa98ar.MWP98_RSVSS": {
+                "Id": "Juanpa98ar.MWP98_RSVSS",
+                "SectionId": "Juanpa98ar.MWP98_RidgesideVillage",
+                "DisplayName": "{{i18n: JP98.Stage Stairs}}",
+                "Location": "Custom_Ridgeside_RidgesideVillage",
+                "Tile": "84, 60",
+				"Order": 3
+                },
+			"Juanpa98ar.MWP98_RSVNO": {
+                "Id": "Juanpa98ar.MWP98_RSVNO",
+                "SectionId": "Juanpa98ar.MWP98_RidgesideVillage",
+                "DisplayName": "{{i18n: JP98.Nightingale Orchard}}",
+                "Location": "Custom_Ridgeside_RidgesideVillage",
+                "Tile": "19, 101"
+                },
+			"Juanpa98ar.MWP98_RSVAM": {
+                "Id": "Juanpa98ar.MWP98_RSVAM",
+                "SectionId": "Juanpa98ar.MWP98_RidgesideVillage",
+                "DisplayName": "{{i18n: JP98.Amethyne Mansion}}",
+                "Location": "Custom_Ridgeside_RidgesideVillage",
+                "Tile": "129, 72"
+                },
+			"Juanpa98ar.MWP98_RSVBH": {
+                "Id": "Juanpa98ar.MWP98_RSVBH",
+                "SectionId": "Juanpa98ar.MWP98_RidgesideVillage",
+                "DisplayName": "{{i18n: JP98.Blooming Hill Farm}}",
+                "Location": "Custom_Ridgeside_RidgesideVillage",
+                "Tile": "47, 35"
+                },
+			"Juanpa98ar.MWP98_RSVBR": {
+                "Id": "Juanpa98ar.MWP98_RSVBR",
+                "SectionId": "Juanpa98ar.MWP98_RidgesideVillage",
+                "DisplayName": "{{i18n: JP98.Bladebane Residence}}",
+                "Location": "Custom_Ridgeside_RidgesideVillage",
+                "Tile": "14, 65"
+                },
+			"Juanpa98ar.MWP98_RSVWR": {
+                "Id": "Juanpa98ar.MWP98_RSVWR",
+                "SectionId": "Juanpa98ar.MWP98_RidgesideVillage",
+                "DisplayName": "{{i18n: JP98.Water Research Facility & Laboratory}}",
+                "Location": "Custom_Ridgeside_RidgesideVillage",
+                "Tile": "84, 106"
+                },
+            //RSVS
+			"Juanpa98ar.MWP98_RSVC": {
+                "Id": "Juanpa98ar.MWP98_RSVC",
+                "SectionId": "Juanpa98ar.MWP98_RidgesideSorroundings",
+                "DisplayName": "{{i18n: JP98.Cliff}}",
+                "Location": "Custom_Ridgeside_RSVCliff",
+                "Tile": "39, 23"
+                },
+            "Juanpa98ar.MWP98_RSVR": {
+                "Id": "Juanpa98ar.MWP98_RSVR",
+                "SectionId": "Juanpa98ar.MWP98_RidgesideSorroundings",
+                "DisplayName": "{{i18n: JP98.Ridge}}",
+                "Location": "Custom_Ridgeside_Ridge",
+                "Tile": "40, 47"
+                },
+			"Juanpa98ar.MWP98_RSVRF": {
+                "Id": "Juanpa98ar.MWP98_RSVRF",
+                "SectionId": "Juanpa98ar.MWP98_RidgesideSorroundings",
+                "DisplayName": "{{i18n: JP98.Ridge Forest}}",
+                "Location": "Custom_Ridgeside_RidgeForest",
+                "Tile": "80, 133"
+                },
+			"Juanpa98ar.MWP98_RSVRFA": {
+                "Id": "Juanpa98ar.MWP98_RSVRFA",
+                "SectionId": "Juanpa98ar.MWP98_RidgesideSorroundings",
+                "DisplayName": "{{i18n: JP98.Ridge Falls}}",
+                "Location": "Custom_Ridgeside_RidgeFalls",
+                "Tile": "39, 23"
+                },
+			"Juanpa98ar.MWP98_RSVRPO": {
+                "Id": "Juanpa98ar.MWP98_RSVRPO",
+                "SectionId": "Juanpa98ar.MWP98_RidgesideSorroundings",
+                "DisplayName": "{{i18n: JP98.Ridge Pond}}",
+                "Location": "Custom_Ridgeside_RidgePond",
+                "Tile": "12, 13"
+                },
+			"Juanpa98ar.MWP98_RSVNH": {
+                "Id": "Juanpa98ar.MWP98_RSVNH",
+                "SectionId": "Juanpa98ar.MWP98_RidgesideSorroundings",
+                "DisplayName": "{{i18n: JP98.Ninja House}}",
+                "Location": "Custom_Ridgeside_Ridge",
+                "Tile": "89, 22"
+                },
+			"Juanpa98ar.MWP98_RSVSR": {
+                "Id": "Juanpa98ar.MWP98_RSVSR",
+                "SectionId": "Juanpa98ar.MWP98_RidgesideSorroundings",
+                "DisplayName": "{{i18n: JP98.Spirit Realm}}",
+                "Location": "Custom_Ridgeside_RSVSpiritRealm",
+                "Tile": "48, 80"
+                }
+		    }
+	    }
+	]
+}

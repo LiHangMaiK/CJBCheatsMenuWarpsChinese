@@ -1,0 +1,119 @@
+{
+	"Changes": [
+	
+	    {
+        "Action": "EditData",
+        "Target": "Mods/CJBok.CheatsMenu/WarpSections",
+        "Entries": {
+            "Juanpa98ar.MWP98_MineralTown": {
+                    "Id": "Juanpa98ar.MWP98_MineralTown",
+                    "DisplayName": "{{i18n: JP98.Mineral Town}}",
+					"Order": 21
+			    }
+            }
+        },   
+		{
+        "Action": "EditData",
+        "Target": "Mods/CJBok.CheatsMenu/Warps",
+        "Entries": {
+            //MT
+            "Juanpa98ar.MWP98_MTE": {
+                "Id": "Juanpa98ar.MWP98_MTE",
+                "SectionId": "Juanpa98ar.MWP98_MineralTown",
+                "DisplayName": "{{i18n: JP98.MineralEntrance}}",
+                "Location": "Custom_HM_MineralTown",
+                "Tile": "23, 72",
+				"Order": 1
+                },
+			"Juanpa98ar.MWP98_MTC": {
+                "Id": "Juanpa98ar.MWP98_MTC",
+                "SectionId": "Juanpa98ar.MWP98_MineralTown",
+                "DisplayName": "{{i18n: JP98.MineralTownCenter}}",
+                "Location": "Custom_HM_MineralTown",
+                "Tile": "74, 88",
+				"Order": 2
+                },
+			"Juanpa98ar.MWP98_MTYR": {
+                "Id": "Juanpa98ar.MWP98_MTYR",
+                "SectionId": "Juanpa98ar.MWP98_MineralTown",
+                "DisplayName": "{{i18n: JP98.YodelRanch}}",
+                "Location": "Custom_HM_MineralTown",
+                "Tile": "119, 93",
+				"Order": 3
+                },
+			"Juanpa98ar.MWP98_MTMC": {
+                "Id": "Juanpa98ar.MWP98_MTMC",
+                "SectionId": "Juanpa98ar.MWP98_MineralTown",
+                "DisplayName": "{{i18n: JP98.MineralChurch}}",
+                "Location": "Custom_HM_MineralTown",
+                "Tile": "37, 30",
+				"Order": 4
+                },
+			"Juanpa98ar.MWP98_MTBS": {
+                "Id": "Juanpa98ar.MWP98_MTBS",
+                "SectionId": "Juanpa98ar.MWP98_MineralTown",
+                "DisplayName": "{{i18n: JP98.MineralBlacksmith}}",
+                "Location": "Custom_HM_MineralTown",
+                "Tile": "28, 114",
+				"Order": 5
+                },
+			"Juanpa98ar.MWP98_MTBeach": {
+                "Id": "Juanpa98ar.MWP98_MTBeach",
+                "SectionId": "Juanpa98ar.MWP98_MineralTown",
+                "DisplayName": "{{i18n: JP98.MineralBeach}}",
+                "Location": "Custom_HM_MineralBeach",
+                "Tile": "22, 11",
+				"Order": 6
+                },
+			"Juanpa98ar.MWP98_MTTP": {
+                "Id": "Juanpa98ar.MWP98_MTTP",
+                "SectionId": "Juanpa98ar.MWP98_MineralTown",
+                "DisplayName": "{{i18n: JP98.MineralTidePool}}",
+                "Location": "Custom_HM_MineralTidePool",
+                "Tile": "20, 16",
+				"Order": 7
+                },
+			"Juanpa98ar.MWP98_MTWC": {
+                "Id": "Juanpa98ar.MWP98_MTWC",
+                "SectionId": "Juanpa98ar.MWP98_MineralTown",
+                "DisplayName": "{{i18n: JP98.MineralWoodCutter}}",
+                "Location": "Custom_HM_WoodCutter",
+                "Tile": "34, 24",
+				"Order": 8
+                },
+			"Juanpa98ar.MWP98_MTHS": {
+                "Id": "Juanpa98ar.MWP98_MTHS",
+                "SectionId": "Juanpa98ar.MWP98_MineralTown",
+                "DisplayName": "{{i18n: JP98.MineralHotSprings}}",
+                "Location": "Custom_HM_GoddessHill",
+                "Tile": "17, 14",
+				"Order": 9
+                },
+			"Juanpa98ar.MWP98_MTFH": {
+                "Id": "Juanpa98ar.MWP98_MTFH",
+                "SectionId": "Juanpa98ar.MWP98_MineralTown",
+                "DisplayName": "{{i18n: JP98.MineralFlowerHill}}",
+                "Location": "Custom_HM_FlowerHill",
+                "Tile": "16, 27",
+				"Order": 10
+                },
+			"Juanpa98ar.MWP98_MTML": {
+                "Id": "Juanpa98ar.MWP98_MTML",
+                "SectionId": "Juanpa98ar.MWP98_MineralTown",
+                "DisplayName": "{{i18n: JP98.MineralMountainLake}}",
+                "Location": "Custom_HM_MountainLake",
+                "Tile": "33, 40",
+				"Order": 11
+                },
+			"Juanpa98ar.MWP98_MTSH": {
+                "Id": "Juanpa98ar.MWP98_MTSH",
+                "SectionId": "Juanpa98ar.MWP98_MineralTown",
+                "DisplayName": "{{i18n: JP98.MineralSpriteHouse}}",
+                "Location": "Custom_HM_MountainForest",
+                "Tile": "19, 24",
+				"Order": 12
+                }
+		    }
+	    }
+	]
+}

@@ -1,0 +1,242 @@
+﻿{
+    /*********
+    ** Warps tab
+    *********/
+    //Farm
+	
+    "JP98.Farm":"Fazenda",
+    "JP98.Farmhouse": "Casa",
+	"JP98.Farm Cave": "Caverna",
+	"JP98.Grandpa's Shed": "Galpão do Vovô",
+
+    // Additional Farms
+    "JP98.Additional Farms": "Fazendas Adicionais",
+	"JP98.Ridgeside Village Summit Farm": "Fazenda do Cume, Vila Ridgeside",
+    "JP98.Ridgeside Village Phantom Farm": "Fazenda Fantasma, Vila Ridgeside",
+    "JP98.Ridgeside Village Community Greenhouse": "Estufa comunitária, Ridgeside",
+	"JP98.Ridgeside Village Cave Farm": "Gruta, Vila Ridgeside",
+
+    // Shops
+    "JP98.Shops": "Lojas",
+	"JP98.Pierre's Shop": "Armazém do Pierre",
+    "JP98.Robin's Carpentry Shop": "Carpintaria",
+    "JP98.Marnie's Ranch": "Rancho da Marnie",
+	"JP98.Clint's Blacksmithing": "Ferreiro",
+	"JP98.Willy's Shop": "Peixaria",
+    "JP98.Joja Mart": "Mercado Joja",
+
+    // Town
+    "JP98.Town": "Vila",
+    "JP98.Community Center": "Centro Comunitário",
+	"JP98.Garden": "Jardim",
+    "JP98.Museum": "Museu",
+	"JP98.Shearwater Bridge": "Ponte Shearwater",
+    "JP98.Mayor's Manor": "Mansão do Prefeito",
+    "JP98.Stardrop Saloon": "Saloon Fruta Estrelar",
+
+    // Forest
+    "JP98.Forest": "Floresta Cinzaseiva",
+    "JP98.Wizard's Tower": "Torre do Mago",
+    "JP98.Sophia's Vineyard": "Vinhedo Blue Moon",
+    "JP98.Andy's Farm": "Fazenda do Andy",
+	"JP98.Aurora Vineyard": "Vinhedo Aurora",
+    "JP98.Secret Woods": "Bosque Secreto",
+    "JP98.Junimo Village": "Vila Junimo",
+    "JP98.Sprite Spring": "Fonte das Fadas",
+    "JP98.Bear's Cave": "Caverna do Urso",
+	"JP98.Sewer Outlet": "Drenagem",
+    "JP98.Mastery Cave": "Caverna da Maestria",
+    "JP98.Hat Mouse": "Rato dos Chapéus",
+	"JP98.Travelling Merchant": "Carrinho de Viagem",
+
+    // Mountain
+    "JP98.Mountain": "Montanha",
+    "JP98.Mine": "Mina",
+    "JP98.Summit": "O Cume",
+	"JP98.Quarry": "Pedreira",
+	"JP98.Railroad": "Ferrovia",
+	"JP98.Back Woods": "Bosque Traseiro",
+    "JP98.Highlands": "Terras Altas",
+    "JP98.Highlands Cavern": "Terras Altas, Caverna",
+    "JP98.Train Platform": "Ferrovia",
+    "JP98.Adventurer's Guild": "Guilda dos Aventureiros",
+
+    // Beach
+    "JP98.Beach": "Praia",
+    "JP98.Elliot's Cabin": "Cabana do Elliott",
+    "JP98.Tide Pools": "Poças de Maré",
+
+    // Desert
+    "JP98.Desert": "Deserto",
+	"JP98.Skull Cave": "Caverna da Caveira",
+    "JP98.Casino": "Cassino",
+	"JP98.Pillars": "Pilares",
+    "JP98.Sand Dragon": "Esqueleto de Dragão",
+    "JP98.Sandy's Shop": "Loja da Sandy",
+
+    // UnderWorld
+	"JP98.Under World": "Mundo Inferior",
+    "JP98.Krobus's Shop": "Loja do Krobus",
+	"JP98.warp.witch-swamp": "Cabana da Bruxa",
+	"JP98.warp.mutant-bug-lair": "Covil dos Insetos Mutantes",
+
+    // Ginger Island
+    "JP98.Ginger Island": "Ilha Gengibre",
+    "JP98.Island Farm": "Fazenda",
+    "JP98.Leo's Home": "Casa do Leo",
+    "JP98.Fable Reef": "Arrecife Fábula (SVE)",
+    "JP98.Island Dwarf Shop": "Loja do Anão (Vulcão)",
+	"JP98.Island Trader" :"Comerciante da Ilha",
+    "JP98.Volcano Caldera": "Forja do Vulcão",
+	"JP98.Tide Pool": "Caverna do Pirata",
+	
+	// Galdora
+    "JP98.Galdora": "Galdora (SVE)",
+    "JP98.Castle Village Outpost": "Posto Avançado, V. Castelo",
+    "JP98.Crimson Badlands": "Badlands Carmesim",
+	"JP98.Treasure Cave": "Caverna do Tesouro",
+    "JP98.Iridium Quarry": "Pedreira de irídio",
+	"JP98.Enchanted Grove": "Bosque Encantado",
+
+    // Ridgeside Village
+    "JP98.Ridgeside Village": "Vila Ridgeside",
+	"JP98.Ridgeside Plaza": "Plaza",
+	"JP98.Nightingale Orchard": "Pomar Nightingale",
+	"JP98.Heaps Convenience Store": "Armazém Heaps",
+	"JP98.Stage Stairs": "Escadas do Palco",
+	"JP98.Amethyne Mansion": "Mansão Amethyne",
+    "JP98.Blooming Hill Farm": "Fazenda Blooming Hill",
+	"JP98.Bladebane Residence": "Residência Bladebane",
+	"JP98.Water Research Facility & Laboratory": "Centro de Pesquisa",
+	
+    // Ridgeside Surroundings
+    "JP98.Ridgeside Surroundings": "Arredores de Ridgeside",
+	"JP98.Ridge": "Crista",
+	"JP98.Ridge Forest": "Bosque Ridge",
+	"JP98.Ridge Falls": "Cataratas Ridge",
+	"JP98.Ridge Pond": "Lago Ridge",
+	"JP98.Ninja House": "Casa Ninja",
+	"JP98.Cliff": "Penhasco",
+	"JP98.Spirit Realm": "Reino Espiritual",
+	
+	// East Scarp
+	"JP98.East Scarp": "East Scarp",
+	"JP98.East Scarp Town": "Vila",
+	"JP98.Light House": "Farol",
+	"JP98.Rodney's House": "Casa do Rodney",
+	"JP98.Vet's House": "Casa do veterinário",
+	
+	// East Scarp Surroundings
+	"JP98.East Scarp Surroundings": "Arredores de East Scarp",
+	"JP98.Meadow Farm": "Finca Meadow",
+	"JP98.Orchard": "Pomar de Cerejeiras",
+	"JP98.ES Sea Cave": "Caverna do Mar",
+	"JP98.ES Beach": "Praia",
+	"JP98.Mine Entrance": "Entrada da Mina",
+	"JP98.Deep Mountain": "Montanha Profunda",
+	
+    // Cape Stardew
+	"JP98.Cape Stardew": "Cape Stardew",
+	"JP98.Cape Stardew AH": "Casa da Annetta",
+	"JP98.Cape Stardew SWMP": "Extremo Sudoeste",
+	"JP98.Cape Stardew SBC": "Caverna da Base Secreta",
+	
+	// Stardew Aquarium
+	"JP98.Stardew Aquarium": "Stardew Aquarium",
+	"JP98.Stardew Aquarium B": "Praia",
+	"JP98.Stardew Aquarium FM": "Museu do Peixe",
+	
+	// Downtown Zuzu
+	"JP98.Downtown Zuzu": "Downtown Zuzu",
+	"JP98.DTZ PST": "Rua Principal",
+	"JP98.DTZ GS": "Posto de Gasolina",
+	"JP98.DTZ ZCO": "O Oásis",
+	"JP98.DTZ CR": "Cruzamento",
+	"JP98.DTZ CRE": "Cruzamento Leste",
+	"JP98.DTZ WW": "Canal",
+	"JP98.DTZ CRN": "Cruzamento Norte",
+	"JP98.DTZ SF": "Fazenda Serraria",
+	"JP98.DTZ TS": "Estação de Trem",
+	
+	// Lunna Astray
+	"JP98.Lunna ASV": "Lunna Astray",
+	"JP98.Lunna ASVH": "Casa da Lunna",
+	"JP98.Lunna ASVAL": "Lago Antigo",
+	"JP98.Lunna ASVU": "Umuwi",
+	
+	// DeepWoods
+	"JP98.DeepWoods": "DeepWoods",
+	"JP98.Deep Woods": "Casa de Entrada",
+	
+	// Cheat Locations
+	"JP98.Cheat Locations": "Locais de Trapaça",
+	"JP98.CheatMine": "Mina Nível:",
+	"JP98.CheatSkullMine": "Caverna da Caveira Nível:",
+	"JP98.CheatSkullMine4": "Caverna da Caveira Nível 5000",
+	
+	// Boarding House
+	
+	"JP98.Boarding House": "Boarding House",
+	"JP98.BoardingHouse": "Fora da Casa de Hóspedes",
+	"JP98.BoardingValley": "Loja do Gregory",
+	"JP98.BoardingRuins": "Ruínas pré-históricas",
+
+	// Durin's Rest
+	
+    "JP98.Durins Rest": "Durin's Rest",
+	"JP98.DurinsFarm": "Fazenda",
+	"JP98.SleepyMarketExterior": "Sleepy Market (Exterior)",
+	"JP98.PubExterior": "Pub (Exterior)",
+	"JP98.TenebraPlace": "Local de Tenebra",
+	
+	// Mineral Town
+	
+	"JP98.Mineral Town": "Mineral Town",
+	"JP98.MineralEntrance": "Entrada da Vila",
+	"JP98.MineralTownCenter": "Centro da Vila",
+	"JP98.YodelRanch": "Rancho Yodel",
+	"JP98.MineralChurch": "Igreja",
+	"JP98.MineralBlacksmith": "Ferreiro",
+	"JP98.MineralBeach": "Praia",
+	"JP98.MineralTidePool": "Poças de Maré",
+	"JP98.MineralWoodCutter": "Lenhador",
+	"JP98.MineralHotSprings": "Águas Termais",
+	"JP98.MineralFlowerHill": "Colina das Flores",
+	"JP98.MineralMountainLake": "Lago da Montanha",
+	"JP98.MineralSpriteHouse": "Casa das Fadas",
+
+    //Options
+	"config.Stardew Valley Expanded.description": "Opção Ativada: Exibe os Teleportes correspondentes a Stardew Valley Expanded.\nOpção Desativada: Exibe os Teleportes correspondentes a Stardew Valley.",
+	"config.WarpFarm.name": "Teleportes: Fazenda",
+	"config.WarpFarm.description": "Ative/Desative essa opção para Mostrar/Ocultar essa seção no menu de Teleportes.\nCada seção contém vários Teleportes correspondentes a cada área; recomendo vê-los bem antes de desativá-los.\nEssas seções são compartilhadas por Stardew Valley e Stardew Valley Expanded.",
+	"config.WarpShops.name": "Teleportes: Lojas",
+	"config.WarpShops.description": "Ative/Desative essa opção para Mostrar/Ocultar essa seção no menu de Teleportes.\nCada seção contém vários Teleportes correspondentes a cada área; recomendo vê-los bem antes de desativá-los.\nEssas seções são compartilhadas por Stardew Valley e Stardew Valley Expanded.",
+	"config.WarpTown.name": "Teleportes: Vila",
+	"config.WarpTown.description": "Ative/Desative essa opção para Mostrar/Ocultar essa seção no menu de Teleportes.\nCada seção contém vários Teleportes correspondentes a cada área; recomendo vê-los bem antes de desativá-los.\nEssas seções são compartilhadas por Stardew Valley e Stardew Valley Expanded.",
+	"config.WarpForest.name": "Teleportes: Floresta",
+	"config.WarpForest.description": "Ative/Desative essa opção para Mostrar/Ocultar essa seção no menu de Teleportes.\nCada seção contém vários Teleportes correspondentes a cada área; recomendo vê-los bem antes de desativá-los.\nEssas seções são compartilhadas por Stardew Valley e Stardew Valley Expanded.",
+	"config.WarpMountain.name": "Teleportes: Montanha",
+	"config.WarpMountain.description": "Ative/Desative essa opção para Mostrar/Ocultar essa seção no menu de Teleportes.\nCada seção contém vários Teleportes correspondentes a cada área; recomendo vê-los bem antes de desativá-los.\nEssas seções são compartilhadas por Stardew Valley e Stardew Valley Expanded.",
+	"config.WarpBeach.name": "Teleportes: Praia",
+	"config.WarpBeach.description": "Ative/Desative essa opção para Mostrar/Ocultar essa seção no menu de Teleportes.\nCada seção contém vários Teleportes correspondentes a cada área; recomendo vê-los bem antes de desativá-los.\nEssas seções são compartilhadas por Stardew Valley e Stardew Valley Expanded.",
+	"config.WarpDesert.name": "Teleportes: Deserto",
+	"config.WarpDesert.description": "Ative/Desative essa opção para Mostrar/Ocultar essa seção no menu de Teleportes.\nCada seção contém vários Teleportes correspondentes a cada área; recomendo vê-los bem antes de desativá-los.\nEssas seções são compartilhadas por Stardew Valley e Stardew Valley Expanded.",
+	"config.WarpUnderWorld.name": "Teleportes: Mundo Inferior",
+	"config.WarpUnderWorld.description": "Ative/Desative essa opção para Mostrar/Ocultar essa seção no menu de Teleportes.\nCada seção contém vários Teleportes correspondentes a cada área; recomendo vê-los bem antes de desativá-los.\nEssas seções são compartilhadas por Stardew Valley e Stardew Valley Expanded.",
+	"config.WarpGingerIsland.name": "Teleportes: Ilha Gengibre",
+	"config.WarpGingerIsland.description": "Ative/Desative essa opção para Mostrar/Ocultar essa seção no menu de Teleportes.\nCada seção contém vários Teleportes correspondentes a cada área; recomendo vê-los bem antes de desativá-los.\nEssas seções são compartilhadas por Stardew Valley e Stardew Valley Expanded.",
+	"config.WarpGaldora.name": "Teleportes: Galdora",
+	"config.WarpGaldora.description": "Ative/Desative essa opção para Mostrar/Ocultar essa seção no menu de Teleportes.\nCada seção contém vários Teleportes correspondentes a cada área; recomendo vê-los bem antes de desativá-los.\nEssas seções são compartilhadas por Stardew Valley e Stardew Valley Expanded.",
+	"config.WarpCheatLocations.name": "Teleportes: Locais de Trapaça",
+	"config.WarpCheatLocations.description": "Ative/Desative essa opção para Mostrar/Ocultar essa seção no menu de Teleportes.\nCada seção contém vários Teleportes correspondentes a cada área; recomendo vê-los bem antes de desativá-los.\nEssas seções são compartilhadas por Stardew Valley e Stardew Valley Expanded.",
+	"config.East Scarp.description": "Ative/Desative essa opção para Mostrar/Ocultar os Teleportes correspondentes a esse Mod.\nEsses Teleportes não são divididos em seções; se você desativar a opção, desativará todos os Teleportes do Mod correspondente.",
+	"config.Ridgeside Village.description": "Ative/Desative essa opção para Mostrar/Ocultar os Teleportes correspondentes a esse Mod.\nEsses Teleportes não são divididos em seções; se você desativar a opção, desativará todos os Teleportes do Mod correspondente.",
+	"config.Boarding House.description": "Ative/Desative essa opção para Mostrar/Ocultar os Teleportes correspondentes a esse Mod.\nEsses Teleportes não são divididos em seções; se você desativar a opção, desativará todos os Teleportes do Mod correspondente.",
+	"config.Cape Stardew.description": "Ative/Desative essa opção para Mostrar/Ocultar os Teleportes correspondentes a esse Mod.\nEsses Teleportes não são divididos em seções; se você desativar a opção, desativará todos os Teleportes do Mod correspondente.",
+	"config.Deep Woods.description": "Ative/Desative essa opção para Mostrar/Ocultar os Teleportes correspondentes a esse Mod.\nEsses Teleportes não são divididos em seções; se você desativar a opção, desativará todos os Teleportes do Mod correspondente.",
+	"config.Downtown Zuzu.description": "Ative/Desative essa opção para Mostrar/Ocultar os Teleportes correspondentes a esse Mod.\nEsses Teleportes não são divididos em seções; se você desativar a opção, desativará todos os Teleportes do Mod correspondente.",
+	"config.Durins Rest.description": "Ative/Desative essa opção para Mostrar/Ocultar os Teleportes correspondentes a esse Mod.\nEsses Teleportes não são divididos em seções; se você desativar a opção, desativará todos os Teleportes do Mod correspondente.",
+	"config.Lunna Astray.description": "Ative/Desative essa opção para Mostrar/Ocultar os Teleportes correspondentes a esse Mod.\nEsses Teleportes não são divididos em seções; se você desativar a opção, desativará todos os Teleportes do Mod correspondente.",
+	"config.Mineral Town.description": "Ative/Desative essa opção para Mostrar/Ocultar os Teleportes correspondentes a esse Mod.\nEsses Teleportes não são divididos em seções; se você desativar a opção, desativará todos os Teleportes do Mod correspondente.",
+	"config.Stardew Aquarium.description": "Ative/Desative essa opção para Mostrar/Ocultar os Teleportes correspondentes a esse Mod.\nEsses Teleportes não são divididos em seções; se você desativar a opção, desativará todos os Teleportes do Mod correspondente.",
+}

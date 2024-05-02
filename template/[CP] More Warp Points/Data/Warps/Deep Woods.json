@@ -1,0 +1,30 @@
+{
+	"Changes": [
+	
+	    {
+        "Action": "EditData",
+        "Target": "Mods/CJBok.CheatsMenu/WarpSections",
+        "Entries": {
+            "Juanpa98ar.MWP98_DeepWoods": {
+                    "Id": "Juanpa98ar.MWP98_DeepWoods",
+                    "DisplayName": "{{i18n: JP98.DeepWoods}}",
+					"Order": 17
+			    }
+            }
+        },   
+		{
+        "Action": "EditData",
+        "Target": "Mods/CJBok.CheatsMenu/Warps",
+        "Entries": {
+            //DW
+            "Juanpa98ar.MWP98_DWoods": {
+                "Id": "Juanpa98ar.MWP98_DWoods",
+                "SectionId": "Juanpa98ar.MWP98_DeepWoods",
+                "DisplayName": "{{i18n: JP98.Deep Woods}}",
+                "Location": "DeepWoodsMaxHouse",
+                "Tile": "19, 19"
+                }
+		    }
+	    }
+	]
+}

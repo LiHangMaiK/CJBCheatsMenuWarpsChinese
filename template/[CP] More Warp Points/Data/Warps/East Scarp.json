@@ -1,0 +1,100 @@
+{
+	"Changes": [
+	
+	    {
+        "Action": "EditData",
+        "Target": "Mods/CJBok.CheatsMenu/WarpSections",
+        "Entries": {
+            "Juanpa98ar.MWP98_EastScarp": {
+                    "Id": "Juanpa98ar.MWP98_EastScarp",
+                    "DisplayName": "{{i18n: JP98.East Scarp}}",
+					"Order": 11
+			    },
+			"Juanpa98ar.MWP98_EastScarpSorroundings": {
+                    "Id": "Juanpa98ar.MWP98_EastScarpSorroundings",
+                    "DisplayName": "{{i18n: JP98.East Scarp Surroundings}}",
+					"Order": 12
+			    }
+            }
+        },   
+		{
+        "Action": "EditData",
+        "Target": "Mods/CJBok.CheatsMenu/Warps",
+        "Entries": {
+            //ES
+            "Juanpa98ar.MWP98_ESTown": {
+                "Id": "Juanpa98ar.MWP98_ESTown",
+                "SectionId": "Juanpa98ar.MWP98_EastScarp",
+                "DisplayName": "{{i18n: JP98.East Scarp Town}}",
+                "Location": "EastScarp_Village",
+                "Tile": "31, 58",
+				"Order": 1
+                },
+			"Juanpa98ar.MWP98_ESLH": {
+                "Id": "Juanpa98ar.MWP98_ESLH",
+                "SectionId": "Juanpa98ar.MWP98_EastScarp",
+                "DisplayName": "{{i18n: JP98.Light House}}",
+                "Location": "EastScarp_Village",
+                "Tile": "71, 119"
+                },
+			"Juanpa98ar.MWP98_ESRH": {
+                "Id": "Juanpa98ar.MWP98_ESRH",
+                "SectionId": "Juanpa98ar.MWP98_EastScarp",
+                "DisplayName": "{{i18n: JP98.Rodney's House}}",
+                "Location": "EastScarp_Village",
+                "Tile": "88, 33"
+                },
+			"Juanpa98ar.MWP98_ESVH": {
+                "Id": "Juanpa98ar.MWP98_ESVH",
+                "SectionId": "Juanpa98ar.MWP98_EastScarp",
+                "DisplayName": "{{i18n: JP98.Vet's House}}",
+                "Location": "EastScarp_Village",
+                "Tile": "14, 28"
+                },
+            //ESS
+            "Juanpa98ar.MWP98_ESMF": {
+                "Id": "Juanpa98ar.MWP98_ESMF",
+                "SectionId": "Juanpa98ar.MWP98_EastScarpSorroundings",
+                "DisplayName": "{{i18n: JP98.Meadow Farm}}",
+                "Location": "EastScarp_MeadowFarm",
+                "Tile": "30, 38"
+                },
+			"Juanpa98ar.MWP98_ESOR": {
+                "Id": "Juanpa98ar.MWP98_ESOR",
+                "SectionId": "Juanpa98ar.MWP98_EastScarpSorroundings",
+                "DisplayName": "{{i18n: JP98.Orchard}}",
+                "Location": "EastScarp_Orchard",
+                "Tile": "3, 18"
+                },
+			"Juanpa98ar.MWP98_ESSC": {
+                "Id": "Juanpa98ar.MWP98_ESSC",
+                "SectionId": "Juanpa98ar.MWP98_EastScarpSorroundings",
+                "DisplayName": "{{i18n: JP98.ES Sea Cave}}",
+                "Location": "EastScarp_Village",
+                "Tile": "78, 116"
+                },
+			"Juanpa98ar.MWP98_ESB": {
+                "Id": "Juanpa98ar.MWP98_ESB",
+                "SectionId": "Juanpa98ar.MWP98_EastScarpSorroundings",
+                "DisplayName": "{{i18n: JP98.ES Beach}}",
+                "Location": "EastScarp_Village",
+                "Tile": "27, 109"
+                },
+			"Juanpa98ar.MWP98_ESME": {
+                "Id": "Juanpa98ar.MWP98_ESME",
+                "SectionId": "Juanpa98ar.MWP98_EastScarpSorroundings",
+                "DisplayName": "{{i18n: JP98.Mine Entrance}}",
+                "Location": "EastScarp_MineEntrance",
+                "Tile": "22, 10"
+                },
+			"Juanpa98ar.MWP98_ESDM": {
+                "Id": "Juanpa98ar.MWP98_ESDM",
+                "SectionId": "Juanpa98ar.MWP98_EastScarpSorroundings",
+                "DisplayName": "{{i18n: JP98.Deep Mountain}}",
+                "Location": "EastScarp_DeepMountains",
+                "Tile": "60, 59"
+                }
+		    }
+	    }
+	]
+}
