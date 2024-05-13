@@ -1,0 +1,113 @@
+{
+	"Changes": [
+	
+	    {
+        "Action": "EditData",
+        "Target": "Mods/CJBok.CheatsMenu/WarpSections",
+        "Entries": {
+            "Juanpa98ar.MWP98_MountVapius": {
+                    "Id": "Juanpa98ar.MWP98_MountVapius",
+                    "DisplayName": "{{i18n: JP98.Mount Vapius}}",
+					"Order": 23
+			    },
+			"Juanpa98ar.MWP98_MountVapiusForest": {
+                    "Id": "Juanpa98ar.MWP98_MountVapiusForest",
+                    "DisplayName": "{{i18n: JP98.Mount Vapius Forest}}",
+					"Order": 24
+			    },
+			"Juanpa98ar.MWP98_MountVapiusSorroundings": {
+                    "Id": "Juanpa98ar.MWP98_MountVapiusSorroundings",
+                    "DisplayName": "{{i18n: JP98.Mount Vapius Sorroundings}}",
+					"Order": 25
+			    }
+            }
+        },   
+		{
+        "Action": "EditData",
+        "Target": "Mods/CJBok.CheatsMenu/Warps",
+        "Entries": {
+            //VMV
+            "Juanpa98ar.MWP98_VMVPlaza": {
+                "Id": "Juanpa98ar.MWP98_VMVPlaza",
+                "SectionId": "Juanpa98ar.MWP98_MountVapius",
+                "DisplayName": "{{i18n: JP98.Mount VMVPlaza}}",
+                "Location": "Lumisteria.MtVapius_Hamlet",
+                "Tile": "47, 75",
+				"Order": 1
+                },
+			"Juanpa98ar.MWP98_VMVTSTA": {
+                "Id": "Juanpa98ar.MWP98_VMVTSTA",
+                "SectionId": "Juanpa98ar.MWP98_MountVapius",
+                "DisplayName": "{{i18n: JP98.Mount TSTA}}",
+                "Location": "Lumisteria.MtVapius_TrainStation",
+                "Tile": "7, 26",
+                },
+			"Juanpa98ar.MWP98_VMVASH": {
+                "Id": "Juanpa98ar.MWP98_VMVASH",
+                "SectionId": "Juanpa98ar.MWP98_MountVapius",
+                "DisplayName": "{{i18n: JP98.Mount ASH}}",
+                "Location": "Lumisteria.MtVapius_Hamlet",
+                "Tile": "70, 24",
+                },
+			"Juanpa98ar.MWP98_VMVLake": {
+                "Id": "Juanpa98ar.MWP98_VMVLake",
+                "SectionId": "Juanpa98ar.MWP98_MountVapius",
+                "DisplayName": "{{i18n: JP98.Mount VMVLake}}",
+                "Location": "Lumisteria.MtVapius_Hamlet",
+                "Tile": "32, 15",
+                },
+			//VMVF
+			"Juanpa98ar.MWP98_VMVFTP": {
+                "Id": "Juanpa98ar.MWP98_VMVFTP",
+                "SectionId": "Juanpa98ar.MWP98_MountVapiusForest",
+                "DisplayName": "{{i18n: JP98.Mount VMVFTP}}",
+                "Location": "Lumisteria.MtVapius_ForestTrailPond",
+                "Tile": "24, 36",
+                },
+			"Juanpa98ar.MWP98_VMVFTW": {
+                "Id": "Juanpa98ar.MWP98_VMVFTW",
+                "SectionId": "Juanpa98ar.MWP98_MountVapiusForest",
+                "DisplayName": "{{i18n: JP98.Mount VMVFTW}}",
+                "Location": "Lumisteria.MtVapius_ForestTrailWoodland",
+                "Tile": "31, 21",
+                },
+			"Juanpa98ar.MWP98_VMVFCL": {
+                "Id": "Juanpa98ar.MWP98_VMVFCL",
+                "SectionId": "Juanpa98ar.MWP98_MountVapiusForest",
+                "DisplayName": "{{i18n: JP98.Mount VMVFCL}}",
+                "Location": "Lumisteria.MtVapius_ForestCrystalLake",
+                "Tile": "41, 48",
+                },
+			"Juanpa98ar.MWP98_VMVFCE": {
+                "Id": "Juanpa98ar.MWP98_VMVFCE",
+                "SectionId": "Juanpa98ar.MWP98_MountVapiusForest",
+                "DisplayName": "{{i18n: JP98.Mount VMVFCE}}",
+                "Location": "Lumisteria.MtVapius_ForestCrystalLake",
+                "Tile": "7, 17",
+                },
+            //VMVS
+			"Juanpa98ar.MWP98_VMVSOrchard": {
+                "Id": "Juanpa98ar.MWP98_VMVSOrchard",
+                "SectionId": "Juanpa98ar.MWP98_MountVapiusSorroundings",
+                "DisplayName": "{{i18n: JP98.Mount VMVSOrchard}}",
+                "Location": "Lumisteria.MtVapius_Orchard",
+                "Tile": "17, 19",
+                },
+            "Juanpa98ar.MWP98_VMVSClearing": {
+                "Id": "Juanpa98ar.MWP98_VMVSClearing",
+                "SectionId": "Juanpa98ar.MWP98_MountVapiusSorroundings",
+                "DisplayName": "{{i18n: JP98.Mount VMVSClearing}}",
+                "Location": "Lumisteria.MtVapius_Clearing",
+                "Tile": "34, 10",
+                },
+			"Juanpa98ar.MWP98_VMVSLodge": {
+                "Id": "Juanpa98ar.MWP98_VMVSLodge",
+                "SectionId": "Juanpa98ar.MWP98_MountVapiusSorroundings",
+                "DisplayName": "{{i18n: JP98.Mount VMVSLodge}}",
+                "Location": "Lumisteria.MtVapius_Lodge",
+                "Tile": "14, 9",
+                }
+		    }
+		}
+	]
+}

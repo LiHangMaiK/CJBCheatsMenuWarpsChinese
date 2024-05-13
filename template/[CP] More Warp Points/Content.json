@@ -63,10 +63,22 @@
                 "Default": "true",
 				"Section": "Stardew Valley"
             },
+			"WarpWestForest": {
+    			"Description": "",
+                "AllowValues": "true, false",
+                "Default": "false",
+				"Section": "Stardew Valley"
+            },
 			"WarpGaldora": {
     			"Description": "",
                 "AllowValues": "true, false",
-                "Default": "true",
+                "Default": "false",
+				"Section": "Stardew Valley"
+            },
+			"WarpGrampleton": {
+    			"Description": "",
+                "AllowValues": "true, false",
+                "Default": "false",
 				"Section": "Stardew Valley"
             },
 			"WarpCheatLocations": {
@@ -75,16 +87,90 @@
                 "Default": "true",
 				"Section": "Stardew Valley"
             },
+			//
 			"East Scarp": {
     			"Description": "",
                 "AllowValues": "true, false",
                 "Default": "false",
 				"Section": "East Scarp"
             },
+			"WarpESFarm": {
+    			"Description": "",
+                "AllowValues": "true, false",
+                "Default": "true",
+				"Section": "East Scarp"
+            },
+			"WarpESTown": {
+    			"Description": "",
+                "AllowValues": "true, false",
+                "Default": "true",
+				"Section": "East Scarp"
+            },
+			"WarpESBeach": {
+    			"Description": "",
+                "AllowValues": "true, false",
+                "Default": "true",
+				"Section": "East Scarp"
+            },
+			"WarpESOrchard": {
+    			"Description": "",
+                "AllowValues": "true, false",
+                "Default": "true",
+				"Section": "East Scarp"
+            },
+			"WarpESDeeMou": {
+    			"Description": "",
+                "AllowValues": "true, false",
+                "Default": "true",
+				"Section": "East Scarp"
+            },
+			//
 			"Ridgeside Village": {
     			"Description": "",
                 "AllowValues": "true, false",
                 "Default": "false",
+				"Section": "Ridgeside Village"
+            },
+			"WarpRSVFarm": {
+    			"Description": "",
+                "AllowValues": "true, false",
+                "Default": "true",
+				"Section": "Ridgeside Village"
+            },
+			"WarpRSVN": {
+    			"Description": "",
+                "AllowValues": "true, false",
+                "Default": "true",
+				"Section": "Ridgeside Village"
+            },
+			"WarpRSVS": {
+    			"Description": "",
+                "AllowValues": "true, false",
+                "Default": "true",
+				"Section": "Ridgeside Village"
+            },
+			"WarpRSVCH": {
+    			"Description": "",
+                "AllowValues": "true, false",
+                "Default": "true",
+				"Section": "Ridgeside Village"
+            },
+			"WarpRSVR": {
+    			"Description": "",
+                "AllowValues": "true, false",
+                "Default": "true",
+				"Section": "Ridgeside Village"
+            },
+			"WarpRSVRF": {
+    			"Description": "",
+                "AllowValues": "true, false",
+                "Default": "true",
+				"Section": "Ridgeside Village"
+            },
+			"WarpRSVRFF": {
+    			"Description": "",
+                "AllowValues": "true, false",
+                "Default": "true",
 				"Section": "Ridgeside Village"
             },
 			/*"Boarding House": {
@@ -128,13 +214,25 @@
                 "AllowValues": "true, false",
                 "Default": "false",
 				"Section": "Mineral Town"
+            },*/
+			"Passerby Cemetery": {
+    			"Description": "",
+                "AllowValues": "true, false",
+                "Default": "false",
+				"Section": "Passerby Cemetery"
             },
-			"Stardew Aquarium": {
+			/*"Stardew Aquarium": {
     			"Description": "",
                 "AllowValues": "true, false",
                 "Default": "false",
 				"Section": "Stardew Aquarium"
             },*/
+			"Visit Mount Vapius": {
+    			"Description": "",
+                "AllowValues": "true, false",
+                "Default": "false",
+				"Section": "Visit Mount Vapius"
+            },
         },
 	"Changes": [
 //Warps Replacer	
@@ -206,12 +304,27 @@
         "Action": "Include",
         "FromFile": "Data/Warps/Mineral Town.json",
 		"When": { "Mineral Town": "true"}
-        },
+        },*/
 		{
+        "Action": "Include",
+        "FromFile": "Data/Warps/Passerby Cemetery.json",
+		"When": { "Passerby Cemetery": "true"}
+        },
+		/*{
         "Action": "Include",
         "FromFile": "Data/Warps/Stardew Aquarium.json",
 		"When": { "Stardew Aquarium": "true"}
         },*/
+		{
+        "Action": "Include",
+        "FromFile": "Data/Warps/Mount Vapius.json",
+		"When": { "Visit Mount Vapius": "true"}
+        },
+		{
+        "Action": "Include",
+        "FromFile": "Data/Warps/Cheat Locations.json",
+		"When": { "WarpCheatLocations": "true"}
+        },
 //In Hell We Live, Lament
 	]
 }

@@ -1,0 +1,192 @@
+{
+	"Changes": [
+		{
+        "Action": "EditData",
+        "Target": "Mods/CJBok.CheatsMenu/WarpSections",
+        "Entries": {
+            "Juanpa98ar.MWP98_CheatLocations": {
+                    "Id": "Juanpa98ar.MWP98_CheatLocations",
+                    "DisplayName": "{{i18n: JP98.Cheat Locations}}",
+					"Order": 999
+			    },
+		    },
+		"When": {"Stardew Valley Expanded": "false"}
+		},
+		{
+        "Action": "EditData",
+        "Target": "Mods/CJBok.CheatsMenu/WarpSections",
+        "Entries": {
+            "Juanpa98ar.MWP98_SVE.CheatLocations": {
+                    "Id": "Juanpa98ar.MWP98_SVE.CheatLocations",
+                    "DisplayName": "{{i18n: JP98.Cheat Locations}}",
+					"Order": 999
+			    }
+		    },
+		"When": {"Stardew Valley Expanded": "true"}
+		},
+		
+//       
+		
+	    {
+        "Action": "EditData",
+        "Target": "Mods/CJBok.CheatsMenu/Warps",
+        "Entries": {
+            //Cheat Locations
+		    "Juanpa98ar.MWP98_CheatMine": {
+                "Id": "Juanpa98ar.MWP98_CheatMine",
+                "SectionId": "Juanpa98ar.MWP98_CheatLocations",
+                "DisplayName": "{{i18n: JP98.CheatMine}}",
+                "Location": "Mine",
+                "Tile": "13, 10",
+				"Order": 1
+                },
+			"Juanpa98ar.MWP98_CheatSkullMine": {
+                "Id": "Juanpa98ar.MWP98_CheatSkullMine",
+                "SectionId": "Juanpa98ar.MWP98_CheatLocations",
+                "DisplayName": "{{i18n: JP98.CheatSkullMine}}",
+                "Location": "SkullCave",
+                "Tile": "3, 4",
+				"Order": 2
+                },
+			"Juanpa98ar.MWP98_CheatSkullMine2": {
+                "Id": "Juanpa98ar.MWP98_CheatSkullMine2",
+                "SectionId": "Juanpa98ar.MWP98_CheatLocations",
+                "DisplayName": "{{i18n: JP98.CheatSkullMine4}}",
+                "Location": "UndergroundMine5120",
+                "Tile": "0, 0",
+				"Order": 3
+                },
+			"Juanpa98ar.MWP98_VolcanoCaldera": {
+                "Id": "Juanpa98ar.MWP98_VolcanoCaldera",
+                "SectionId": "Juanpa98ar.MWP98_CheatLocations",
+                "DisplayName": "{{i18n: JP98.Volcano Caldera}}",
+                "Location": "Caldera",
+                "Tile": "23, 24"
+                },
+			"Juanpa98ar.MWP98_IslandDwarf": {
+                "Id": "Juanpa98ar.MWP98_IslandDwarf",
+                "SectionId": "Juanpa98ar.MWP98_CheatLocations",
+                "DisplayName": "{{i18n: JP98.Island Dwarf Shop}}",
+                "Location": "VolcanoDungeon5",
+                "Tile": "36, 32"
+                }
+		    },
+		"When": {"Stardew Valley Expanded": "false"}
+		},
+		{
+        "Action": "EditData",
+        "Target": "Mods/CJBok.CheatsMenu/Warps",
+        "Entries": {
+            //Cheat Locations
+		    "Juanpa98ar.MWP98_SVE.CheatMine": {
+                "Id": "Juanpa98ar.MWP98_SVE.CheatMine",
+                "SectionId": "Juanpa98ar.MWP98_SVE.CheatLocations",
+                "DisplayName": "{{i18n: JP98.CheatMine}}",
+                "Location": "Mine",
+                "Tile": "13, 10",
+				"Order": 1
+                },
+			"Juanpa98ar.MWP98_SVE.CheatSkullMine": {
+                "Id": "Juanpa98ar.MWP98_SVE.CheatSkullMine",
+                "SectionId": "Juanpa98ar.MWP98_SVE.CheatLocations",
+                "DisplayName": "{{i18n: JP98.CheatSkullMine}}",
+                "Location": "SkullCave",
+                "Tile": "3, 4",
+				"Order": 2
+                },
+			"Juanpa98ar.MWP98_SVE.CheatSkullMine2": {
+                "Id": "Juanpa98ar.MWP98_SVE.CheatSkullMine2",
+                "SectionId": "Juanpa98ar.MWP98_SVE.CheatLocations",
+                "DisplayName": "{{i18n: JP98.CheatSkullMine4}}",
+                "Location": "UndergroundMine5120",
+                "Tile": "0, 0",
+				"Order": 3
+                },
+			"Juanpa98ar.MWP98_SVE.VolcanoCaldera": {
+                "Id": "Juanpa98ar.MWP98_SVE.VolcanoCaldera",
+                "SectionId": "Juanpa98ar.MWP98_SVE.CheatLocations",
+                "DisplayName": "{{i18n: JP98.Volcano Caldera}}",
+                "Location": "Caldera",
+                "Tile": "23, 24"
+                },
+			"Juanpa98ar.MWP98_SVE.IslandDwarf": {
+                "Id": "Juanpa98ar.MWP98_SVE.IslandDwarf",
+                "SectionId": "Juanpa98ar.MWP98_SVE.CheatLocations",
+                "DisplayName": "{{i18n: JP98.Island Dwarf Shop}}",
+                "Location": "VolcanoDungeon5",
+                "Tile": "36, 32"
+                },
+			"Juanpa98ar.MWP98_SVE.TreasureCave": {
+                "Id": "Juanpa98ar.MWP98_SVE.TreasureCave",
+                "SectionId": "Juanpa98ar.MWP98_SVE.CheatLocations",
+                "DisplayName": "{{i18n: JP98.Treasure Cave}}",
+                "Location": "Custom_TreasureCave",
+                "Tile": "10, 13"
+                }
+		    },
+		"When": {"Stardew Valley Expanded": "true"}
+		},
+//Ridgeside
+        {
+        "Action": "EditData",
+        "Target": "Mods/CJBok.CheatsMenu/Warps",
+        "Entries": {
+            //Cheat Locations
+		    "Juanpa98ar.MWP98_RSVTSR": {
+                "Id": "Juanpa98ar.MWP98_RSVTSR",
+                "SectionId": "Juanpa98ar.MWP98_CheatLocations",
+                "DisplayName": "{{i18n: JP98.Spirit Realm}}",
+                "Location": "Custom_Ridgeside_RSVSpiritRealm",
+                "Tile": "44, 79"
+                }
+		    },
+		"When": {"Ridgeside Village": "true", "Stardew Valley Expanded": "false"}
+	    },
+		{
+        "Action": "EditData",
+        "Target": "Mods/CJBok.CheatsMenu/Warps",
+        "Entries": {
+            //Cheat Locations
+		    "Juanpa98ar.MWP98_SVE.RSVTSR": {
+                "Id": "Juanpa98ar.MWP98_SVE.RSVTSR",
+                "SectionId": "Juanpa98ar.MWP98_SVE.CheatLocations",
+                "DisplayName": "{{i18n: JP98.Spirit Realm}}",
+                "Location": "Custom_Ridgeside_RSVSpiritRealm",
+                "Tile": "44, 79"
+                }
+		    },
+		"When": {"Ridgeside Village": "true", "Stardew Valley Expanded": "true"}
+	    },
+//Mount Vapius
+        {
+        "Action": "EditData",
+        "Target": "Mods/CJBok.CheatsMenu/Warps",
+        "Entries": {
+            //Cheat Locations
+		    "Juanpa98ar.MWP98_VMVFJC": {
+                "Id": "Juanpa98ar.MWP98_VMVFJC",
+                "SectionId": "Juanpa98ar.MWP98_CheatLocations",
+                "DisplayName": "{{i18n: JP98.Mount VMVFJC}}",
+                "Location": "Lumisteria.MtVapius_ForestJunimoClearing",
+                "Tile": "21, 15"
+                }
+		    },
+		"When": {"Visit Mount Vapius": "true", "Stardew Valley Expanded": "false"}
+	    },
+		{
+        "Action": "EditData",
+        "Target": "Mods/CJBok.CheatsMenu/Warps",
+        "Entries": {
+            //Cheat Locations
+		    "Juanpa98ar.MWP98_SVE.VMVFJC": {
+                "Id": "Juanpa98ar.MWP98_SVE.VMVFJC",
+                "SectionId": "Juanpa98ar.MWP98_SVE.CheatLocations",
+                "DisplayName": "{{i18n: JP98.Mount VMVFJC}}",
+                "Location": "Lumisteria.MtVapius_ForestJunimoClearing",
+                "Tile": "21, 15"
+                }
+		    },
+		"When": {"Visit Mount Vapius": "true", "Stardew Valley Expanded": "true"}
+	    },
+	]
+}

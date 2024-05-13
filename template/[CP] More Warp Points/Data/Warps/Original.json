@@ -109,18 +109,6 @@
 		    },
 		"When": {"WarpGingerIsland": "true"}
 		},
-		{
-        "Action": "EditData",
-        "Target": "Mods/CJBok.CheatsMenu/WarpSections",
-        "Entries": {
-            "Juanpa98ar.MWP98_CheatLocations": {
-                    "Id": "Juanpa98ar.MWP98_CheatLocations",
-                    "DisplayName": "{{i18n: JP98.Cheat Locations}}",
-					"Order": 999
-			    },
-		    },
-		"When": {"WarpCheatLocations": "true"}
-		},
 //Warps
 		{
         "Action": "EditData",
@@ -278,6 +266,13 @@
                 "DisplayName": "{{i18n: JP98.Hat Mouse}}",
                 "Location": "Forest",
                 "Tile": "34, 96"
+                },
+			"Juanpa98ar.MWP98_MasteryCave": {
+                "Id": "Juanpa98ar.MWP98_MasteryCave",
+                "SectionId": "Juanpa98ar.MWP98_Forest",
+                "DisplayName": "{{i18n: JP98.Mastery Cave}}",
+                "Location": "Forest",
+                "Tile": "101, 73"
                 }
 		    },
 		"When": {"WarpForest": "true"}
@@ -430,6 +425,14 @@
                 "Tile": "77, 41",
 				"Order": 1
                 },
+			"Juanpa98ar.MWP98_VolcanoDungeon": {
+                "Id": "Juanpa98ar.MWP98_VolcanoDungeon",
+                "SectionId": "Juanpa98ar.MWP98_GingerIsland",
+                "DisplayName": "{{i18n: JP98.Volcano Dungeon}}",
+                "Location": "IslandNorth",
+                "Tile": "40, 22",
+				"Order": 2
+                },
 			"Juanpa98ar.MWP98_LeoHome": {
                 "Id": "Juanpa98ar.MWP98_LeoHome",
                 "SectionId": "Juanpa98ar.MWP98_GingerIsland",
@@ -450,62 +453,16 @@
                 "DisplayName": "{{i18n: JP98.Tide Pool}}",
                 "Location": "IslandSouthEast",
                 "Tile": "6, 29"
+                },
+			"Juanpa98ar.MWP98_WallnutRoom": {
+                "Id": "Juanpa98ar.MWP98_WallnutRoom",
+                "SectionId": "Juanpa98ar.MWP98_GingerIsland",
+                "DisplayName": "{{i18n: JP98.Wallnut Room}}",
+                "Location": "IslandWest",
+                "Tile": "20, 24"
                 }
 		    },
 		"When": {"WarpGingerIsland": "true"}
-		},
-		{
-        "Action": "EditData",
-        "Target": "Mods/CJBok.CheatsMenu/Warps",
-        "Entries": {
-            //Cheat Locations
-		    "Juanpa98ar.MWP98_CheatMine": {
-                "Id": "Juanpa98ar.MWP98_CheatMine",
-                "SectionId": "Juanpa98ar.MWP98_CheatLocations",
-                "DisplayName": "{{i18n: JP98.CheatMine}}",
-                "Location": "Mine",
-                "Tile": "13, 10",
-				"Order": 1
-                },
-			"Juanpa98ar.MWP98_CheatSkullMine": {
-                "Id": "Juanpa98ar.MWP98_CheatSkullMine",
-                "SectionId": "Juanpa98ar.MWP98_CheatLocations",
-                "DisplayName": "{{i18n: JP98.CheatSkullMine}}",
-                "Location": "SkullCave",
-                "Tile": "3, 4",
-				"Order": 2
-                },
-			"Juanpa98ar.MWP98_CheatSkullMine2": {
-                "Id": "Juanpa98ar.MWP98_CheatSkullMine2",
-                "SectionId": "Juanpa98ar.MWP98_CheatLocations",
-                "DisplayName": "{{i18n: JP98.CheatSkullMine4}}",
-                "Location": "UndergroundMine5120",
-                "Tile": "0, 0",
-				"Order": 3
-                },
-			"Juanpa98ar.MWP98_VolcanoCaldera": {
-                "Id": "Juanpa98ar.MWP98_VolcanoCaldera",
-                "SectionId": "Juanpa98ar.MWP98_CheatLocations",
-                "DisplayName": "{{i18n: JP98.Volcano Caldera}}",
-                "Location": "Caldera",
-                "Tile": "23, 24"
-                },
-			"Juanpa98ar.MWP98_IslandDwarf": {
-                "Id": "Juanpa98ar.MWP98_IslandDwarf",
-                "SectionId": "Juanpa98ar.MWP98_CheatLocations",
-                "DisplayName": "{{i18n: JP98.Island Dwarf Shop}}",
-                "Location": "VolcanoDungeon5",
-                "Tile": "36, 32"
-                },
-			"Juanpa98ar.MWP98_MasteryCave": {
-                "Id": "Juanpa98ar.MWP98_MasteryCave",
-                "SectionId": "Juanpa98ar.MWP98_CheatLocations",
-                "DisplayName": "{{i18n: JP98.Mastery Cave}}",
-                "Location": "MasteryCave",
-                "Tile": "7, 10"
-                }
-		    },
-		"When": {"WarpCheatLocations": "true"}
 		}
 	]
 }
