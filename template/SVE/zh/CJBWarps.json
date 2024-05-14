@@ -30,6 +30,10 @@
                     "Tile": "9, 21",
                     "SectionId": "forest"
                 },
+                "secret-woods": {
+                    "Tile": "80, 29",
+                    "SectionId": "forest"
+                },
                 "adventurers-guild": {
                     "Tile": "32, 22",
                     "SectionId": "mountain",
@@ -87,7 +91,7 @@
                 },
                 "FlashShifter.StardewValleyExpandedCP_Quarry": {
                     "Id": "FlashShifter.StardewValleyExpandedCP_Quarry",
-                    "DisplayName": "農場採石場",
+                    "DisplayName": "农场採石场",
                     "Location": "Farm",
                     "Tile": "10, 147",
                     "SectionId": "Town"
@@ -101,7 +105,7 @@
                 },
                 "FlashShifter.StardewValleyExpandedCP_Cave": {
                     "Id": "FlashShifter.StardewValleyExpandedCP_Cave",
-                    "DisplayName": "農場洞穴",
+                    "DisplayName": "农场洞穴",
                     "Location": "FarmCave",
                     "Tile": "8, 11",
                     "SectionId": "Town"
@@ -268,7 +272,7 @@
                 },
                 "FlashShifter.StardewValleyExpandedCP_Sewer": {
                     "Id": "FlashShifter.StardewValleyExpandedCP_Sewer Grate",
-                    "DisplayName": "下水道入口",
+                    "DisplayName": "下水道门口",
                     "Location": "forest",
                     "Tile": "95, 100",
                     "SectionId": "forest"
@@ -345,7 +349,7 @@
                 },
                 "FlashShifter.StardewValleyExpandedCP_Elliott": {
                     "Id": "FlashShifter.StardewValleyExpandedCP_Elliot's Cabin",
-                    "DisplayName": "艾里欧特的小屋",
+                    "DisplayName": "艾利欧特的小屋",
                     "Location": "Beach",
                     "Tile": "49, 11",
                     "SectionId": "Beach"
