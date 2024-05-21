@@ -20,6 +20,7 @@
 	"JP98.Clint's Blacksmithing": "Ferreiro",
 	"JP98.Willy's Shop": "Peixaria",
     "JP98.Joja Mart": "Mercado Joja",
+	"JP98.MovThe": "Cinema",
 
     // Town
     "JP98.Town": "Vila",
@@ -354,4 +355,5 @@
 	"config.Mineral Town.description": "Ative/Desative essa opção para Mostrar/Ocultar os Teleportes correspondentes a esse Mod.\nEsses Teleportes não são divididos em seções; se você desativar a opção, desativará todos os Teleportes do Mod correspondente.",
 	"config.Stardew Aquarium.description": "Ative/Desative essa opção para Mostrar/Ocultar os Teleportes correspondentes a esse Mod.\nEsses Teleportes não são divididos em seções; se você desativar a opção, desativará todos os Teleportes do Mod correspondente.",
 	"config.Passerby Cemetery.description": "Ative/Desative essa opção para Mostrar/Ocultar os Teleportes correspondentes a esse Mod.\nEsses Teleportes não são divididos em seções; se você desativar a opção, desativará todos os Teleportes do Mod correspondente.",
+	"config.Visit Mount Vapius.description": "Ative/Desative essa opção para Mostrar/Ocultar os Teleportes correspondentes a esse Mod.\nEsses Teleportes não são divididos em seções; se você desativar a opção, desativará todos os Teleportes do Mod correspondente.",
 }

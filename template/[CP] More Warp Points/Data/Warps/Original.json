@@ -184,7 +184,8 @@
                 "DisplayName": "{{i18n: JP98.Joja Mart}}",
                 "Location": "Town",
                 "Tile": "95, 51",
-				"Order": 6
+				"Order": 6,
+                "Condition": "!IS_COMMUNITY_CENTER_COMPLETE"
                 }
 		    },
 		"When": {"WarpShops": "true"}
@@ -200,7 +201,32 @@
                 "DisplayName": "{{i18n: JP98.Community Center}}",
                 "Location": "Town",
                 "Tile": "52, 21",
+                "Condition": "!IS_JOJA_MART_COMPLETE",
 				"Order": 1
+                },
+			"Juanpa98ar.MWP98_JojaW": {
+                "Id": "Juanpa98ar.MWP98_JojaW",
+                "SectionId": "Juanpa98ar.MWP98_Town",
+                "DisplayName": "{{i18n: JP98.Joja Mart}}",
+                "Location": "Town",
+                "Tile": "95, 51",
+                "Condition": "IS_COMMUNITY_CENTER_COMPLETE, !PLAYER_HAS_MAIL Host ccMovieTheater"
+                },
+			"Juanpa98ar.MWP98_MTH": {
+                "Id": "Juanpa98ar.MWP98_MTH",
+                "SectionId": "Juanpa98ar.MWP98_Town",
+                "DisplayName": "{{i18n: JP98.MovThe}}",
+                "Location": "Town",
+                "Tile": "95, 51",
+                "Condition": "PLAYER_HAS_MAIL Host ccMovieTheater, !PLAYER_HAS_MAIL Host ccMovieTheaterJoja"
+                },
+			"Juanpa98ar.MWP98_MTHJ": {
+                "Id": "Juanpa98ar.MWP98_MTHJ",
+                "SectionId": "Juanpa98ar.MWP98_Town",
+                "DisplayName": "{{i18n: JP98.MovThe}}",
+                "Location": "Town",
+                "Tile": "52, 21",
+                "Condition": "PLAYER_HAS_MAIL Host ccMovieTheater, PLAYER_HAS_MAIL Host ccMovieTheaterJoja"
                 },
 			"Juanpa98ar.MWP98_Museum": {
                 "Id": "Juanpa98ar.MWP98_Museum",

@@ -20,6 +20,7 @@
 	"JP98.Clint's Blacksmithing": "Blacksmith",
 	"JP98.Willy's Shop": "Fish Shop",
     "JP98.Joja Mart": "Joja Mart",
+	"JP98.MovThe": "Movie Theater",
 
     // Town
     "JP98.Town": "Town",
@@ -354,4 +355,5 @@
 	"config.Mineral Town.description": "Enable/Disable this option to Show/Hide the Warps corresponding to this Mod.\nThese Warps are not divided into sections, if you deactivate the option you deactivate all the Warps of the corresponding Mod.",
 	"config.Stardew Aquarium.description": "Enable/Disable this option to Show/Hide the Warps corresponding to this Mod.\nThese Warps are not divided into sections, if you deactivate the option you deactivate all the Warps of the corresponding Mod.",
 	"config.Passerby Cemetery.description": "Enable/Disable this option to Show/Hide the Warps corresponding to this Mod.\nThese Warps are not divided into sections, if you deactivate the option you deactivate all the Warps of the corresponding Mod.",
+	"config.Visit Mount Vapius.description": "Enable/Disable this option to Show/Hide the Warps corresponding to this Mod.\nThese Warps are not divided into sections, if you deactivate the option you deactivate all the Warps of the corresponding Mod.",
 }

@@ -20,6 +20,7 @@
 	"JP98.Clint's Blacksmithing": "Herrería",
 	"JP98.Willy's Shop": "Tienda de Pesca",
     "JP98.Joja Mart": "Mercado Joja",
+	"JP98.MovThe": "Cine",
 
     // Town
     "JP98.Town": "Pueblo",
@@ -354,4 +355,5 @@
 	"config.Mineral Town.description": "Activa/Desactiva esta opción para Mostrar/Ocultar los Teletransportes correspondientes a este Mod.\nEstos Teletransportes no están divididos en secciones, si desactivas la opción desactivas todos los Teletransportes del Mod correspondiente.",
 	"config.Stardew Aquarium.description": "Activa/Desactiva esta opción para Mostrar/Ocultar los Teletransportes correspondientes a este Mod.\nEstos Teletransportes no están divididos en secciones, si desactivas la opción desactivas todos los Teletransportes del Mod correspondiente.",
 	"config.Passerby Cemetery.description": "Activa/Desactiva esta opción para Mostrar/Ocultar los Teletransportes correspondientes a este Mod.\nEstos Teletransportes no están divididos en secciones, si desactivas la opción desactivas todos los Teletransportes del Mod correspondiente.",
+	"config.Visit Mount Vapius.description": "Activa/Desactiva esta opción para Mostrar/Ocultar los Teletransportes correspondientes a este Mod.\nEstos Teletransportes no están divididos en secciones, si desactivas la opción desactivas todos los Teletransportes del Mod correspondiente.",
 }
