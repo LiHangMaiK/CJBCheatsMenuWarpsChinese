@@ -40,6 +40,14 @@
       "When": {
         "HasMod": "DTZ.DowntownZuzuCP"
       }
+    },
+    {
+      "_Comment": "Include Visit Mount Vapius Warps",
+      "Action": "Include",
+      "FromFile": "data/VisitMountVapius.json",
+      "When": {
+        "HasMod": "Lumisteria.MtVapius"
+      }
     }
   ]
 }

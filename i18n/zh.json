@@ -131,5 +131,19 @@
   "warp.Zuzu.EastCrossroad": "东十字路口(粉红蛋糕店，JoJa药店)",
   "warp.Zuzu.Waterway": "滨河路",
   "warp.Zuzu.TrainStation": "火车站",
-  "warp.Zuzu.ResortCentral": "卡胡纳度假村"
+  "warp.Zuzu.ResortCentral": "卡胡纳度假村",
+
+  "warp-sections.MountVapius": "雾呜山峰",
+  "warp-sections.Sorroundings": "雾呜山峰周边",
+  "warp.MountVapius.TrainStation": "火车站台",
+  "warp.MountVapius.Hamlet": "珀光小区(集市)",
+  "warp.MountVapius.AsterHouse": "艾丝特和麦蒂之家",
+  "warp.MountVapiusSorroundings.Faycombe": "仙子谷",
+  "warp.MountVapiusSorroundings.Orchard": "果园",
+  "warp.MountVapiusSorroundings.Clearing": "林中空地",
+  "warp.MountVapiusSorroundings.Lodge": "分会",
+  "warp.MountVapiusSorroundings.ForestTrailPond": "森林池塘(献祭点)",
+  "warp.MountVapiusSorroundings.ForestCrystalLake": "吟光湖",
+  "warp.MountVapiusSorroundings.CaveEntrance": "洞穴入口",
+  "warp.MountVapiusSorroundings.ForestJunimoClearing": "宁静空地"
 }

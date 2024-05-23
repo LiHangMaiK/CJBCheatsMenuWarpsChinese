@@ -1,0 +1,110 @@
+{
+  "Changes": [
+    {
+      "_Comment": "MountVapius Section",
+      "Action": "EditData",
+      "Target": "Mods/CJBok.CheatsMenu/WarpSections",
+      "Entries": {
+        "{{ModId}}_MountVapius": {
+          "Id": "{{ModId}}_MountVapius",
+          "DisplayName": "{{i18n: warp-sections.MountVapius}}"
+        },
+        "{{ModId}}_MountVapius_Sorroundings": {
+          "Id": "{{ModId}}_MountVapius_Sorroundings",
+          "DisplayName": "{{i18n: warp-sections.Sorroundings}}"
+        }
+      }
+    },
+    {
+      "_Comment": "MountVapius Location Warps",
+      "Action": "EditData",
+      "Target": "Mods/CJBok.CheatsMenu/Warps",
+      "Entries": {
+        "{{ModId}}_MountVapius_TrainStation": {
+          "Id": "{{ModId}}_MountVapius_TrainStation",
+          "DisplayName": "{{i18n: warp.MountVapius.TrainStation}}",
+          "Location": "Lumisteria.MtVapius_TrainStation",
+          "Tile": "8, 32",
+          "SectionId": "{{ModId}}_MountVapius"
+        },
+        "{{ModId}}_MountVapius_Hamlet": {
+          "Id": "{{ModId}}_MountVapius_Hamlet",
+          "DisplayName": "{{i18n: warp.MountVapius.Hamlet}}",
+          "Location": "Lumisteria.MtVapius_Hamlet",
+          "Tile": "47, 78",
+          "SectionId": "{{ModId}}_MountVapius"
+        },
+        "{{ModId}}_MountVapius_AsterHouse": {
+          "Id": "{{ModId}}_MountVapius_AsterHouse",
+          "DisplayName": "{{i18n: warp.MountVapius.AsterHouse}}",
+          "Location": "Lumisteria.MtVapius_Hamlet",
+          "Tile": "70, 23",
+          "SectionId": "{{ModId}}_MountVapius"
+        }
+      }
+    },
+    {
+      "_Comment": "MountVapius Sorroundings Location Warps",
+      "Action": "EditData",
+      "Target": "Mods/CJBok.CheatsMenu/Warps",
+      "Entries": {
+        "{{ModId}}_MountVapiusSorroundings_Faycombe": {
+          "Id": "{{ModId}}_MountVapiusSorroundings_Faycombe",
+          "DisplayName": "{{i18n: warp.MountVapiusSorroundings.Faycombe}}",
+          "Location": "Lumisteria.MtVapius_Faycombe",
+          "Tile": "26, 24",
+          "SectionId": "{{ModId}}_MountVapius_Sorroundings"
+        },
+        "{{ModId}}_MountVapiusSorroundings_Orchard": {
+          "Id": "{{ModId}}_MountVapiusSorroundings_Orchard",
+          "DisplayName": "{{i18n: warp.MountVapiusSorroundings.Orchard}}",
+          "Location": "Lumisteria.MtVapius_Orchard",
+          "Tile": "25, 25",
+          "SectionId": "{{ModId}}_MountVapius_Sorroundings"
+        },
+        "{{ModId}}_MountVapiusSorroundings_Clearing": {
+          "Id": "{{ModId}}_MountVapiusSorroundings_Clearing",
+          "DisplayName": "{{i18n: warp.MountVapiusSorroundings.Clearing}}",
+          "Location": "Lumisteria.MtVapius_Clearing",
+          "Tile": "33, 14",
+          "SectionId": "{{ModId}}_MountVapius_Sorroundings"
+        },
+        "{{ModId}}_MountVapiusSorroundings_Lodge": {
+          "Id": "{{ModId}}_MountVapiusSorroundings_Lodge",
+          "DisplayName": "{{i18n: warp.MountVapiusSorroundings.Lodge}}",
+          "Location": "Lumisteria.MtVapius_Lodge",
+          "Tile": "22, 14",
+          "SectionId": "{{ModId}}_MountVapius_Sorroundings"
+        },
+        "{{ModId}}_MountVapiusSorroundings_ForestTrailPond": {
+          "Id": "{{ModId}}_MountVapiusSorroundings_ForestTrailPond",
+          "DisplayName": "{{i18n: warp.MountVapiusSorroundings.ForestTrailPond}}",
+          "Location": "Lumisteria.MtVapius_ForestTrailPond",
+          "Tile": "13, 18",
+          "SectionId": "{{ModId}}_MountVapius_Sorroundings"
+        },
+        "{{ModId}}_MountVapiusSorroundings_ForestCrystalLake": {
+          "Id": "{{ModId}}_MountVapiusSorroundings_ForestCrystalLake",
+          "DisplayName": "{{i18n: warp.MountVapiusSorroundings.ForestCrystalLake}}",
+          "Location": "Lumisteria.MtVapius_ForestCrystalLake",
+          "Tile": "32, 37",
+          "SectionId": "{{ModId}}_MountVapius_Sorroundings"
+        },
+        "{{ModId}}_MountVapiusSorroundings_CaveEntrance": {
+          "Id": "{{ModId}}_MountVapiusSorroundings_CaveEntrance",
+          "DisplayName": "{{i18n: warp.MountVapiusSorroundings.CaveEntrance}}",
+          "Location": "Lumisteria.MtVapius_ForestCrystalLake",
+          "Tile": "7, 15",
+          "SectionId": "{{ModId}}_MountVapius_Sorroundings"
+        },
+        "{{ModId}}_MountVapiusSorroundings_ForestJunimoClearing": {
+          "Id": "{{ModId}}_MountVapiusSorroundings_ForestJunimoClearing",
+          "DisplayName": "{{i18n: warp.MountVapiusSorroundings.ForestJunimoClearing}}",
+          "Location": "Lumisteria.MtVapius_ForestJunimoClearing",
+          "Tile": "23, 17",
+          "SectionId": "{{ModId}}_MountVapius_Sorroundings"
+        }
+      }
+    }
+  ]
+}

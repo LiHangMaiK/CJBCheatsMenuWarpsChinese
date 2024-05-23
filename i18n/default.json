@@ -132,5 +132,19 @@
   "warp.Zuzu.EastCrossroad": "East Crossroad(cake shop, Joja Pharma)",
   "warp.Zuzu.Waterway": "Waterway",
   "warp.Zuzu.TrainStation": "Train Station",
-  "warp.Zuzu.ResortCentral": "Resort Central"
+  "warp.Zuzu.ResortCentral": "Resort Central",
+
+  "warp-sections.MountVapius": "Mount Vapius",
+  "warp-sections.Sorroundings": "Mount Vapius Surroundings",
+  "warp.MountVapius.TrainStation": "TrainStation",
+  "warp.MountVapius.Hamlet": "Hamlet",
+  "warp.MountVapius.AsterHouse": "AsterHouse",
+  "warp.MountVapiusSorroundings.Faycombe": "Faycombe",
+  "warp.MountVapiusSorroundings.Orchard": "Orchard",
+  "warp.MountVapiusSorroundings.Clearing": "Forest Clearing",
+  "warp.MountVapiusSorroundings.Lodge": "Lodge",
+  "warp.MountVapiusSorroundings.ForestTrailPond": "Forest Trail Pond",
+  "warp.MountVapiusSorroundings.ForestCrystalLake": "Forest Crystal Lake",
+  "warp.MountVapiusSorroundings.CaveEntrance": "Cave Entrance",
+  "warp.MountVapiusSorroundings.ForestJunimoClearing": "Forest Junimo Clearing"
 }

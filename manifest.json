@@ -1,7 +1,7 @@
 {
   "Name": "[CP] CJB Cheats Menu Warps - Chinese",
   "Author": "Lihang233",
-  "Version": "1.0.1",
+  "Version": "1.0.2",
   "Description": "Translation CJB Cheats Menu Wraps",
   "UniqueID": "Lihang233.CJBWrapsCP",
   "MinimumApiVersion": "4.0.0",
@@ -32,6 +32,10 @@
     },
     {
       "UniqueID": "DTZ.DowntownZuzuCP",
+      "IsRequired": false
+    },
+    {
+      "UniqueID": "Lumisteria.MtVapius",
       "IsRequired": false
     }
   ]
