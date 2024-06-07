@@ -1,6 +1,43 @@
 {
   "Changes": [
     {
+      "_Comment": "Delete RSV Old Sections",
+      "Action": "EditData",
+      "Target": "Mods/CJBok.CheatsMenu/WarpSections",
+      "Entries": {
+        "Rafseazz.RSVCP_Village": null,
+        "Rafseazz.RSVCP_Surroundings": null
+      }
+    },
+    {
+      "_Comment": "Delete RSV Old Warps",
+      "Action": "EditData",
+      "Target": "Mods/CJBok.CheatsMenu/Warps",
+      "Entries": {
+        "Rafseazz.RSVCP_JericHouse": null,
+        "Rafseazz.RSVCP_Heaps": null,
+        "Rafseazz.RSVCP_Hotel": null,
+        "Rafseazz.RSVCP_OddJobs": null,
+        "Rafseazz.RSVCP_Pikas": null,
+        "Rafseazz.RSVCP_Plaza": null,
+        "Rafseazz.RSVCP_Clinic": null,
+        "Rafseazz.RSVCP_LolaShed": null,
+        "Rafseazz.RSVCP_Greenhouse1": null,
+        "Rafseazz.RSVCP_AmethyneMansion": null,
+        "Rafseazz.RSVCP_Orchard": null,
+        "Rafseazz.RSVCP_WaterLab": null,
+        "Rafseazz.RSVCP_CableCar": null,
+        "Rafseazz.RSVCP_Cliff": null,
+        "Rafseazz.RSVCP_Hike": null,
+        "Rafseazz.RSVCP_Ninja": null,
+        "Rafseazz.RSVCP_Ridge": null,
+        "Rafseazz.RSVCP_Forest": null,
+        "Rafseazz.RSVCP_Falls": null,
+        "Rafseazz.RSVCP_SpiritRealm": null,
+        "Rafseazz.RSVCP_SummitFarm": null
+      }
+    },
+    {
       "_Comment": "RSV Section",
       "Action": "EditData",
       "Target": "Mods/CJBok.CheatsMenu/WarpSections",
